@@ -3,7 +3,7 @@
 A comprehensive .NET library for validating GDSN GS1 messages. This engine acts as a pre-validation layer, ensuring data quality and compliance before messages are delivered to the GS1 Network.
 
 ## 🚀 Features
-- **Validated**: Digital links are validated. 
+- **Validated**: All Digital links are validated. 
 - **Strongly Typed**: This library will output the raw code and values from strongly typed objects.
 - **Rectified**: Rectified GS1 segments leaving a far smaller subset of Segment types to choose from.
 - **Operational Efficiency**: Elaborate validation errors, reducing manual troubleshooting time.
