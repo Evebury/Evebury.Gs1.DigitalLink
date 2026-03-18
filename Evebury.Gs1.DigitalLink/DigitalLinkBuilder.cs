@@ -683,18 +683,16 @@ namespace Evebury.Gs1.DigitalLink
                     errors.Add(error);
                 }
             }
-
-
-
-
-            link.SetErrors(errors);
+           
+            //finally validate uri
             uri = sb.ToString();
-
             Regex regex = DigitalLinkRegex();
             if (!regex.IsMatch(uri))
             {
                 errors.Add(new($"Invalid digital link uri '{uri}'."));
             }
+
+            link.SetErrors(errors);
 
             if (link.IsValid)
             {
