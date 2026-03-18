@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+		<Description>A .NET library for generating strongly typed and validated GS1 DigitalLink payloads.</Description>
+		<Authors>Evebury</Authors>
+		<Company>Evebury</Company>
+		<PackageIcon>nuget.png</PackageIcon>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/Evebury/Evebury.Gs1.DigitalLink</RepositoryUrl>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\nuget\nuget.png">
+			<Visible>false</Visible>
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\nuget\readme.md">
+			<Visible>false</Visible>
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Update="Segments\MetaData\Resource\Descriptor.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Descriptor.resx</DependentUpon>
+		</Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Update="Segments\MetaData\Resource\Descriptor.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>Descriptor.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+	</ItemGroup>
+
+</Project>

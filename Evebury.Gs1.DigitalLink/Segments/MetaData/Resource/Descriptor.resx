@@ -1,0 +1,716 @@
+<root>
+  <xsd:schema id="root" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="D00" xml:space="preserve">
+			<value>{"Label": "Serial Shipping Container Code (SSCC)","Attribute": true,"Regex": "(\\d{18})","Captures": [{"CheckDigit": true,"Fixed": true,"Length": 18}]}</value>
+			<comment>Serial Shipping Container Code (SSCC) (SSCC)</comment>
+		</data>
+  <data name="D01" xml:space="preserve">
+			<value>{"Label": "Global Trade Item Number (GTIN)","Attribute": true,"Regex": "(\\d{14})","Qualifiers": ["22","10","21","235"],"Excludes": ["02","03","255","37"],"Captures": [{"CheckDigit": true,"Fixed": true,"Length": 14}]}</value>
+			<comment>Global Trade Item Number (GTIN) (GTIN)</comment>
+		</data>
+  <data name="D02" xml:space="preserve">
+			<value>{"Label": "Global Trade Item Number (GTIN) of contained trade items","Attribute": true,"Regex": "(\\d{14})","Requires": ["0037","00","37"],"Excludes": ["01","03"],"Captures": [{"CheckDigit": true,"Fixed": true,"Length": 14}]}</value>
+			<comment>Global Trade Item Number (GTIN) of contained trade items (GTIN_CONTENT)</comment>
+		</data>
+  <data name="D03" xml:space="preserve">
+			<value>{"Label": "Identification of a Made-to-Order (MtO) trade item (GTIN)","Regex": "(\\d{14})","Excludes": ["01","02","37"],"Captures": [{"CheckDigit": true,"Fixed": true,"Length": 14}]}</value>
+			<comment>Identification of a Made-to-Order (MtO) trade item (GTIN) (GTIN_MTO)</comment>
+		</data>
+  <data name="D10" xml:space="preserve">
+			<value>{"Label": "Batch or lot number","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,20})","Requires": ["01","02","03","8006","8026"],"Captures": [{"Length": 20}]}</value>
+			<comment>Batch or lot number (BATCH_LOT)</comment>
+		</data>
+  <data name="D11" xml:space="preserve">
+			<value>{"Label": "Production date (YYMMDD)","Attribute": true,"Regex": "(\\d{2}(?:0\\d|1[0-2])(?:[0-2]\\d|3[01]))","Requires": ["01","02","8006","8026"],"Captures": [{"Fixed": true,"Length": 6}]}</value>
+			<comment>Production date (YYMMDD) (PRODUCTION_DATE)</comment>
+		</data>
+  <data name="D12" xml:space="preserve">
+			<value>{"Label": "Due date (YYMMDD)","Attribute": true,"Regex": "(\\d{2}(?:0\\d|1[0-2])(?:[0-2]\\d|3[01]))","Requires": ["8020415","8020","415"],"Captures": [{"Fixed": true,"Length": 6}]}</value>
+			<comment>Due date (YYMMDD) (DUE_DATE)</comment>
+		</data>
+  <data name="D13" xml:space="preserve">
+			<value>{"Label": "Packaging date (YYMMDD)","Attribute": true,"Regex": "(\\d{2}(?:0\\d|1[0-2])(?:[0-2]\\d|3[01]))","Requires": ["01","02","8006","8026"],"Captures": [{"Fixed": true,"Length": 6}]}</value>
+			<comment>Packaging date (YYMMDD) (PACKAGING_DATE)</comment>
+		</data>
+  <data name="D15" xml:space="preserve">
+			<value>{"Label": "Best before date (YYMMDD)","Attribute": true,"Regex": "(\\d{2}(?:0\\d|1[0-2])(?:[0-2]\\d|3[01]))","Requires": ["01","02","8006","8026"],"Captures": [{"Fixed": true,"Length": 6}]}</value>
+			<comment>Best before date (YYMMDD) (BEST_BEFORE_DATE)</comment>
+		</data>
+  <data name="D16" xml:space="preserve">
+			<value>{"Label": "Sell by date (YYMMDD)","Attribute": true,"Regex": "(\\d{2}(?:0\\d|1[0-2])(?:[0-2]\\d|3[01]))","Requires": ["01","02","8006","8026"],"Captures": [{"Fixed": true,"Length": 6}]}</value>
+			<comment>Sell by date (YYMMDD) (SELL_BY_DATE)</comment>
+		</data>
+  <data name="D17" xml:space="preserve">
+			<value>{"Label": "Expiration date (YYMMDD)","Attribute": true,"Regex": "(\\d{2}(?:0\\d|1[0-2])(?:[0-2]\\d|3[01]))","Requires": ["01","02","255","8006","8026"],"Captures": [{"Fixed": true,"Length": 6}]}</value>
+			<comment>Expiration date (YYMMDD) (EXPIRATION_DATE)</comment>
+		</data>
+  <data name="D20" xml:space="preserve">
+			<value>{"Label": "Internal product variant","Attribute": true,"Regex": "(\\d{2})","Requires": ["01","02","8006","8026"],"Captures": [{"Fixed": true,"Length": 2}]}</value>
+			<comment>Internal product variant (VARIANT)</comment>
+		</data>
+  <data name="D21" xml:space="preserve">
+			<value>{"Label": "Serial number","Regex": "([!%-?A-Z_a-z\\x22]{1,20})","Requires": ["01","03","8006"],"Excludes": ["235"],"Captures": [{"Length": 20}]}</value>
+			<comment>Serial number (SERIAL)</comment>
+		</data>
+  <data name="D22" xml:space="preserve">
+			<value>{"Label": "Consumer product variant","Regex": "([!%-?A-Z_a-z\\x22]{1,20})","Requires": ["01"],"Captures": [{"Length": 20}]}</value>
+			<comment>Consumer product variant (CPV)</comment>
+		</data>
+  <data name="D30" xml:space="preserve">
+			<value>{"Label": "Variable count of items (variable measure trade item)","Attribute": true,"Regex": "(\\d{0,8})","Requires": ["01","02"],"Captures": [{"Length": 8}]}</value>
+			<comment>Variable count of items (variable measure trade item) (VARIABLE_COUNT)</comment>
+		</data>
+  <data name="D37" xml:space="preserve">
+			<value>{"Label": "Count of trade items or trade item pieces contained in a logistic unit","Attribute": true,"Regex": "(\\d{1,8})","Requires": ["0002","00","02","008026","00","8026"],"Captures": [{"Length": 8}]}</value>
+			<comment>Count of trade items or trade item pieces contained in a logistic unit (COUNT)</comment>
+		</data>
+  <data name="D90" xml:space="preserve">
+			<value>{"Label": "Information mutually agreed between trading partners","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,30})","Captures": [{"Length": 30}]}</value>
+			<comment>Information mutually agreed between trading partners (INTERNAL_TRADEPARTNER)</comment>
+		</data>
+  <data name="D91" xml:space="preserve">
+			<value>{"Label": "Company internal information","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,90})","MaxElements": 9,"Captures": [{"Length": 90}]}</value>
+			<comment>Company internal information (INTERNAL_COMPANY)</comment>
+		</data>
+  <data name="D235" xml:space="preserve">
+			<value>{"Label": "Third Party Controlled, Serialised Extension of Global Trade Item Number (GTIN) (TPX)","Regex": "([!%-?A-Z_a-z\\x22]{1,28})","Requires": ["01"],"Captures": [{"Length": 28}]}</value>
+			<comment>Third Party Controlled, Serialised Extension of Global Trade Item Number (GTIN) (TPX) (TPX)</comment>
+		</data>
+  <data name="D240" xml:space="preserve">
+			<value>{"Label": "Additional product identification assigned by the manufacturer","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,30})","Requires": ["01","02","8006","8026"],"Captures": [{"Length": 30}]}</value>
+			<comment>Additional product identification assigned by the manufacturer (ADDITIONAL_ID)</comment>
+		</data>
+  <data name="D241" xml:space="preserve">
+			<value>{"Label": "Customer part number","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,30})","Requires": ["01","02","8006","8026"],"Captures": [{"Length": 30}]}</value>
+			<comment>Customer part number (CUSTOMER_PART_NUMBER)</comment>
+		</data>
+  <data name="D242" xml:space="preserve">
+			<value>{"Label": "Made-to-Order variation number","Attribute": true,"Regex": "(\\d{1,6})","Requires": ["01","02","03","8006","8026"],"Captures": [{"Length": 6}]}</value>
+			<comment>Made-to-Order variation number (MTO_VARIANT)</comment>
+		</data>
+  <data name="D243" xml:space="preserve">
+			<value>{"Label": "Packaging component number","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,20})","Requires": ["01"],"Captures": [{"Length": 20}]}</value>
+			<comment>Packaging component number (PCN)</comment>
+		</data>
+  <data name="D250" xml:space="preserve">
+			<value>{"Label": "Secondary serial number","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,30})","Requires": ["0121","01","21","800621","8006","21"],"Captures": [{"Length": 30}]}</value>
+			<comment>Secondary serial number (SECONDARY_SERIAL)</comment>
+		</data>
+  <data name="D251" xml:space="preserve">
+			<value>{"Label": "Reference to source entity","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,30})","Requires": ["01","8006"],"Captures": [{"Length": 30}]}</value>
+			<comment>Reference to source entity (REF_TO_SOURCE)</comment>
+		</data>
+  <data name="D253" xml:space="preserve">
+			<value>{"Label": "Global Document Type Identifier (GDTI)","Attribute": true,"Regex": "(\\d{13})([!%-?A-Z_a-z\\x22]{0,17})","Captures": [{"CheckDigit": true,"Fixed": true,"Length": 13},{"Length": 17}]}</value>
+			<comment>Global Document Type Identifier (GDTI) (GDTI)</comment>
+		</data>
+  <data name="D254" xml:space="preserve">
+			<value>{"Label": "Global Location Number (GLN) extension component","Regex": "([!%-?A-Z_a-z\\x22]{1,20})","Requires": ["414"],"Captures": [{"Length": 20}]}</value>
+			<comment>Global Location Number (GLN) extension component (EXTENSION_COMPONENT_GLN)</comment>
+		</data>
+  <data name="D255" xml:space="preserve">
+			<value>{"Label": "Global Coupon Number (GCN)","Attribute": true,"Regex": "(\\d{13})(\\d{0,12})","Excludes": ["01","02","415","8006","8020","8026"],"Captures": [{"CheckDigit": true,"Fixed": true,"Length": 13},{"Length": 12}]}</value>
+			<comment>Global Coupon Number (GCN) (GCN)</comment>
+		</data>
+  <data name="D400" xml:space="preserve">
+			<value>{"Label": "Customers purchase order number","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,30})","Captures": [{"Length": 30}]}</value>
+			<comment>Customers purchase order number (ORDER_NUMBER)</comment>
+		</data>
+  <data name="D401" xml:space="preserve">
+			<value>{"Label": "Global Identification Number for Consignment (GINC)","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,30})","Captures": [{"Length": 30}]}</value>
+			<comment>Global Identification Number for Consignment (GINC) (GINC)</comment>
+		</data>
+  <data name="D402" xml:space="preserve">
+			<value>{"Label": "Global Shipment Identification Number (GSIN)","Attribute": true,"Regex": "(\\d{17})","Captures": [{"CheckDigit": true,"Fixed": true,"Length": 17}]}</value>
+			<comment>Global Shipment Identification Number (GSIN) (GSIN)</comment>
+		</data>
+  <data name="D403" xml:space="preserve">
+			<value>{"Label": "Routing code","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,30})","Requires": ["00"],"Captures": [{"Length": 30}]}</value>
+			<comment>Routing code (ROUTE)</comment>
+		</data>
+  <data name="D410" xml:space="preserve">
+			<value>{"Label": "Ship to / Deliver to Global Location Number (GLN)","Attribute": true,"Regex": "(\\d{13})","Captures": [{"CheckDigit": true,"Fixed": true,"Length": 13}]}</value>
+			<comment>Ship to / Deliver to Global Location Number (GLN) (SHIP_TO_GLN)</comment>
+		</data>
+  <data name="D411" xml:space="preserve">
+			<value>{"Label": "Bill to / Invoice to Global Location Number (GLN)","Attribute": true,"Regex": "(\\d{13})","Captures": [{"CheckDigit": true,"Fixed": true,"Length": 13}]}</value>
+			<comment>Bill to / Invoice to Global Location Number (GLN) (BILL_TO_GLN)</comment>
+		</data>
+  <data name="D412" xml:space="preserve">
+			<value>{"Label": "Purchased from Global Location Number (GLN)","Attribute": true,"Regex": "(\\d{13})","Captures": [{"CheckDigit": true,"Fixed": true,"Length": 13}]}</value>
+			<comment>Purchased from Global Location Number (GLN) (PURCHASE_FROM_GLN)</comment>
+		</data>
+  <data name="D413" xml:space="preserve">
+			<value>{"Label": "Ship for / Deliver for - Forward to Global Location Number (GLN)","Attribute": true,"Regex": "(\\d{13})","Captures": [{"CheckDigit": true,"Fixed": true,"Length": 13}]}</value>
+			<comment>Ship for / Deliver for - Forward to Global Location Number (GLN) (SHIP_FOR_LOC_GLN)</comment>
+		</data>
+  <data name="D414" xml:space="preserve">
+			<value>{"Label": "Identification of a physical location - Global Location Number (GLN)","Attribute": true,"Regex": "(\\d{13})","Qualifiers": ["254","7040"],"Captures": [{"CheckDigit": true,"Fixed": true,"Length": 13}]}</value>
+			<comment>Identification of a physical location - Global Location Number (GLN) (LOCATION_GLN)</comment>
+		</data>
+  <data name="D415" xml:space="preserve">
+			<value>{"Label": "Global Location Number (GLN) of the invoicing party","Attribute": true,"Regex": "(\\d{13})","Qualifiers": ["8020"],"Requires": ["8020"],"Captures": [{"CheckDigit": true,"Fixed": true,"Length": 13}]}</value>
+			<comment>Global Location Number (GLN) of the invoicing party (PAY_TO_GLN)</comment>
+		</data>
+  <data name="D416" xml:space="preserve">
+			<value>{"Label": "Global Location Number (GLN) of the production or service location","Attribute": true,"Regex": "(\\d{13})","Captures": [{"CheckDigit": true,"Fixed": true,"Length": 13}]}</value>
+			<comment>Global Location Number (GLN) of the production or service location (PRODUCTION_SERVICE_LOCATION_GLN)</comment>
+		</data>
+  <data name="D417" xml:space="preserve">
+			<value>{"Label": "Party Global Location Number (GLN)","Attribute": true,"Regex": "(\\d{13})","Qualifiers": ["7040"],"Captures": [{"CheckDigit": true,"Fixed": true,"Length": 13}]}</value>
+			<comment>Party Global Location Number (GLN) (PARTY_GLN)</comment>
+		</data>
+  <data name="D420" xml:space="preserve">
+			<value>{"Label": "Ship to / Deliver to postal code within a single postal authority","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,20})","Excludes": ["421"],"Captures": [{"Length": 20}]}</value>
+			<comment>Ship to / Deliver to postal code within a single postal authority (SHIP_TO_POSTALCODE_LOCAL)</comment>
+		</data>
+  <data name="D421" xml:space="preserve">
+			<value>{"Label": "Ship to / Deliver to postal code with ISO country code","Attribute": true,"Regex": "(\\d{3})([!%-?A-Z_a-z\\x22]{1,9})","Excludes": ["4307"],"Captures": [{"Fixed": true,"Length": 3},{"Length": 9}]}</value>
+			<comment>Ship to / Deliver to postal code with ISO country code (SHIP_TO_POSTALCODE)</comment>
+		</data>
+  <data name="D422" xml:space="preserve">
+			<value>{"Label": "Country of origin of a trade item","Attribute": true,"Regex": "(\\d{3})","Requires": ["01","02","8006","8026"],"Excludes": ["426"],"Captures": [{"Fixed": true,"Length": 3}]}</value>
+			<comment>Country of origin of a trade item (ORIGIN)</comment>
+		</data>
+  <data name="D423" xml:space="preserve">
+			<value>{"Label": "Country of initial processing","Attribute": true,"Regex": "((?:\\d{3}){1,5})","Requires": ["01","02"],"Excludes": ["426"],"Captures": [{"Length": 15}]}</value>
+			<comment>Country of initial processing (COUNTRY_INITIAL_PROCESS)</comment>
+		</data>
+  <data name="D424" xml:space="preserve">
+			<value>{"Label": "Country of processing","Attribute": true,"Regex": "(\\d{3})","Requires": ["01","02"],"Excludes": ["426"],"Captures": [{"Fixed": true,"Length": 3}]}</value>
+			<comment>Country of processing (COUNTRY_PROCESS)</comment>
+		</data>
+  <data name="D425" xml:space="preserve">
+			<value>{"Label": "Country of disassembly","Attribute": true,"Regex": "((?:\\d{3}){1,5})","Requires": ["01","02"],"Excludes": ["426"],"Captures": [{"Length": 15}]}</value>
+			<comment>Country of disassembly (COUNTRY_DISASSEMBLY)</comment>
+		</data>
+  <data name="D426" xml:space="preserve">
+			<value>{"Label": "Country covering full process chain","Attribute": true,"Regex": "(\\d{3})","Requires": ["01","02"],"Captures": [{"Fixed": true,"Length": 3}]}</value>
+			<comment>Country covering full process chain (COUNTRY_FULL_PROCESS)</comment>
+		</data>
+  <data name="D427" xml:space="preserve">
+			<value>{"Label": "Country subdivision Of origin","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,3})","Requires": ["42201","422","01","42202","422","02"],"Captures": [{"Length": 3}]}</value>
+			<comment>Country subdivision Of origin (ORIGIN_SUBDIVISION)</comment>
+		</data>
+  <data name="D710" xml:space="preserve">
+			<value>{"Label": "National Healthcare Reimbursement Number (NHRN) - Germany PZN","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,20})","Requires": ["01"],"Captures": [{"Length": 20}]}</value>
+			<comment>National Healthcare Reimbursement Number (NHRN) - Germany PZN (NATIONAL_HEALTH_CARE_REIMBURSEMENT_NUMBER_PZN)</comment>
+		</data>
+  <data name="D711" xml:space="preserve">
+			<value>{"Label": "National Healthcare Reimbursement Number (NHRN) - France CIP","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,20})","Requires": ["01"],"Captures": [{"Length": 20}]}</value>
+			<comment>National Healthcare Reimbursement Number (NHRN) - France CIP (NATIONAL_HEALTH_CARE_REIMBURSEMENT_NUMBER_CIP)</comment>
+		</data>
+  <data name="D712" xml:space="preserve">
+			<value>{"Label": "National Healthcare Reimbursement Number (NHRN) - Spain CN","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,20})","Requires": ["01"],"Captures": [{"Length": 20}]}</value>
+			<comment>National Healthcare Reimbursement Number (NHRN) - Spain CN (NATIONAL_HEALTH_CARE_REIMBURSEMENT_NUMBER_CN)</comment>
+		</data>
+  <data name="D713" xml:space="preserve">
+			<value>{"Label": "National Healthcare Reimbursement Number (NHRN) - Brasil DRN","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,20})","Requires": ["01"],"Captures": [{"Length": 20}]}</value>
+			<comment>National Healthcare Reimbursement Number (NHRN) - Brasil DRN (NATIONAL_HEALTH_CARE_REIMBURSEMENT_NUMBER_DRN)</comment>
+		</data>
+  <data name="D714" xml:space="preserve">
+			<value>{"Label": "National Healthcare Reimbursement Number (NHRN) - Portugal AIM","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,20})","Requires": ["01"],"Captures": [{"Length": 20}]}</value>
+			<comment>National Healthcare Reimbursement Number (NHRN) - Portugal AIM (NATIONAL_HEALTH_CARE_REIMBURSEMENT_NUMBER_AIM)</comment>
+		</data>
+  <data name="D715" xml:space="preserve">
+			<value>{"Label": "National Healthcare Reimbursement Number (NHRN) - United States of America NDC","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,20})","Requires": ["01"],"Captures": [{"Length": 20}]}</value>
+			<comment>National Healthcare Reimbursement Number (NHRN) - United States of America NDC (NATIONAL_HEALTH_CARE_REIMBURSEMENT_NUMBER_NDC)</comment>
+		</data>
+  <data name="D716" xml:space="preserve">
+			<value>{"Label": "National Healthcare Reimbursement Number (NHRN) - Italy AIC","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,20})","Requires": ["01"],"Captures": [{"Length": 20}]}</value>
+			<comment>National Healthcare Reimbursement Number (NHRN) - Italy AIC (NATIONAL_HEALTH_CARE_REIMBURSEMENT_NUMBER_AIC)</comment>
+		</data>
+  <data name="D717" xml:space="preserve">
+			<value>{"Label": "National Healthcare Reimbursement Number (NHRN) - Costa Rica Sanitary Register Number","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,20})","Requires": ["01"],"Captures": [{"Length": 20}]}</value>
+			<comment>National Healthcare Reimbursement Number (NHRN) - Costa Rica Sanitary Register Number (NATIONAL_HEALTH_CARE_REIMBURSEMENT_NUMBER_SRN)</comment>
+		</data>
+  <data name="D3100" xml:space="preserve">
+			<value>{"Label": "Net weight, kilograms (variable measure trade item)","Attribute": true,"Regex": "(\\d{6})","MaxElements": 6,"Requires": ["01","02"],"Excludes": ["31003105","3100"],"Captures": [{"Fixed": true,"Length": 6}]}</value>
+			<comment>Net weight, kilograms (variable measure trade item) (NET_WEIGHT)</comment>
+		</data>
+  <data name="D3110" xml:space="preserve">
+			<value>{"Label": "Length or first dimension, metres (variable measure trade item)","Attribute": true,"Regex": "(\\d{6})","MaxElements": 6,"Requires": ["01","02"],"Excludes": ["31103115","3110"],"Captures": [{"Fixed": true,"Length": 6}]}</value>
+			<comment>Length or first dimension, metres (variable measure trade item) (LENGTH)</comment>
+		</data>
+  <data name="D3120" xml:space="preserve">
+			<value>{"Label": "Width, diameter, or second dimension, metres (variable measure trade item)","Attribute": true,"Regex": "(\\d{6})","MaxElements": 6,"Requires": ["01","02"],"Excludes": ["31203125","3120"],"Captures": [{"Fixed": true,"Length": 6}]}</value>
+			<comment>Width, diameter, or second dimension, metres (variable measure trade item) (WIDTH)</comment>
+		</data>
+  <data name="D3130" xml:space="preserve">
+			<value>{"Label": "Depth, thickness, height, or third dimension, metres (variable measure trade item)","Attribute": true,"Regex": "(\\d{6})","MaxElements": 6,"Requires": ["01","02"],"Excludes": ["31303135","3130"],"Captures": [{"Fixed": true,"Length": 6}]}</value>
+			<comment>Depth, thickness, height, or third dimension, metres (variable measure trade item) (HEIGHT)</comment>
+		</data>
+  <data name="D3140" xml:space="preserve">
+			<value>{"Label": "Area, square metres (variable measure trade item)","Attribute": true,"Regex": "(\\d{6})","MaxElements": 6,"Requires": ["01","02"],"Excludes": ["31403145","3140"],"Captures": [{"Fixed": true,"Length": 6}]}</value>
+			<comment>Area, square metres (variable measure trade item) (AREA)</comment>
+		</data>
+  <data name="D3150" xml:space="preserve">
+			<value>{"Label": "Net volume, litres (variable measure trade item)","Attribute": true,"Regex": "(\\d{6})","MaxElements": 6,"Requires": ["01","02"],"Excludes": ["31503155","3150"],"Captures": [{"Fixed": true,"Length": 6}]}</value>
+			<comment>Net volume, litres (variable measure trade item) (NET_VOLUME)</comment>
+		</data>
+  <data name="D3300" xml:space="preserve">
+			<value>{"Label": "Logistic weight, kilograms","Attribute": true,"Regex": "(\\d{6})","MaxElements": 6,"Requires": ["00","01"],"Excludes": ["33003305","3300"],"Captures": [{"Fixed": true,"Length": 6}]}</value>
+			<comment>Logistic weight, kilograms (LOGISTIC_GROSS_WEIGHT)</comment>
+		</data>
+  <data name="D3310" xml:space="preserve">
+			<value>{"Label": "Length or first dimension, metres","Attribute": true,"Regex": "(\\d{6})","MaxElements": 6,"Requires": ["00","01"],"Excludes": ["33103315","3310"],"Captures": [{"Fixed": true,"Length": 6}]}</value>
+			<comment>Length or first dimension, metres (LOGISTIC_LENGTH)</comment>
+		</data>
+  <data name="D3320" xml:space="preserve">
+			<value>{"Label": "Width, diameter, or second dimension, metres","Attribute": true,"Regex": "(\\d{6})","MaxElements": 6,"Requires": ["00","01"],"Excludes": ["33203325","3320"],"Captures": [{"Fixed": true,"Length": 6}]}</value>
+			<comment>Width, diameter, or second dimension, metres (LOGISTIC_WIDTH)</comment>
+		</data>
+  <data name="D3330" xml:space="preserve">
+			<value>{"Label": "Depth, thickness, height, or third dimension, metres","Attribute": true,"Regex": "(\\d{6})","MaxElements": 6,"Requires": ["00","01"],"Excludes": ["33303335","3330"],"Captures": [{"Fixed": true,"Length": 6}]}</value>
+			<comment>Depth, thickness, height, or third dimension, metres (LOGISTIC_HEIGHT)</comment>
+		</data>
+  <data name="D3340" xml:space="preserve">
+			<value>{"Label": "Area, square metres","Attribute": true,"Regex": "(\\d{6})","MaxElements": 6,"Requires": ["00","01"],"Excludes": ["33403345","3340"],"Captures": [{"Fixed": true,"Length": 6}]}</value>
+			<comment>Area, square metres (LOGISTIC_AREA)</comment>
+		</data>
+  <data name="D3350" xml:space="preserve">
+			<value>{"Label": "Logistic volume, litres","Attribute": true,"Regex": "(\\d{6})","MaxElements": 6,"Requires": ["00","01"],"Excludes": ["33503355","3350"],"Captures": [{"Fixed": true,"Length": 6}]}</value>
+			<comment>Logistic volume, litres (LOGISTIC_VOLUME)</comment>
+		</data>
+  <data name="D3370" xml:space="preserve">
+			<value>{"Label": "Kilograms per square metre","Attribute": true,"Regex": "(\\d{6})","MaxElements": 6,"Requires": ["01"],"Excludes": ["33703375","3370"],"Captures": [{"Fixed": true,"Length": 6}]}</value>
+			<comment>Kilograms per square metre (KG_PER_SQUARE_METRE)</comment>
+		</data>
+  <data name="D3900" xml:space="preserve">
+			<value>{"Label": "Applicable amount payable or Coupon value, local currency","Attribute": true,"Regex": "(\\d{1,15})","MaxElements": 10,"Requires": ["255","8020415","8020","415"],"Excludes": ["39003909","3900","39103919","3910","39403943","3940","8111"],"Captures": [{"Length": 15}]}</value>
+			<comment>Applicable amount payable or Coupon value, local currency (PRICE_LOCAL)</comment>
+		</data>
+  <data name="D3910" xml:space="preserve">
+			<value>{"Label": "Applicable amount payable with ISO currency code","Attribute": true,"Regex": "(\\d{3})(\\d{1,15})","MaxElements": 10,"Requires": ["8020415","8020","415"],"Excludes": ["39103919","3910"],"Captures": [{"Fixed": true,"Length": 3},{"Length": 15}]}</value>
+			<comment>Applicable amount payable with ISO currency code (PRICE)</comment>
+		</data>
+  <data name="D3920" xml:space="preserve">
+			<value>{"Label": "Applicable amount payable, single monetary area (variable measure trade item)","Attribute": true,"Regex": "(\\d{1,15})","MaxElements": 10,"Requires": ["30","31003195","3100","32003295","3200","35003595","3500","36003695","3600"],"Excludes": ["39203929","3920","39303939","3930"],"Captures": [{"Length": 15}]}</value>
+			<comment>Applicable amount payable, single monetary area (variable measure trade item) (PRICE_LOCAL_TRADE_ITEM)</comment>
+		</data>
+  <data name="D3930" xml:space="preserve">
+			<value>{"Label": "Applicable amount payable with ISO currency code (variable measure trade item)","Attribute": true,"Regex": "(\\d{3})(\\d{1,15})","MaxElements": 10,"Requires": ["30","31003195","3100","32003295","3200","35003595","3500","36003695","3600"],"Excludes": ["39303939","3930"],"Captures": [{"Fixed": true,"Length": 3},{"Length": 15}]}</value>
+			<comment>Applicable amount payable with ISO currency code (variable measure trade item) (PRICE_TRADE_ITEM)</comment>
+		</data>
+  <data name="D3940" xml:space="preserve">
+			<value>{"Label": "Percentage discount of a coupon","Attribute": true,"Regex": "(\\d{4})","MaxElements": 4,"Requires": ["255"],"Excludes": ["39403943","3940","8111"],"Captures": [{"Fixed": true,"Length": 4}]}</value>
+			<comment>Percentage discount of a coupon (PERCENTAGE_OFF)</comment>
+		</data>
+  <data name="D3950" xml:space="preserve">
+			<value>{"Label": "Amount Payable per unit of measure single monetary area (variable measure trade item)","Attribute": true,"Regex": "(\\d{6})","MaxElements": 6,"Requires": ["30","31003195","3100","32003295","3200","35003595","3500","36003695","3600"],"Excludes": ["39203929","3920","39303939","3930","39503955","3950","8005"],"Captures": [{"Fixed": true,"Length": 6}]}</value>
+			<comment>Amount Payable per unit of measure single monetary area (variable measure trade item) (PRICE_UOM)</comment>
+		</data>
+  <data name="D4300" xml:space="preserve">
+			<value>{"Label": "Ship-to / Deliver-to company name","Attribute": true,"Regex": "((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,35})","Requires": ["00"],"Captures": [{"Length": 35}]}</value>
+			<comment>Ship-to / Deliver-to company name (SHIP_TO_COMPANY)</comment>
+		</data>
+  <data name="D4301" xml:space="preserve">
+			<value>{"Label": "Ship-to / Deliver-to contact","Attribute": true,"Regex": "((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,35})","Requires": ["00"],"Captures": [{"Length": 35}]}</value>
+			<comment>Ship-to / Deliver-to contact (SHIP_TO_NAME)</comment>
+		</data>
+  <data name="D4302" xml:space="preserve">
+			<value>{"Label": "Ship-to / Deliver-to address line 1","Attribute": true,"Regex": "((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})","Requires": ["00"],"Captures": [{"Length": 70}]}</value>
+			<comment>Ship-to / Deliver-to address line 1 (SHIP_TO_ADDRESS1)</comment>
+		</data>
+  <data name="D4303" xml:space="preserve">
+			<value>{"Label": "Ship-to / Deliver-to address line 2","Attribute": true,"Regex": "((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})","Requires": ["430200","4302","00"],"Captures": [{"Length": 70}]}</value>
+			<comment>Ship-to / Deliver-to address line 2 (SHIP_TO_ADDRESS2)</comment>
+		</data>
+  <data name="D4304" xml:space="preserve">
+			<value>{"Label": "Ship-to / Deliver-to suburb","Attribute": true,"Regex": "((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})","Requires": ["00"],"Captures": [{"Length": 70}]}</value>
+			<comment>Ship-to / Deliver-to suburb (SHIP_TO_SUBURB)</comment>
+		</data>
+  <data name="D4305" xml:space="preserve">
+			<value>{"Label": "Ship-to / Deliver-to locality","Attribute": true,"Regex": "((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})","Requires": ["00"],"Captures": [{"Length": 70}]}</value>
+			<comment>Ship-to / Deliver-to locality (SHIP_TO_LOCALITY)</comment>
+		</data>
+  <data name="D4306" xml:space="preserve">
+			<value>{"Label": "Ship-to / Deliver-to region","Attribute": true,"Regex": "((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})","Requires": ["00"],"Captures": [{"Length": 70}]}</value>
+			<comment>Ship-to / Deliver-to region (SHIP_TO_REGION)</comment>
+		</data>
+  <data name="D4307" xml:space="preserve">
+			<value>{"Label": "Ship-to / Deliver-to country code","Attribute": true,"Regex": "([A-Z0-9]{2})","Requires": ["00"],"Captures": [{"Fixed": true,"Length": 2}]}</value>
+			<comment>Ship-to / Deliver-to country code (SHIP_TO_COUNTRY)</comment>
+		</data>
+  <data name="D4308" xml:space="preserve">
+			<value>{"Label": "Ship-to / Deliver-to telephone number","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,30})","Requires": ["00"],"Captures": [{"Length": 30}]}</value>
+			<comment>Ship-to / Deliver-to telephone number (SHIP_TO_PHONE)</comment>
+		</data>
+  <data name="D4309" xml:space="preserve">
+			<value>{"Label": "Ship-to / Deliver-to GEO location","Attribute": true,"Regex": "(\\d{20})","Requires": ["00"],"Captures": [{"Fixed": true,"Length": 20}]}</value>
+			<comment>Ship-to / Deliver-to GEO location (SHIP_TO_GEO_LOCATION)</comment>
+		</data>
+  <data name="D4310" xml:space="preserve">
+			<value>{"Label": "Return-to company name","Attribute": true,"Regex": "((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,35})","Requires": ["00"],"Captures": [{"Length": 35}]}</value>
+			<comment>Return-to company name (RETURN_TO_COMPANY)</comment>
+		</data>
+  <data name="D4311" xml:space="preserve">
+			<value>{"Label": "Return-to contact","Attribute": true,"Regex": "((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,35})","Requires": ["00"],"Captures": [{"Length": 35}]}</value>
+			<comment>Return-to contact (RETURN_TO_NAME)</comment>
+		</data>
+  <data name="D4312" xml:space="preserve">
+			<value>{"Label": "Return-to address line 1","Attribute": true,"Regex": "((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})","Requires": ["00"],"Captures": [{"Length": 70}]}</value>
+			<comment>Return-to address line 1 (RETURN_TO_ADDRESS1)</comment>
+		</data>
+  <data name="D4313" xml:space="preserve">
+			<value>{"Label": "Return-to address line 2","Attribute": true,"Regex": "((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})","Requires": ["431200","4312","00"],"Captures": [{"Length": 70}]}</value>
+			<comment>Return-to address line 2 (RETURN_TO_ADDRESS2)</comment>
+		</data>
+  <data name="D4314" xml:space="preserve">
+			<value>{"Label": "Return-to suburb","Attribute": true,"Regex": "((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})","Requires": ["00"],"Captures": [{"Length": 70}]}</value>
+			<comment>Return-to suburb (RETURN_TO_SUBURB)</comment>
+		</data>
+  <data name="D4315" xml:space="preserve">
+			<value>{"Label": "Return-to locality","Attribute": true,"Regex": "((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})","Requires": ["00"],"Captures": [{"Length": 70}]}</value>
+			<comment>Return-to locality (RETURN_TO_LOCALITY)</comment>
+		</data>
+  <data name="D4316" xml:space="preserve">
+			<value>{"Label": "Return-to region","Attribute": true,"Regex": "((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})","Requires": ["00"],"Captures": [{"Length": 70}]}</value>
+			<comment>Return-to region (RETURN_TO_REGION)</comment>
+		</data>
+  <data name="D4317" xml:space="preserve">
+			<value>{"Label": "Return-to country code","Attribute": true,"Regex": "([A-Z0-9]{2})","Requires": ["00"],"Captures": [{"Fixed": true,"Length": 2}]}</value>
+			<comment>Return-to country code (RETURN_TO_COUNTRY)</comment>
+		</data>
+  <data name="D4318" xml:space="preserve">
+			<value>{"Label": "Return-to postal code","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,20})","Requires": ["00"],"Captures": [{"Length": 20}]}</value>
+			<comment>Return-to postal code (RETURN_TO_POSTALCODE)</comment>
+		</data>
+  <data name="D4319" xml:space="preserve">
+			<value>{"Label": "Return-to telephone number","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,30})","Requires": ["00"],"Captures": [{"Length": 30}]}</value>
+			<comment>Return-to telephone number (RETURN_TO_PHONE)</comment>
+		</data>
+  <data name="D4320" xml:space="preserve">
+			<value>{"Label": "Service code description","Attribute": true,"Regex": "((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,35})","Requires": ["00"],"Captures": [{"Length": 35}]}</value>
+			<comment>Service code description (SERVICE_DESCRIPTION)</comment>
+		</data>
+  <data name="D4321" xml:space="preserve">
+			<value>{"Label": "Dangerous goods flag","Attribute": true,"Regex": "([01])","Requires": ["00"],"Captures": [{"Fixed": true,"Length": 1}]}</value>
+			<comment>Dangerous goods flag (DANGEROUS_GOODS)</comment>
+		</data>
+  <data name="D4322" xml:space="preserve">
+			<value>{"Label": "Authority to leave","Attribute": true,"Regex": "([01])","Requires": ["00"],"Captures": [{"Fixed": true,"Length": 1}]}</value>
+			<comment>Authority to leave (AUTHORITY_LEAVE)</comment>
+		</data>
+  <data name="D4323" xml:space="preserve">
+			<value>{"Label": "Signature required flag","Attribute": true,"Regex": "([01])","Requires": ["00"],"Captures": [{"Fixed": true,"Length": 1}]}</value>
+			<comment>Signature required flag (SIGNATURE_REQUIRED)</comment>
+		</data>
+  <data name="D4324" xml:space="preserve">
+			<value>{"Label": "Not before delivery date time (YYMMDDhhmm)","Attribute": true,"Regex": "(\\d{10})","Requires": ["00"],"Captures": [{"Fixed": true,"Length": 6},{"Fixed": true,"Length": 4}]}</value>
+			<comment>Not before delivery date time (YYMMDDhhmm) (NOT_BEFORE_DELIVERY_DATETIME)</comment>
+		</data>
+  <data name="D4325" xml:space="preserve">
+			<value>{"Label": "Not after delivery date time (YYMMDDhhmm)","Attribute": true,"Regex": "(\\d{10})","Requires": ["00"],"Captures": [{"Fixed": true,"Length": 6},{"Fixed": true,"Length": 4}]}</value>
+			<comment>Not after delivery date time (YYMMDDhhmm) (NOT_AFTER_DELIVERY_DATETIME)</comment>
+		</data>
+  <data name="D4326" xml:space="preserve">
+			<value>{"Label": "Release date (YYMMDD)","Attribute": true,"Regex": "(\\d{6})","Requires": ["00"],"Captures": [{"Fixed": true,"Length": 6}]}</value>
+			<comment>Release date (YYMMDD) (RELEASE_DATE)</comment>
+		</data>
+  <data name="D4330" xml:space="preserve">
+			<value>{"Label": "Maximum temperature in Fahrenheit (expressed in hundredths of degrees)","Attribute": true,"Regex": "(\\d{6}[-]?)","Requires": ["00"],"Excludes": ["4331"],"Captures": [{"Fixed": true,"Length": 6},{"Fixed": true,"Length": 1}]}</value>
+			<comment>Maximum temperature (expressed in hundredths of degrees) (MAXIMUM_TEMPERATURE)</comment>
+		</data>
+  <data name="D4333" xml:space="preserve">
+			<value>{"Label": "Minimum temperature in Celsius (expressed in hundredths of degrees)","Attribute": true,"Regex": "(\\d{6}[-]?)","Requires": ["00"],"Excludes": ["4332"],"Captures": [{"Fixed": true,"Length": 6},{"Fixed": true,"Length": 1}]}</value>
+			<comment>Minimum temperature (expressed in hundredths of degrees) (MINIMUM_TEMPERATURE)</comment>
+		</data>
+  <data name="D7001" xml:space="preserve">
+			<value>{"Label": "NATO Stock Number (NSN)","Attribute": true,"Regex": "(\\d{13})","Requires": ["01","02","8006","8026"],"Captures": [{"Fixed": true,"Length": 13}]}</value>
+			<comment>NATO Stock Number (NSN) (NSN)</comment>
+		</data>
+  <data name="D7002" xml:space="preserve">
+			<value>{"Label": "UN/ECE meat carcasses and cuts classification","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,30})","Requires": ["01","02"],"Captures": [{"Length": 30}]}</value>
+			<comment>UN/ECE meat carcasses and cuts classification (MEAT_CUT_UN_ECE)</comment>
+		</data>
+  <data name="D7003" xml:space="preserve">
+			<value>{"Label": "Expiration date and time (YYMMDDhhmm)","Attribute": true,"Regex": "(\\d{10})","Requires": ["01","02"],"Captures": [{"Fixed": true,"Length": 6},{"Fixed": true,"Length": 4}]}</value>
+			<comment>Expiration date and time (YYMMDDhhmm) (EXPIRATION_DATETIME)</comment>
+		</data>
+  <data name="D7004" xml:space="preserve">
+			<value>{"Label": "Active potency","Attribute": true,"Regex": "(\\d{0,4})","Requires": ["0110","01","10"],"Captures": [{"Length": 4}]}</value>
+			<comment>Active potency (ACTIVE_POTENCY)</comment>
+		</data>
+  <data name="D7005" xml:space="preserve">
+			<value>{"Label": "Catch area","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,12})","Requires": ["01","02"],"Captures": [{"Length": 12}]}</value>
+			<comment>Catch area (CATCH_AREA)</comment>
+		</data>
+  <data name="D7006" xml:space="preserve">
+			<value>{"Label": "First freeze date (YYMMDD)","Attribute": true,"Regex": "(\\d{6})","Requires": ["01","02"],"Captures": [{"Fixed": true,"Length": 6}]}</value>
+			<comment>First freeze date (YYMMDD) (FIRST_FREEZE_DATE)</comment>
+		</data>
+  <data name="D7007" xml:space="preserve">
+			<value>{"Label": "Harvest date (YYMMDD[YYMMDD])","Attribute": true,"Regex": "(\\d{6})(\\d{6})?","Requires": ["01","02"],"Captures": [{"Fixed": true,"Length": 6},{"Fixed": true,"Length": 6}]}</value>
+			<comment>Harvest date (YYMMDD[YYMMDD]) (HARVEST_DATE)</comment>
+		</data>
+  <data name="D7008" xml:space="preserve">
+			<value>{"Label": "Species for fishery purposes","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,3})","Requires": ["01","02"],"Captures": [{"Length": 3}]}</value>
+			<comment>Species for fishery purposes (AQUATIC_SPECIES)</comment>
+		</data>
+  <data name="D7009" xml:space="preserve">
+			<value>{"Label": "Fishing gear type","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,10})","Requires": ["01","02"],"Captures": [{"Length": 10}]}</value>
+			<comment>Fishing gear type (FISHING_GEAR_TYPE)</comment>
+		</data>
+  <data name="D7010" xml:space="preserve">
+			<value>{"Label": "Production method","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,2})","Requires": ["01","02"],"Captures": [{"Length": 2}]}</value>
+			<comment>Production method (PRODUCTION_METHOD)</comment>
+		</data>
+  <data name="D7011" xml:space="preserve">
+			<value>{"Label": "Test by date (YYMMDD[hhmm])","Attribute": true,"Regex": "(\\d{6})(\\d{4})?","Requires": ["01","02"],"Captures": [{"Fixed": true,"Length": 6},{"Fixed": true,"Length": 4}]}</value>
+			<comment>Test by date (YYMMDD[hhmm]) (TEST_BY_DATE)</comment>
+		</data>
+  <data name="D7020" xml:space="preserve">
+			<value>{"Label": "Refurbishment lot ID","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,20})","Requires": ["41601","416","01","4168006","416","8006"],"Captures": [{"Length": 20}]}</value>
+			<comment>Refurbishment lot ID (REFURBISHMENT_LOT)</comment>
+		</data>
+  <data name="D7021" xml:space="preserve">
+			<value>{"Label": "Functional status","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,20})","Requires": ["01","8006"],"Captures": [{"Length": 20}]}</value>
+			<comment>Functional status (FUNCTIONAL_STATUS)</comment>
+		</data>
+  <data name="D7022" xml:space="preserve">
+			<value>{"Label": "Revision status","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,20})","Requires": ["702101","7021","01","70218006","7021","8006"],"Captures": [{"Length": 20}]}</value>
+			<comment>Revision status (REVISION_STATUS)</comment>
+		</data>
+  <data name="D7023" xml:space="preserve">
+			<value>{"Label": "Global Individual Asset Identifier (GIAI) of an assembly","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,30})","Captures": [{"Length": 30}]}</value>
+			<comment>Global Individual Asset Identifier (GIAI) of an assembly (ASSEMBLY_GIAI)</comment>
+		</data>
+  <data name="D7030" xml:space="preserve">
+			<value>{"Label": "Number of processor with three-digit ISO country code","Attribute": true,"Regex": "(\\d{3})([!%-?A-Z_a-z\\x22]{1,27})","MaxElements": 10,"Requires": ["01","02"],"Captures": [{"Fixed": true,"Length": 3},{"Length": 27}]}</value>
+			<comment>Number of processor with three-digit ISO country code (PROCESSOR_NUMBER)</comment>
+		</data>
+  <data name="D7040" xml:space="preserve">
+			<value>{"Label": "GS1 UIC with Extension 1 and Importer index","Regex": "(\\d)([!%-?A-Z_a-z\\x22])([!%-?A-Z_a-z\\x22])([!%-?A-Z_a-z\\x22])","Captures": [{"Fixed": true,"Length": 1},{"Fixed": true,"Length": 1},{"Fixed": true,"Length": 1},{"Fixed": true,"Length": 1}]}</value>
+			<comment>GS1 UIC with Extension 1 and Importer index (UIC_EXTENSION)</comment>
+		</data>
+  <data name="D7041" xml:space="preserve">
+			<value>{"Label": "UN/CEFACT freight unit type","Regex": "([!%-?A-Z_a-z\\x22]{1,4})","Requires": ["00"],"Captures": [{"Length": 4}]}</value>
+			<comment>UN/CEFACT freight unit type (FREIGHT_UNIT_TYPE_UN_CEFACT)</comment>
+		</data>
+  <data name="D7230" xml:space="preserve">
+			<value>{"Label": "Certification Reference","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{3,30})","MaxElements": 10,"Requires": ["01","8004"],"Captures": [{"Fixed": true,"Length": 2},{"Length": 28}]}</value>
+			<comment>Certification Reference (CERTIFICATE)</comment>
+		</data>
+  <data name="D7240" xml:space="preserve">
+			<value>{"Label": "Protocol ID","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,20})","Requires": ["01","8006"],"Captures": [{"Length": 20}]}</value>
+			<comment>Protocol ID (PROTOCOL)</comment>
+		</data>
+  <data name="D7241" xml:space="preserve">
+			<value>{"Label": "AIDC media type","Attribute": true,"Regex": "(\\d{2})","Requires": ["8017","8018"],"Captures": [{"Fixed": true,"Length": 2}]}</value>
+			<comment>AIDC media type (AIDC_MEDIA_TYPE)</comment>
+		</data>
+  <data name="D7242" xml:space="preserve">
+			<value>{"Label": "Version Control Number (VCN)","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,25})","Requires": ["8017","8018"],"Captures": [{"Length": 25}]}</value>
+			<comment>Version Control Number (VCN) (VCN)</comment>
+		</data>
+  <data name="D7250" xml:space="preserve">
+			<value>{"Label": "Date of birth (YYYYMMDD)","Attribute": true,"Regex": "(\\d{4}(?:0\\d|1[0-2])(?:[0-2]\\d|3[01]))","Requires": ["8018"],"Excludes": ["7251"],"Captures": [{"Fixed": true,"Length": 8}]}</value>
+			<comment>Date of birth (YYYYMMDD) (DATE_OF_BIRTH)</comment>
+		</data>
+  <data name="D7251" xml:space="preserve">
+			<value>{"Label": "Date and time of birth (YYYYMMDDhhmm)","Attribute": true,"Regex": "(\\d{4}(?:0\\d|1[0-2])(?:[0-2]\\d|3[01])(?:[01]\\d|2[0-3])(?:[0-5]\\d))","Requires": ["8018"],"Excludes": ["7250"],"Captures": [{"Fixed": true,"Length": 8},{"Fixed": true,"Length": 4}]}</value>
+			<comment>Date and time of birth (YYYYMMDDhhmm) (DATETIME_OF_BIRTH)</comment>
+		</data>
+  <data name="D7252" xml:space="preserve">
+			<value>{"Label": "Biological sex","Attribute": true,"Regex": "(\\d{1})","Requires": ["8018"],"Captures": [{"Fixed": true,"Length": 1}]}</value>
+			<comment>Biological sex (BIOLOGICAL_SEX)</comment>
+		</data>
+  <data name="D7253" xml:space="preserve">
+			<value>{"Label": "Family name of person","Attribute": true,"Regex": "((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,40})","Requires": ["8017","8018"],"Excludes": ["7256","7259"],"Captures": [{"Length": 40}]}</value>
+			<comment>Family name of person (FAMILY_NAME)</comment>
+		</data>
+  <data name="D7254" xml:space="preserve">
+			<value>{"Label": "Given name of person","Attribute": true,"Regex": "((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,40})","Requires": ["8017","8018"],"Excludes": ["7256","7259"],"Captures": [{"Length": 40}]}</value>
+			<comment>Given name of person (GIVEN_NAME)</comment>
+		</data>
+  <data name="D7255" xml:space="preserve">
+			<value>{"Label": "Name suffix of person","Attribute": true,"Regex": "((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,10})","Requires": ["8017","8018"],"Excludes": ["7256","7259"],"Captures": [{"Length": 10}]}</value>
+			<comment>Name suffix of person (NAME_SUFFIX)</comment>
+		</data>
+  <data name="D7256" xml:space="preserve">
+			<value>{"Label": "Full name of person","Attribute": true,"Regex": "((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,90})","Requires": ["8017","8018"],"Excludes": ["7253","7254","7255","7259"],"Captures": [{"Length": 90}]}</value>
+			<comment>Full name of person (FULL_NAME)</comment>
+		</data>
+  <data name="D7257" xml:space="preserve">
+			<value>{"Label": "Address of person","Attribute": true,"Regex": "((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})","Requires": ["8018"],"Captures": [{"Length": 70}]}</value>
+			<comment>Address of person (PERSON_ADDRESS)</comment>
+		</data>
+  <data name="D7258" xml:space="preserve">
+			<value>{"Label": "Baby birth sequence","Attribute": true,"Regex": "(\\d[/]\\d)","Requires": ["80187259","8018","7259"],"Captures": [{"Fixed": true,"Length": 3}]}</value>
+			<comment>Baby birth sequence (BIRTH_SEQUENCE)</comment>
+		</data>
+  <data name="D7259" xml:space="preserve">
+			<value>{"Label": "Baby of family name","Attribute": true,"Regex": "((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,40})","Requires": ["8018"],"Excludes": ["7253","7254","7255","7256"],"Captures": [{"Length": 40}]}</value>
+			<comment>Baby of family name (BABY_NAME)</comment>
+		</data>
+  <data name="D8001" xml:space="preserve">
+			<value>{"Label": "Roll products (width, length, core diameter, direction, splices)","Attribute": true,"Regex": "(\\d{4})(\\d{5})(\\d{3})(\\d{1})(\\d{1})","Requires": ["01"],"Captures": [{"Fixed": true,"Length": 4},{"Fixed": true,"Length": 5},{"Fixed": true,"Length": 3},{"Fixed": true,"Length": 1},{"Fixed": true,"Length": 1}]}</value>
+			<comment>Roll products (width, length, core diameter, direction, splices) (DIMENSIONS)</comment>
+		</data>
+  <data name="D8002" xml:space="preserve">
+			<value>{"Label": "Cellular mobile telephone identifier","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,20})","Captures": [{"Length": 20}]}</value>
+			<comment>Cellular mobile telephone identifier (CELLULAR_MOBILE_TELEPHONE)</comment>
+		</data>
+  <data name="D8003" xml:space="preserve">
+			<value>{"Label": "Global Returnable Asset Identifier (GRAI)","Attribute": true,"Regex": "(0)(\\d{13})([!%-?A-Z_a-z\\x22]{0,16})","Captures": [{"Fixed": true,"Length": 1},{"CheckDigit": true,"Fixed": true,"Length": 13},{"Length": 16}]}</value>
+			<comment>Global Returnable Asset Identifier (GRAI) (GRAI)</comment>
+		</data>
+  <data name="D8004" xml:space="preserve">
+			<value>{"Label": "Global Individual Asset Identifier (GIAI)","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,30})","Qualifiers": ["7040"],"Captures": [{"Length": 30}]}</value>
+			<comment>Global Individual Asset Identifier (GIAI) (GIAI)</comment>
+		</data>
+  <data name="D8005" xml:space="preserve">
+			<value>{"Label": "Price per unit of measure","Attribute": true,"Regex": "(\\d{6})","Requires": ["01","02"],"Captures": [{"Fixed": true,"Length": 6}]}</value>
+			<comment>Price per unit of measure (PRICE_PER_UNIT)</comment>
+		</data>
+  <data name="D8006" xml:space="preserve">
+			<value>{"Label": "Identification of an individual trade item piece (ITIP)","Attribute": true,"Regex": "(\\d{14})(\\d{4})","Qualifiers": ["22","10","21"],"Excludes": ["01","37"],"Captures": [{"CheckDigit": true,"Fixed": true,"Length": 14},{"Fixed": true,"Length": 4}]}</value>
+			<comment>Identification of an individual trade item piece (ITIP) (ITIP)</comment>
+		</data>
+  <data name="D8007" xml:space="preserve">
+			<value>{"Label": "International Bank Account Number (IBAN)","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,34})","Requires": ["8020415","8020","415"],"Captures": [{"Length": 34}]}</value>
+			<comment>International Bank Account Number (IBAN) (IBAN)</comment>
+		</data>
+  <data name="D8008" xml:space="preserve">
+			<value>{"Label": "Date and time of production (YYMMDDhh[mm[ss]])","Attribute": true,"Regex": "(\\d{2}(?:0\\d|1[0-2])(?:[0-2]\\d|3[01])(?:[01]\\d|2[0-3]))((?:[0-5]\\d)(?:[0-5]\\d)?)?","Requires": ["01","02"],"Captures": [{"Fixed": true,"Length": 8},{"Length": 4}]}</value>
+			<comment>Date and time of production (YYMMDDhh[mm[ss]]) (PRODUCTION_DATETIME)</comment>
+		</data>
+  <data name="D8009" xml:space="preserve">
+			<value>{"Label": "Optically Readable Sensor Indicator","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,50})","Requires": ["00","01"],"Captures": [{"Length": 50}]}</value>
+			<comment>Optically Readable Sensor Indicator (OPTSEN)</comment>
+		</data>
+  <data name="D8010" xml:space="preserve">
+			<value>{"Label": "Component/Part Identifier (CPID)","Attribute": true,"Regex": "([A-Z0-9/#-]{5,30})","Qualifiers": ["8011"],"Captures": [{"Length": 30}]}</value>
+			<comment>Component/Part Identifier (CPID) (CPID)</comment>
+		</data>
+  <data name="D8011" xml:space="preserve">
+			<value>{"Label": "Component/Part Identifier serial number (CPID SERIAL)","Regex": "(\\d{1,12})","Requires": ["8010"],"Captures": [{"Length": 12}]}</value>
+			<comment>Component/Part Identifier serial number (CPID SERIAL) (CPID_SERIAL)</comment>
+		</data>
+  <data name="D8012" xml:space="preserve">
+			<value>{"Label": "Software version","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,20})","Requires": ["01","8006"],"Captures": [{"Length": 20}]}</value>
+			<comment>Software version (VERSION)</comment>
+		</data>
+  <data name="D8013" xml:space="preserve">
+			<value>{"Label": "Global Model Number (GMN)","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,25})","Captures": [{"Length": 25}]}</value>
+			<comment>Global Model Number (GMN) (GMN)</comment>
+		</data>
+  <data name="D8014" xml:space="preserve">
+			<value>{"Label": "Highly Individualised Device Registration Identifier (HIDRI)","Regex": "([!%-?A-Z_a-z\\x22]{1,25})","Requires": ["01"],"Captures": [{"Length": 25}]}</value>
+			<comment>Highly Individualised Device Registration Identifier (HIDRI) (MUDI)</comment>
+		</data>
+  <data name="D8017" xml:space="preserve">
+			<value>{"Label": "Global Service Relation Number (GSRN) to identify the relationship between an organisation offering services and the provider of services","Attribute": true,"Regex": "(\\d{18})","Qualifiers": ["8019"],"Excludes": ["8018"],"Captures": [{"CheckDigit": true,"Fixed": true,"Length": 18}]}</value>
+			<comment>Global Service Relation Number (GSRN) to identify the relationship between an organisation offering services and the provider of services (GSRN_PROVIDER)</comment>
+		</data>
+  <data name="D8018" xml:space="preserve">
+			<value>{"Label": "Global Service Relation Number (GSRN) to identify the relationship between an organisation offering services and the recipient of services","Attribute": true,"Regex": "(\\d{18})","Qualifiers": ["8019"],"Excludes": ["8017"],"Captures": [{"CheckDigit": true,"Fixed": true,"Length": 18}]}</value>
+			<comment>Global Service Relation Number (GSRN) to identify the relationship between an organisation offering services and the recipient of services (GSRN_RECIPIENT)</comment>
+		</data>
+  <data name="D8019" xml:space="preserve">
+			<value>{"Label": "Service Relation Instance Number (SRIN)","Regex": "(\\d{1,10})","Requires": ["8017","8018"],"Captures": [{"Length": 10}]}</value>
+			<comment>Service Relation Instance Number (SRIN) (SRIN)</comment>
+		</data>
+  <data name="D8020" xml:space="preserve">
+			<value>{"Label": "Payment slip reference number","Regex": "([!%-?A-Z_a-z\\x22]{1,25})","Requires": ["415"],"Captures": [{"Length": 25}]}</value>
+			<comment>Payment slip reference number (PAYMENT_REFERENCE)</comment>
+		</data>
+  <data name="D8026" xml:space="preserve">
+			<value>{"Label": "Identification of pieces of a trade item (ITIP) contained in a logistic unit","Attribute": true,"Regex": "(\\d{14})(\\d{4})","Requires": ["0037","00","37"],"Excludes": ["02","8006"],"Captures": [{"CheckDigit": true,"Fixed": true,"Length": 14},{"Fixed": true,"Length": 4}]}</value>
+			<comment>Identification of pieces of a trade item (ITIP) contained in a logistic unit (ITIP_CONTENT)</comment>
+		</data>
+  <data name="D8030" xml:space="preserve">
+			<value>{"Label": "Digital Signature (DigSig)","Attribute": true,"Regex": "([0-9A-Za-z_-]{1,90})","Requires": ["0121","01","21","800621","8006","21","80108011","8010","8011","8003","8004","8017","8018","00","253","255"],"Captures": [{"Length": 90}]}</value>
+			<comment>Digital Signature (DigSig) (DIGSIG)</comment>
+		</data>
+  <data name="D8040" xml:space="preserve">
+			<value>{"Label": "Internatinal Mobile Equipment Identity (IMEI)","Attribute": true,"Regex": "(\\d{15})","Requires": ["0121","01","21"],"Captures": [{"Fixed": true,"Length": 15}]}</value>
+			<comment>Internatinal Mobile Equipment Identity (IMEI) (IMEI)</comment>
+		</data>
+  <data name="D8041" xml:space="preserve">
+			<value>{"Label": "Internatinal Mobile Equipment Identity 2 (IMEI2)","Attribute": true,"Regex": "(\\d{15})","Requires": ["01218040","01","21","8040"],"Captures": [{"Fixed": true,"Length": 15}]}</value>
+			<comment>Internatinal Mobile Equipment Identity 2 (IMEI2) (IMEI2)</comment>
+		</data>
+  <data name="D8042" xml:space="preserve">
+			<value>{"Label": "Embedded SIM number","Attribute": true,"Regex": "(\\d{32})","Requires": ["01218040","01","21","8040"],"Captures": [{"Fixed": true,"Length": 32}]}</value>
+			<comment>Embedded SIM number (ESIM)</comment>
+		</data>
+  <data name="D8043" xml:space="preserve">
+			<value>{"Label": "Physical SIM number","Attribute": true,"Regex": "(\\d{18,20})","Requires": ["01218040","01","21","8040"],"Captures": [{"Fixed": true,"Length": 18},{"Length": 2}]}</value>
+			<comment>Physical SIM number (PSIM)</comment>
+		</data>
+  <data name="D8110" xml:space="preserve">
+			<value>{"Label": "Coupon code identification for use in North America","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,70})","Captures": [{"Length": 70}]}</value>
+			<comment>Coupon code identification for use in North America (COUPON_CODE)</comment>
+		</data>
+  <data name="D8111" xml:space="preserve">
+			<value>{"Label": "Loyalty points of a coupon","Attribute": true,"Regex": "(\\d{4})","Requires": ["255"],"Captures": [{"Fixed": true,"Length": 4}]}</value>
+			<comment>Loyalty points of a coupon (POINTS)</comment>
+		</data>
+  <data name="D8112" xml:space="preserve">
+			<value>{"Label": "Positive offer file coupon code identification for use in North America","Attribute": true,"Regex": "([!%-?A-Z_a-z\\x22]{1,70})","Captures": [{"Length": 70}]}</value>
+			<comment>Positive offer file coupon code identification for use in North America (POSITIVE_OFFER_COUPON_CODE)</comment>
+		</data>
+  <data name="D8200" xml:space="preserve">
+			<value>{"Label": "Extended Packaging URL","Regex": "([!%-?A-Z_a-z\\x22]{1,70})","Requires": ["01"],"Captures": [{"Length": 70}]}</value>
+			<comment>Extended Packaging URL (PRODUCT_URL)</comment>
+		</data>
+</root>
