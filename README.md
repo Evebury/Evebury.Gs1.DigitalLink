@@ -59,7 +59,7 @@ else
 ## 🔧 Todo
 - Write tests
 - Simplify for TradeItem only
-- Add a DigitalLink Parser for reading an uri and converting to stringly typed segment values for greater interopability.
+- Add a DigitalLink Parser for reading an uri and converting to strongly typed segment values for greater interopability.
 
 
 ## 📋 Requirements & Enterprise support
