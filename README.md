@@ -69,6 +69,8 @@ TradeItem tradeItem = new()
 {
     GTIN = "00074562000525",
     ExpirationDate = DateTime.Now,
+    NetWeight = new(0.3, WeightUnit.KILOGRAM),
+    Price = new(28, 2, CurrencyCode.EUR),
 };
 
 DigitalLinkBuilder builder = new();
@@ -77,16 +79,28 @@ DigitalLink link = builder.Build();
 
 DigitalLink resolved = DigitalLinkResolver.Resolve(link.Uri);
 TradeItem resolvedTradeItem = resolved.GetTradeItem();
-System.Console.WriteLine(resolvedTradeItem.ToJson());
+Console.WriteLine(resolvedTradeItem.ToJson());
 ```
 ```json
 {
     "GTIN":"00074562000525",
     "ExpirationDate":"2026-03-20T00:00:00",
     "SerialNumber":null,
-    "Price":null,
-    "NetWeight":null
- }
+    "Price":
+    {
+        "Unit":978,
+        "Value":28,
+        "Precision":2,
+        "Format":"0.00"
+    },
+    "NetWeight":
+    {
+        "Unit":0,
+        "Value":0.3,
+        "Precision":1,
+        "Format":"0.0"
+    }
+}
 ```
 
 ## 🔧 Todo
