@@ -1,9 +1,9 @@
 ﻿namespace Evebury.Gs1.DigitalLink
 {
     /// <summary>
-    /// Country Code Segement Type
+    /// Country Code Segment Type
     /// </summary>
-    public enum CountryCodeType
+    public enum CountryCodeType : int
     {
         ///<summary>
         ///Country of origin of a trade item

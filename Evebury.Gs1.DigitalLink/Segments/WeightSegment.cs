@@ -8,7 +8,7 @@ namespace Evebury.Gs1.DigitalLink.Segments
         {
         }
 
-        public WeightSegment(Weight weight, SegmentType type) : base(weight, ValueType.Weight, type)
+        public WeightSegment(Weight weight, SegmentType type) : base(weight, SegmentValueType.Weight, type)
         {
             if (type == SegmentType.KG_PER_SQUARE_METRE) 
             {
@@ -69,7 +69,23 @@ namespace Evebury.Gs1.DigitalLink.Segments
 
         protected override SegmentValue GetValue()
         {
-            throw new NotImplementedException();
+            WeightUnit unit = WeightUnit.KILOGRAM;
+            int offset = int.MaxValue;
+            int type = (int)Type;
+            int code = (int)Math.Round(int.Parse(Code) /10d) * 10;
+            foreach (WeightUnit weightUnit in Enum.GetValues<WeightUnit>())
+            {
+                int unitOffset = GetUnitOffset(new Weight(0, weightUnit));
+                if (type + unitOffset == code)
+                {
+                    unit = weightUnit;
+                    offset = unitOffset;
+                    break;
+                }
+
+            }
+            Double @double = GetDoubleValue(offset);
+            return new SegmentValue(new Weight(@double, unit), SegmentValueType.Weight);
         }
     }
 }

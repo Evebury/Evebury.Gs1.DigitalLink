@@ -28,9 +28,19 @@
 
 	<ItemGroup>
 		<Compile Update="Segments\MetaData\Resource\Descriptor.Designer.cs">
-			<DesignTime>True</DesignTime>
-			<AutoGen>True</AutoGen>
-			<DependentUpon>Descriptor.resx</DependentUpon>
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		  <DependentUpon>Descriptor.resx</DependentUpon>
+		</Compile>
+		<Compile Update="Segments\MetaData\Resource\SegmentType.Designer.cs">
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		  <DependentUpon>SegmentType.resx</DependentUpon>
+		</Compile>
+		<Compile Update="Segments\MetaData\Resource\ValueType.Designer.cs">
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		  <DependentUpon>ValueType.resx</DependentUpon>
 		</Compile>
 	</ItemGroup>
 
@@ -38,6 +48,14 @@
 		<EmbeddedResource Update="Segments\MetaData\Resource\Descriptor.resx">
 			<Generator>ResXFileCodeGenerator</Generator>
 			<LastGenOutput>Descriptor.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Segments\MetaData\Resource\SegmentType.resx">
+		  <Generator>ResXFileCodeGenerator</Generator>
+		  <LastGenOutput>SegmentType.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Segments\MetaData\Resource\ValueType.resx">
+		  <Generator>ResXFileCodeGenerator</Generator>
+		  <LastGenOutput>ValueType.Designer.cs</LastGenOutput>
 		</EmbeddedResource>
 	</ItemGroup>
 

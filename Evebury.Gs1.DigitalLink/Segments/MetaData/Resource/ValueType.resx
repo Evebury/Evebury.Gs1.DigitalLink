@@ -1,0 +1,716 @@
+<root>
+  <xsd:schema id="root" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="00" xml:space="preserve">
+    <value>1</value>
+    <comment>Key (SSCC)</comment>
+  </data>
+  <data name="01" xml:space="preserve">
+    <value>1</value>
+    <comment>Key (GTIN)</comment>
+  </data>
+  <data name="02" xml:space="preserve">
+    <value>1</value>
+    <comment>Key (GTIN_CONTENT)</comment>
+  </data>
+  <data name="03" xml:space="preserve">
+    <value>1</value>
+    <comment>Key (GTIN_MTO)</comment>
+  </data>
+  <data name="10" xml:space="preserve">
+    <value>2</value>
+    <comment>String (BATCH_LOT)</comment>
+  </data>
+  <data name="11" xml:space="preserve">
+    <value>3</value>
+    <comment>Date (PRODUCTION_DATE)</comment>
+  </data>
+  <data name="12" xml:space="preserve">
+    <value>3</value>
+    <comment>Date (DUE_DATE)</comment>
+  </data>
+  <data name="13" xml:space="preserve">
+    <value>3</value>
+    <comment>Date (PACKAGING_DATE)</comment>
+  </data>
+  <data name="15" xml:space="preserve">
+    <value>3</value>
+    <comment>Date (BEST_BEFORE_DATE)</comment>
+  </data>
+  <data name="16" xml:space="preserve">
+    <value>3</value>
+    <comment>Date (SELL_BY_DATE)</comment>
+  </data>
+  <data name="17" xml:space="preserve">
+    <value>3</value>
+    <comment>Date (EXPIRATION_DATE)</comment>
+  </data>
+  <data name="20" xml:space="preserve">
+    <value>11</value>
+    <comment>Integer (VARIANT)</comment>
+  </data>
+  <data name="21" xml:space="preserve">
+    <value>2</value>
+    <comment>String (SERIAL)</comment>
+  </data>
+  <data name="22" xml:space="preserve">
+    <value>2</value>
+    <comment>String (CPV)</comment>
+  </data>
+  <data name="30" xml:space="preserve">
+    <value>11</value>
+    <comment>Integer (VARIABLE_COUNT)</comment>
+  </data>
+  <data name="37" xml:space="preserve">
+    <value>11</value>
+    <comment>Integer (COUNT)</comment>
+  </data>
+  <data name="90" xml:space="preserve">
+    <value>2</value>
+    <comment>String (INTERNAL_TRADEPARTNER)</comment>
+  </data>
+  <data name="91" xml:space="preserve">
+    <value>2</value>
+    <comment>String (INTERNAL_COMPANY)</comment>
+  </data>
+  <data name="235" xml:space="preserve">
+    <value>2</value>
+    <comment>String (TPX)</comment>
+  </data>
+  <data name="240" xml:space="preserve">
+    <value>2</value>
+    <comment>String (ADDITIONAL_ID)</comment>
+  </data>
+  <data name="241" xml:space="preserve">
+    <value>2</value>
+    <comment>String (CUSTOMER_PART_NUMBER)</comment>
+  </data>
+  <data name="242" xml:space="preserve">
+    <value>11</value>
+    <comment>Integer (MTO_VARIANT)</comment>
+  </data>
+  <data name="243" xml:space="preserve">
+    <value>2</value>
+    <comment>String (PCN)</comment>
+  </data>
+  <data name="250" xml:space="preserve">
+    <value>2</value>
+    <comment>String (SECONDARY_SERIAL)</comment>
+  </data>
+  <data name="251" xml:space="preserve">
+    <value>2</value>
+    <comment>String (REF_TO_SOURCE)</comment>
+  </data>
+  <data name="253" xml:space="preserve">
+    <value>1</value>
+    <comment>Key (GDTI)</comment>
+  </data>
+  <data name="254" xml:space="preserve">
+    <value>2</value>
+    <comment>String (EXTENSION_COMPONENT_GLN)</comment>
+  </data>
+  <data name="255" xml:space="preserve">
+    <value>1</value>
+    <comment>Key (GCN)</comment>
+  </data>
+  <data name="400" xml:space="preserve">
+    <value>2</value>
+    <comment>String (ORDER_NUMBER)</comment>
+  </data>
+  <data name="401" xml:space="preserve">
+    <value>1</value>
+    <comment>Key (GINC)</comment>
+  </data>
+  <data name="402" xml:space="preserve">
+    <value>1</value>
+    <comment>Key (GSIN)</comment>
+  </data>
+  <data name="403" xml:space="preserve">
+    <value>2</value>
+    <comment>String (ROUTE)</comment>
+  </data>
+  <data name="410" xml:space="preserve">
+    <value>1</value>
+    <comment>Key (SHIP_TO_GLN)</comment>
+  </data>
+  <data name="411" xml:space="preserve">
+    <value>1</value>
+    <comment>Key (BILL_TO_GLN)</comment>
+  </data>
+  <data name="412" xml:space="preserve">
+    <value>1</value>
+    <comment>Key (PURCHASE_FROM_GLN)</comment>
+  </data>
+  <data name="413" xml:space="preserve">
+    <value>1</value>
+    <comment>Key (SHIP_FOR_LOC_GLN)</comment>
+  </data>
+  <data name="414" xml:space="preserve">
+    <value>1</value>
+    <comment>Key (LOCATION_GLN)</comment>
+  </data>
+  <data name="415" xml:space="preserve">
+    <value>1</value>
+    <comment>Key (PAY_TO_GLN)</comment>
+  </data>
+  <data name="416" xml:space="preserve">
+    <value>1</value>
+    <comment>Key (PRODUCTION_SERVICE_LOCATION_GLN)</comment>
+  </data>
+  <data name="417" xml:space="preserve">
+    <value>1</value>
+    <comment>Key (PARTY_GLN)</comment>
+  </data>
+  <data name="420" xml:space="preserve">
+    <value>2</value>
+    <comment>String (SHIP_TO_POSTALCODE_LOCAL)</comment>
+  </data>
+  <data name="421" xml:space="preserve">
+    <value>14</value>
+    <comment>Country (SHIP_TO_POSTALCODE)</comment>
+  </data>
+  <data name="422" xml:space="preserve">
+    <value>15</value>
+    <comment>CountryCode (COUNTRY_OF_ORIGIN)</comment>
+  </data>
+  <data name="423" xml:space="preserve">
+    <value>15</value>
+    <comment>CountryCode (COUNTRY_INITIAL_PROCESS)</comment>
+  </data>
+  <data name="424" xml:space="preserve">
+    <value>15</value>
+    <comment>CountryCode (COUNTRY_PROCESS)</comment>
+  </data>
+  <data name="425" xml:space="preserve">
+    <value>15</value>
+    <comment>CountryCode (COUNTRY_DISASSEMBLY)</comment>
+  </data>
+  <data name="426" xml:space="preserve">
+    <value>15</value>
+    <comment>CountryCode (COUNTRY_FULL_PROCESS)</comment>
+  </data>
+  <data name="427" xml:space="preserve">
+    <value>2</value>
+    <comment>String (ORIGIN_SUBDIVISION)</comment>
+  </data>
+  <data name="710" xml:space="preserve">
+    <value>2</value>
+    <comment>String (NATIONAL_HEALTH_CARE_REIMBURSEMENT_NUMBER_PZN)</comment>
+  </data>
+  <data name="711" xml:space="preserve">
+    <value>2</value>
+    <comment>String (NATIONAL_HEALTH_CARE_REIMBURSEMENT_NUMBER_CIP)</comment>
+  </data>
+  <data name="712" xml:space="preserve">
+    <value>2</value>
+    <comment>String (NATIONAL_HEALTH_CARE_REIMBURSEMENT_NUMBER_CN)</comment>
+  </data>
+  <data name="713" xml:space="preserve">
+    <value>2</value>
+    <comment>String (NATIONAL_HEALTH_CARE_REIMBURSEMENT_NUMBER_DRN)</comment>
+  </data>
+  <data name="714" xml:space="preserve">
+    <value>2</value>
+    <comment>String (NATIONAL_HEALTH_CARE_REIMBURSEMENT_NUMBER_AIM)</comment>
+  </data>
+  <data name="715" xml:space="preserve">
+    <value>2</value>
+    <comment>String (NATIONAL_HEALTH_CARE_REIMBURSEMENT_NUMBER_NDC)</comment>
+  </data>
+  <data name="716" xml:space="preserve">
+    <value>2</value>
+    <comment>String (NATIONAL_HEALTH_CARE_REIMBURSEMENT_NUMBER_AIC)</comment>
+  </data>
+  <data name="717" xml:space="preserve">
+    <value>2</value>
+    <comment>String (NATIONAL_HEALTH_CARE_REIMBURSEMENT_NUMBER_SRN)</comment>
+  </data>
+  <data name="3100" xml:space="preserve">
+    <value>6</value>
+    <comment>Weight (NET_WEIGHT)</comment>
+  </data>
+  <data name="3110" xml:space="preserve">
+    <value>7</value>
+    <comment>Length (LENGTH)</comment>
+  </data>
+  <data name="3120" xml:space="preserve">
+    <value>7</value>
+    <comment>Length (WIDTH)</comment>
+  </data>
+  <data name="3130" xml:space="preserve">
+    <value>7</value>
+    <comment>Length (HEIGHT)</comment>
+  </data>
+  <data name="3140" xml:space="preserve">
+    <value>7</value>
+    <comment>Length (AREA)</comment>
+  </data>
+  <data name="3150" xml:space="preserve">
+    <value>8</value>
+    <comment>Volume (NET_VOLUME)</comment>
+  </data>
+  <data name="3300" xml:space="preserve">
+    <value>6</value>
+    <comment>Weight (LOGISTIC_GROSS_WEIGHT)</comment>
+  </data>
+  <data name="3310" xml:space="preserve">
+    <value>7</value>
+    <comment>Length (LOGISTIC_LENGTH)</comment>
+  </data>
+  <data name="3320" xml:space="preserve">
+    <value>7</value>
+    <comment>Length (LOGISTIC_WIDTH)</comment>
+  </data>
+  <data name="3330" xml:space="preserve">
+    <value>7</value>
+    <comment>Length (LOGISTIC_HEIGHT)</comment>
+  </data>
+  <data name="3340" xml:space="preserve">
+    <value>7</value>
+    <comment>Length (LOGISTIC_AREA)</comment>
+  </data>
+  <data name="3350" xml:space="preserve">
+    <value>8</value>
+    <comment>Volume (LOGISTIC_VOLUME)</comment>
+  </data>
+  <data name="3370" xml:space="preserve">
+    <value>7</value>
+    <comment>Length (KG_PER_SQUARE_METRE)</comment>
+  </data>
+  <data name="3900" xml:space="preserve">
+    <value>9</value>
+    <comment>Double (PRICE_LOCAL)</comment>
+  </data>
+  <data name="3910" xml:space="preserve">
+    <value>10</value>
+    <comment>Price (PRICE)</comment>
+  </data>
+  <data name="3920" xml:space="preserve">
+    <value>9</value>
+    <comment>Double (PRICE_LOCAL_TRADE_ITEM)</comment>
+  </data>
+  <data name="3930" xml:space="preserve">
+    <value>10</value>
+    <comment>Price (PRICE_TRADE_ITEM)</comment>
+  </data>
+  <data name="3940" xml:space="preserve">
+    <value>9</value>
+    <comment>Double (PERCENTAGE_OFF)</comment>
+  </data>
+  <data name="3950" xml:space="preserve">
+    <value>9</value>
+    <comment>Double (PRICE_UOM)</comment>
+  </data>
+  <data name="4300" xml:space="preserve">
+    <value>2</value>
+    <comment>String (SHIP_TO_COMPANY)</comment>
+  </data>
+  <data name="4301" xml:space="preserve">
+    <value>2</value>
+    <comment>String (SHIP_TO_NAME)</comment>
+  </data>
+  <data name="4302" xml:space="preserve">
+    <value>2</value>
+    <comment>String (SHIP_TO_ADDRESS1)</comment>
+  </data>
+  <data name="4303" xml:space="preserve">
+    <value>2</value>
+    <comment>String (SHIP_TO_ADDRESS2)</comment>
+  </data>
+  <data name="4304" xml:space="preserve">
+    <value>2</value>
+    <comment>String (SHIP_TO_SUBURB)</comment>
+  </data>
+  <data name="4305" xml:space="preserve">
+    <value>2</value>
+    <comment>String (SHIP_TO_LOCALITY)</comment>
+  </data>
+  <data name="4306" xml:space="preserve">
+    <value>2</value>
+    <comment>String (SHIP_TO_REGION)</comment>
+  </data>
+  <data name="4307" xml:space="preserve">
+    <value>15</value>
+    <comment>CountryCode (SHIP_TO_COUNTRY)</comment>
+  </data>
+  <data name="4308" xml:space="preserve">
+    <value>2</value>
+    <comment>String (SHIP_TO_PHONE)</comment>
+  </data>
+  <data name="4309" xml:space="preserve">
+    <value>2</value>
+    <comment>String (SHIP_TO_GEO_LOCATION)</comment>
+  </data>
+  <data name="4310" xml:space="preserve">
+    <value>2</value>
+    <comment>String (RETURN_TO_COMPANY)</comment>
+  </data>
+  <data name="4311" xml:space="preserve">
+    <value>2</value>
+    <comment>String (RETURN_TO_NAME)</comment>
+  </data>
+  <data name="4312" xml:space="preserve">
+    <value>2</value>
+    <comment>String (RETURN_TO_ADDRESS1)</comment>
+  </data>
+  <data name="4313" xml:space="preserve">
+    <value>2</value>
+    <comment>String (RETURN_TO_ADDRESS2)</comment>
+  </data>
+  <data name="4314" xml:space="preserve">
+    <value>2</value>
+    <comment>String (RETURN_TO_SUBURB)</comment>
+  </data>
+  <data name="4315" xml:space="preserve">
+    <value>2</value>
+    <comment>String (RETURN_TO_LOCALITY)</comment>
+  </data>
+  <data name="4316" xml:space="preserve">
+    <value>2</value>
+    <comment>String (RETURN_TO_REGION)</comment>
+  </data>
+  <data name="4317" xml:space="preserve">
+    <value>2</value>
+    <comment>String (RETURN_TO_COUNTRY)</comment>
+  </data>
+  <data name="4318" xml:space="preserve">
+    <value>2</value>
+    <comment>String (RETURN_TO_POSTALCODE)</comment>
+  </data>
+  <data name="4319" xml:space="preserve">
+    <value>2</value>
+    <comment>String (RETURN_TO_PHONE)</comment>
+  </data>
+  <data name="4320" xml:space="preserve">
+    <value>2</value>
+    <comment>String (SERVICE_DESCRIPTION)</comment>
+  </data>
+  <data name="4321" xml:space="preserve">
+    <value>12</value>
+    <comment>Boolean (DANGEROUS_GOODS)</comment>
+  </data>
+  <data name="4322" xml:space="preserve">
+    <value>12</value>
+    <comment>Boolean (AUTHORITY_LEAVE)</comment>
+  </data>
+  <data name="4323" xml:space="preserve">
+    <value>12</value>
+    <comment>Boolean (SIGNATURE_REQUIRED)</comment>
+  </data>
+  <data name="4324" xml:space="preserve">
+    <value>4</value>
+    <comment>DateTime (NOT_BEFORE_DELIVERY_DATETIME)</comment>
+  </data>
+  <data name="4325" xml:space="preserve">
+    <value>4</value>
+    <comment>DateTime (NOT_AFTER_DELIVERY_DATETIME)</comment>
+  </data>
+  <data name="4326" xml:space="preserve">
+    <value>3</value>
+    <comment>Date (RELEASE_DATE)</comment>
+  </data>
+  <data name="4330" xml:space="preserve">
+    <value>13</value>
+    <comment>Temperature (MAXIMUM_TEMPERATURE)</comment>
+  </data>
+  <data name="4333" xml:space="preserve">
+    <value>13</value>
+    <comment>Temperature (MINIMUM_TEMPERATURE)</comment>
+  </data>
+  <data name="7001" xml:space="preserve">
+    <value>2</value>
+    <comment>String (NSN)</comment>
+  </data>
+  <data name="7002" xml:space="preserve">
+    <value>2</value>
+    <comment>String (MEAT_CUT_UN_ECE)</comment>
+  </data>
+  <data name="7003" xml:space="preserve">
+    <value>4</value>
+    <comment>DateTime (EXPIRATION_DATETIME)</comment>
+  </data>
+  <data name="7004" xml:space="preserve">
+    <value>11</value>
+    <comment>Integer (ACTIVE_POTENCY)</comment>
+  </data>
+  <data name="7005" xml:space="preserve">
+    <value>2</value>
+    <comment>String (CATCH_AREA)</comment>
+  </data>
+  <data name="7006" xml:space="preserve">
+    <value>3</value>
+    <comment>Date (FIRST_FREEZE_DATE)</comment>
+  </data>
+  <data name="7007" xml:space="preserve">
+    <value>3</value>
+    <comment>Date (HARVEST_DATE)</comment>
+  </data>
+  <data name="7008" xml:space="preserve">
+    <value>2</value>
+    <comment>String (AQUATIC_SPECIES)</comment>
+  </data>
+  <data name="7009" xml:space="preserve">
+    <value>2</value>
+    <comment>String (FISHING_GEAR_TYPE)</comment>
+  </data>
+  <data name="7010" xml:space="preserve">
+    <value>2</value>
+    <comment>String (PRODUCTION_METHOD)</comment>
+  </data>
+  <data name="7011" xml:space="preserve">
+    <value>3</value>
+    <comment>Date (TEST_BY_DATE)</comment>
+  </data>
+  <data name="7020" xml:space="preserve">
+    <value>2</value>
+    <comment>String (REFURBISHMENT_LOT)</comment>
+  </data>
+  <data name="7021" xml:space="preserve">
+    <value>2</value>
+    <comment>String (FUNCTIONAL_STATUS)</comment>
+  </data>
+  <data name="7022" xml:space="preserve">
+    <value>2</value>
+    <comment>String (REVISION_STATUS)</comment>
+  </data>
+  <data name="7023" xml:space="preserve">
+    <value>1</value>
+    <comment>Key (ASSEMBLY_GIAI)</comment>
+  </data>
+  <data name="7030" xml:space="preserve">
+    <value>14</value>
+    <comment>Country (PROCESSOR_NUMBER)</comment>
+  </data>
+  <data name="7040" xml:space="preserve">
+    <value>2</value>
+    <comment>String (UIC_EXTENSION)</comment>
+  </data>
+  <data name="7041" xml:space="preserve">
+    <value>2</value>
+    <comment>String (FREIGHT_UNIT_TYPE_UN_CEFACT)</comment>
+  </data>
+  <data name="7230" xml:space="preserve">
+    <value>2</value>
+    <comment>String (CERTIFICATE)</comment>
+  </data>
+  <data name="7240" xml:space="preserve">
+    <value>2</value>
+    <comment>String (PROTOCOL)</comment>
+  </data>
+  <data name="7241" xml:space="preserve">
+    <value>11</value>
+    <comment>Integer (AIDC_MEDIA_TYPE)</comment>
+  </data>
+  <data name="7242" xml:space="preserve">
+    <value>2</value>
+    <comment>String (VCN)</comment>
+  </data>
+  <data name="7250" xml:space="preserve">
+    <value>3</value>
+    <comment>Date (DATE_OF_BIRTH)</comment>
+  </data>
+  <data name="7251" xml:space="preserve">
+    <value>4</value>
+    <comment>DateTime (DATETIME_OF_BIRTH)</comment>
+  </data>
+  <data name="7252" xml:space="preserve">
+    <value>0</value>
+    <comment>Raw (BIOLOGICAL_SEX)</comment>
+  </data>
+  <data name="7253" xml:space="preserve">
+    <value>2</value>
+    <comment>String (FAMILY_NAME)</comment>
+  </data>
+  <data name="7254" xml:space="preserve">
+    <value>2</value>
+    <comment>String (GIVEN_NAME)</comment>
+  </data>
+  <data name="7255" xml:space="preserve">
+    <value>2</value>
+    <comment>String (NAME_SUFFIX)</comment>
+  </data>
+  <data name="7256" xml:space="preserve">
+    <value>2</value>
+    <comment>String (FULL_NAME)</comment>
+  </data>
+  <data name="7257" xml:space="preserve">
+    <value>2</value>
+    <comment>String (PERSON_ADDRESS)</comment>
+  </data>
+  <data name="7258" xml:space="preserve">
+    <value>2</value>
+    <comment>String (BIRTH_SEQUENCE)</comment>
+  </data>
+  <data name="7259" xml:space="preserve">
+    <value>2</value>
+    <comment>String (BABY_NAME)</comment>
+  </data>
+  <data name="8001" xml:space="preserve">
+    <value>0</value>
+    <comment>Raw (ROLL_PRODUCT)</comment>
+  </data>
+  <data name="8002" xml:space="preserve">
+    <value>2</value>
+    <comment>String (CELLULAR_MOBILE_TELEPHONE)</comment>
+  </data>
+  <data name="8003" xml:space="preserve">
+    <value>1</value>
+    <comment>Key (GRAI)</comment>
+  </data>
+  <data name="8004" xml:space="preserve">
+    <value>1</value>
+    <comment>Key (GIAI)</comment>
+  </data>
+  <data name="8005" xml:space="preserve">
+    <value>11</value>
+    <comment>Integer (PRICE_PER_UNIT)</comment>
+  </data>
+  <data name="8006" xml:space="preserve">
+    <value>2</value>
+    <comment>String (ITIP)</comment>
+  </data>
+  <data name="8007" xml:space="preserve">
+    <value>2</value>
+    <comment>String (IBAN)</comment>
+  </data>
+  <data name="8008" xml:space="preserve">
+    <value>4</value>
+    <comment>DateTime (PRODUCTION_DATETIME)</comment>
+  </data>
+  <data name="8009" xml:space="preserve">
+    <value>2</value>
+    <comment>String (OPTSEN)</comment>
+  </data>
+  <data name="8010" xml:space="preserve">
+    <value>1</value>
+    <comment>Key (CPID)</comment>
+  </data>
+  <data name="8011" xml:space="preserve">
+    <value>2</value>
+    <comment>String (CPID_SERIAL)</comment>
+  </data>
+  <data name="8012" xml:space="preserve">
+    <value>2</value>
+    <comment>String (VERSION)</comment>
+  </data>
+  <data name="8013" xml:space="preserve">
+    <value>1</value>
+    <comment>Key (GMN)</comment>
+  </data>
+  <data name="8014" xml:space="preserve">
+    <value>1</value>
+    <comment>Key (HIDRI)</comment>
+  </data>
+  <data name="8017" xml:space="preserve">
+    <value>1</value>
+    <comment>Key (GSRN_PROVIDER)</comment>
+  </data>
+  <data name="8018" xml:space="preserve">
+    <value>1</value>
+    <comment>Key (GSRN_RECIPIENT)</comment>
+  </data>
+  <data name="8019" xml:space="preserve">
+    <value>2</value>
+    <comment>String (SRIN)</comment>
+  </data>
+  <data name="8020" xml:space="preserve">
+    <value>2</value>
+    <comment>String (PAYMENT_REFERENCE)</comment>
+  </data>
+  <data name="8026" xml:space="preserve">
+    <value>2</value>
+    <comment>String (ITIP_CONTENT)</comment>
+  </data>
+  <data name="8030" xml:space="preserve">
+    <value>2</value>
+    <comment>String (DIGSIG)</comment>
+  </data>
+  <data name="8040" xml:space="preserve">
+    <value>2</value>
+    <comment>String (IMEI)</comment>
+  </data>
+  <data name="8041" xml:space="preserve">
+    <value>2</value>
+    <comment>String (IMEI2)</comment>
+  </data>
+  <data name="8042" xml:space="preserve">
+    <value>2</value>
+    <comment>String (ESIM)</comment>
+  </data>
+  <data name="8043" xml:space="preserve">
+    <value>2</value>
+    <comment>String (PSIM)</comment>
+  </data>
+  <data name="8110" xml:space="preserve">
+    <value>2</value>
+    <comment>String (COUPON_CODE)</comment>
+  </data>
+  <data name="8111" xml:space="preserve">
+    <value>11</value>
+    <comment>Integer (LOYALTY_POINTS)</comment>
+  </data>
+  <data name="8112" xml:space="preserve">
+    <value>2</value>
+    <comment>String (POSITIVE_OFFER_COUPON_CODE)</comment>
+  </data>
+  <data name="8200" xml:space="preserve">
+    <value>2</value>
+    <comment>String (PRODUCT_URL)</comment>
+  </data>
+</root>

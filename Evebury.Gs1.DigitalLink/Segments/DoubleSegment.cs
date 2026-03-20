@@ -1,5 +1,4 @@
 ﻿using Evebury.Gs1.DigitalLink.Segments.MetaData;
-using System;
 using System.Globalization;
 
 namespace Evebury.Gs1.DigitalLink.Segments
@@ -25,14 +24,26 @@ namespace Evebury.Gs1.DigitalLink.Segments
             }
             else Raw = raw;
 
-            Value = new SegmentValue(value, ValueType.Double);
+            Value = new SegmentValue(value, SegmentValueType.Double);
         }
-
 
 
         protected override SegmentValue GetValue()
         {
-            throw new NotImplementedException();
+            int code = (int)Type;
+            int precision = int.Parse(Code) - code;
+            if (precision > 0)
+            {
+                string number = Raw[..^precision];
+                string decimals = Raw.Substring(number.Length, precision);
+                double value = double.Parse($"{number}.{decimals}");
+                return new SegmentValue(new Double(value, precision), SegmentValueType.Double);
+            }
+            else 
+            {
+                double value = double.Parse(Raw);
+                return new SegmentValue(new Double(value), SegmentValueType.Double);
+            }
         }
     }
 }

@@ -3,7 +3,7 @@
     /// <summary>
     /// Key Segment Type
     /// </summary>
-    public enum KeyType 
+    public enum KeyType : int
     {
         ///<summary>
         ///Serial Shipping Container Code (SSCC)

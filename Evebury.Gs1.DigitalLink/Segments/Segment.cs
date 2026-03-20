@@ -29,11 +29,13 @@ namespace Evebury.Gs1.DigitalLink.Segments
         /// Strongly typed value
         /// </summary>
         public SegmentValue Value { get; protected set; }
-
+    
         internal Segment(DigitalLinkSegment segment) 
         {
-            Code = segment.Key;
+            Code = segment.Code;
             Raw = segment.Value;
+            Type = segment.Type;
+            Descriptor = Descriptor.Load(Type);
         }
 
         internal Segment(int type)
@@ -74,42 +76,84 @@ namespace Evebury.Gs1.DigitalLink.Segments
             return true;
         }
 
-        internal static bool TryParse(DigitalLinkSegment link, out Segment segment, out ValidationError error)
+        internal static bool TryParse(DigitalLinkSegment link, out Segment segment)
         {
-            error = null;
             segment = null;
-            if (!int.TryParse(link.Key, out int key)) return false;
-            if (string.IsNullOrEmpty(link.Value)) return false;
-            ValueType type = TypeManager.GetValueType(key);
-            switch (type) 
+            if (!int.TryParse(link.Code, out _)) return false;
+            if (string.IsNullOrWhiteSpace(link.Value)) return false;
+            switch (link.ValueType) 
             {
-                case ValueType.Date:
-                case ValueType.DateTime:
-                case ValueType.Period: 
+                case SegmentValueType.Key:
+                    {
+                        segment = new KeySegment(link);
+                        break;
+                    }
+                case SegmentValueType.String: 
+                    {
+                        segment = new StringSegment(link);
+                        break;
+                    }
+                case SegmentValueType.Date:
+                case SegmentValueType.DateTime:
+                case SegmentValueType.Period: 
                     {
                         segment = new DateSegment(link);
                         break;
                     }
-                default: return false;
-            }
-            segment.Type = segment.GetType(key);
-            segment.Descriptor = Descriptor.Load(segment.Type);
-            if (!segment.Validate(out error))
-            { 
-                return false;
+                case SegmentValueType.Weight:
+                    {
+                        segment = new WeightSegment(link);
+                        break;
+                    }
+                case SegmentValueType.Length:
+                    {
+                        segment = new LengthSegment(link);
+                        break;
+                    }
+                case SegmentValueType.Volume:
+                    {
+                        segment = new VolumeSegment(link);
+                        break;
+                    }
+                case SegmentValueType.Double:
+                    {
+                        segment = new DoubleSegment(link);
+                        break;
+                    }
+                case SegmentValueType.Price:
+                    {
+                        segment = new PriceSegment(link);
+                        break;
+                    }
+                case SegmentValueType.Integer:
+                    {
+                        segment = new IntegerSegment(link);
+                        break;
+                    }
+                case SegmentValueType.Boolean:
+                    {
+                        segment = new BooleanSegment(link);
+                        break;
+                    }
+                case SegmentValueType.Temperature:
+                    {
+                        segment = new TemperatureSegment(link);
+                        break;
+                    }
+                case SegmentValueType.Country:
+                case SegmentValueType.CountryCode:
+                    {
+                        segment = new CountrySegment(link);
+                        break;
+                    }
+                default: 
+                    {
+                        segment = new RawSegment(link);
+                        break;
+                    }
             }
             segment.Value = segment.GetValue();
             return true;
-        }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="key"></param>
-        /// <returns></returns>
-        protected virtual SegmentType GetType(int key) 
-        { 
-            return (SegmentType)key;
         }
 
         /// <summary>

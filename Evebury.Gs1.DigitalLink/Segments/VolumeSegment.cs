@@ -8,7 +8,7 @@ namespace Evebury.Gs1.DigitalLink.Segments
         {
         }
 
-        public VolumeSegment(Volume unit, SegmentType type) : base(unit, ValueType.Volume, type)
+        public VolumeSegment(Volume unit, SegmentType type) : base(unit, SegmentValueType.Volume, type)
         {
         }
 

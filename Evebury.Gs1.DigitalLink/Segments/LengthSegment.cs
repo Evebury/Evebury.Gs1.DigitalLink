@@ -8,7 +8,7 @@ namespace Evebury.Gs1.DigitalLink.Segments
         {
         }
 
-        public LengthSegment(Length unit, SegmentType type) : base(unit, ValueType.Length, type)
+        public LengthSegment(Length unit, SegmentType type) : base(unit, SegmentValueType.Length, type)
         {
             if (type == SegmentType.AREA) unit.Power = 2;
         }

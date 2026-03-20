@@ -10,12 +10,12 @@ namespace Evebury.Gs1.DigitalLink.Segments
         {
         }
 
-        protected UnitSegment(T unit, ValueType valueType, SegmentType type) : base((int)type)
+        protected UnitSegment(T unit, SegmentValueType valueType, SegmentType type) : base((int)type)
         {
             Set(unit, valueType);
         }
 
-        private void Set(T unit, ValueType type)
+        private void Set(T unit, SegmentValueType type)
         {
             int code = (int)Type;
             code += unit.Precision;
@@ -37,5 +37,30 @@ namespace Evebury.Gs1.DigitalLink.Segments
         }
 
         protected abstract int GetUnitOffset(T unit);
+
+        protected Double GetDoubleValue(int offset) 
+        { 
+            return GetDoubleValue(Raw, offset);
+        }
+
+        protected Double GetDoubleValue(string raw, int offset)
+        {
+            int code = (int)Type;
+            code += offset;
+            int precision = int.Parse(Code) - code;
+            if (precision > 0)
+            {
+                string number = raw[..^precision];
+                string decimals = raw.Substring(number.Length, precision);
+                double value = double.Parse($"{number}.{decimals}", CultureInfo.InvariantCulture);
+                return new Double(value, precision);
+            }
+            else
+            {
+                double value = double.Parse(raw);
+                return new Double(value);
+            }
+
+        }
     }
 }

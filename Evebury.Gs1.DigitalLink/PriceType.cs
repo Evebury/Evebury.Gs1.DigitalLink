@@ -3,7 +3,7 @@
     /// <summary>
     /// Price Segment Type
     /// </summary>
-    public enum PriceType
+    public enum PriceType : int
     {
         ///<summary>
         ///Applicable amount payable with ISO currency code

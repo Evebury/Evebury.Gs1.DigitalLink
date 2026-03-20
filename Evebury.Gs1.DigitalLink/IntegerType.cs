@@ -3,7 +3,7 @@
     /// <summary>
     /// Integer Segment Type
     /// </summary>
-    public enum IntegerType
+    public enum IntegerType : int
     {
         ///<summary>
         ///Internal product variant

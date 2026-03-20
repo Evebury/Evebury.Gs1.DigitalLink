@@ -1,9 +1,9 @@
 ﻿namespace Evebury.Gs1.DigitalLink
 {
     /// <summary>
-    /// DateTime Segement Type
+    /// DateTime Segment Type
     /// </summary>
-    public enum DateTimeType
+    public enum DateTimeType : int
     {
         ///<summary>
         ///Not before delivery date time (YYMMDDhhmm)

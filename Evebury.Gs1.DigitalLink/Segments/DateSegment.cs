@@ -12,19 +12,19 @@ namespace Evebury.Gs1.DigitalLink.Segments
         {
             value = value.Date;
             Raw = value.ToString("yyMMdd");
-            Value = new(value, ValueType.Date);
+            Value = new(value, SegmentValueType.Date);
         }
 
         public DateSegment(DateTimeType type, DateTime value) : base((int)type)
         {
             Raw = value.ToString("yyMMddhhmm");
-            Value = new(value, ValueType.DateTime);
+            Value = new(value, SegmentValueType.DateTime);
         }
 
         public DateSegment(PeriodType type, Period value) : base((int)type)
         {
             Raw = $"{value.Start:yyMMdd}{value.End:yyMMdd}";
-            Value = new(value, ValueType.Period);
+            Value = new(value, SegmentValueType.Period);
         }
 
         protected override SegmentValue GetValue()
@@ -37,7 +37,7 @@ namespace Evebury.Gs1.DigitalLink.Segments
                         {
                             GetDate(Raw[..6]).GetDate(out DateTime start);
                             GetDate(Raw.Substring(6, 6)).GetDate(out DateTime end);
-                            return new SegmentValue(new Period(start, end), ValueType.Period);
+                            return new SegmentValue(new Period(start, end), SegmentValueType.Period);
                         }
                         return GetDate(Raw);
                     }
@@ -91,8 +91,8 @@ namespace Evebury.Gs1.DigitalLink.Segments
             }
 
             DateTime date = new(year, month, day, hour, minute, second);
-            if (hour > 0) return new SegmentValue(date, ValueType.DateTime);
-            return new SegmentValue(date, ValueType.Date);
+            if (hour > 0) return new SegmentValue(date, SegmentValueType.DateTime);
+            return new SegmentValue(date, SegmentValueType.Date);
             
         }
     }

@@ -3,7 +3,7 @@
     /// <summary>
     /// String Segment Type
     /// </summary>
-    public enum StringType
+    public enum StringType : int
     {
         ///<summary>
         ///Batch or lot number

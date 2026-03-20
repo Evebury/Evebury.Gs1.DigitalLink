@@ -17,18 +17,27 @@ namespace Evebury.Gs1.DigitalLink
         private string _uri = "https://id.gs1.org";
         private readonly List<Segment> _segments = [];
         private readonly List<ValidationError> _errors = [];
-        private readonly KeySegment _primary;
+        private KeySegment _primary;
+
 
         /// <summary>
-        /// Construct the root elements of the Uri
+        /// Constructs the builder
         /// </summary>
-        /// <param name="primary">Primary (key) segment</param>
-        /// <exception cref="ArgumentOutOfRangeException"></exception>
-        public DigitalLinkBuilder(Primary primary)
+        public DigitalLinkBuilder()
         {
-            if (primary.Value == null) throw new ArgumentOutOfRangeException(nameof(primary));
-            _primary = new(primary.Type, primary.Value);
         }
+
+
+        /// <summary>
+        /// Sets the primary key segment
+        /// </summary>
+        /// <param name="type"></param>
+        /// <param name="value"></param>
+        public void SetPrimaryKey(PrimaryKeyType type, string value)
+        {
+            _primary = new(type, value);
+        }
+
 
         /// <summary>
         /// Optional set to a custom domain
@@ -42,11 +51,22 @@ namespace Evebury.Gs1.DigitalLink
             _uri = uri;
         }
 
+        /// <summary>
+        /// Adds a TradeItem data object to the builder. This will add all tradeItem fields if not null to the link
+        /// </summary>
+        /// <param name="tradeItem"></param>
+        /// <exception cref="ArgumentNullException"></exception>
+        public void AddTradeItem(TradeItem tradeItem) 
+        {
+            ArgumentNullException.ThrowIfNull(tradeItem);
+            SetPrimaryKey(PrimaryKeyType.GTIN, tradeItem.GTIN);
+            tradeItem.AddFields(this);
+        }
 
         #region key
 
         /// <summary>
-        /// Add Key Segement
+        /// Add Key Segment
         /// </summary>
         /// <param name="type"></param>
         /// <param name="value"></param>
@@ -324,9 +344,9 @@ namespace Evebury.Gs1.DigitalLink
         /// <param name="type"></param>
         /// <param name="value">raw decimals are inferred</param>
         /// <param name="currency"></param>
-        public void AddPrice(PriceType type, double value, CurrencyCode currency) 
+        public void AddPrice(PriceType type, double value, CurrencyCode currency)
         {
-            PriceSegment segment = new(new Price(value,currency),(SegmentType)(int)type);
+            PriceSegment segment = new(new Price(value, currency), (SegmentType)(int)type);
             AddSegment(segment, false, true);
         }
 
@@ -348,7 +368,7 @@ namespace Evebury.Gs1.DigitalLink
         /// </summary>
         /// <param name="value">in 100 of degrees. 23.3 will be multiplied by 100 for raw</param>
         /// <param name="unit"></param>
-        public void AddMinimumTemperature(double value, TemperatureUnit unit) 
+        public void AddMinimumTemperature(double value, TemperatureUnit unit)
         {
             TemperatureSegment segment = new(new Temperature(value * 100, 0, unit), SegmentType.MINIMUM_TEMPERATURE);
             AddSegment(segment);
@@ -448,38 +468,19 @@ namespace Evebury.Gs1.DigitalLink
         /// <param name="countryCode"></param>
         public void AddCountry(CountryCodeType type, CountryCode countryCode)
         {
-            if (type == CountryCodeType.SHIP_TO_COUNTRY)
-            {
-                StringSegment segment = new(StringType.SHIP_TO_COUNTRY, countryCode.ToString());
-                AddSegment(segment);
-            }
-            else
-            {
-                CountrySegment segment = new(type, [countryCode]);
-                AddSegment(segment);
-            }
+            CountrySegment segment = new(type, [countryCode]);
+            AddSegment(segment);
         }
 
         /// <summary>
         /// Add Country Code Segment
         /// </summary>
         /// <param name="type"></param>
-        /// <param name="countryCodes">Nb! SHIP_TO_COUNTRY can only be added once</param>
+        /// <param name="countryCodes">Nb! SHIP_TO_COUNTRY and COUNTRY_OF_ORIGIN can only be added once</param>
         public void AddCountry(CountryCodeType type, List<CountryCode> countryCodes)
         {
-            if (type == CountryCodeType.SHIP_TO_COUNTRY)
-            {
-                foreach (CountryCode countryCode in countryCodes)
-                {
-                    StringSegment segment = new(StringType.SHIP_TO_COUNTRY, countryCode.ToString());
-                    AddSegment(segment);
-                }
-            }
-            else
-            {
-                CountrySegment segment = new(type, countryCodes);
-                AddSegment(segment);
-            }
+            CountrySegment segment = new(type, countryCodes);
+            AddSegment(segment);
         }
 
 
@@ -489,7 +490,7 @@ namespace Evebury.Gs1.DigitalLink
         /// <param name="type"></param>
         /// <param name="countryCode"></param>
         /// <param name="value"></param>
-        public void AddCountryWithValue(CountryType type, CountryCode countryCode, string value) 
+        public void AddCountryWithValue(CountryType type, CountryCode countryCode, string value)
         {
             CountrySegment segment = new(type, new Country(countryCode, value));
             AddSegment(segment, segment.Descriptor.MaxElements > 0);
@@ -507,7 +508,7 @@ namespace Evebury.Gs1.DigitalLink
         /// <param name="diameter">internal core diameter in millimetres</param>
         /// <param name="winding">winding direction (face out 0, face in 1, undefined 9)</param>
         /// <param name="splices">number of splices (0 to 8 = actual number, 9 = number unknown)</param>
-        public void AddRollProduct(int slitWidth, int length, int diameter, int winding, int splices) 
+        public void AddRollProduct(int slitWidth, int length, int diameter, int winding, int splices)
         {
             StringBuilder sb = new();
             sb.Append(slitWidth.ToString().PadLeft(4, '0'));
@@ -526,13 +527,51 @@ namespace Evebury.Gs1.DigitalLink
         /// <param name="type"></param>
         /// <param name="code"></param>
         /// <param name="raw"></param>
-        public void AddRaw(SegmentType type, string code, string raw) 
+        public void AddRaw(SegmentType type, string code, string raw)
         {
             RawSegment segment = new(type, code, raw);
             AddSegment(segment, segment.Descriptor.MaxElements > 0);
         }
         #endregion
 
+        internal void ParseSegments(List<DigitalLinkSegment> segments) 
+        {
+            foreach (DigitalLinkSegment link in segments)
+            {
+                if (Segment.TryParse(link, out Segment segment))
+                {
+                    switch (link.Type) 
+                    {
+                        case SegmentType.NET_WEIGHT:
+                        case SegmentType.WIDTH:
+                        case SegmentType.HEIGHT:
+                        case SegmentType.LENGTH:
+                        case SegmentType.AREA:
+                        case SegmentType.NET_VOLUME:
+                        case SegmentType.LOGISTIC_GROSS_WEIGHT:
+                        case SegmentType.LOGISTIC_WIDTH:
+                        case SegmentType.LOGISTIC_HEIGHT:
+                        case SegmentType.LOGISTIC_LENGTH:
+                        case SegmentType.LOGISTIC_AREA:
+                        case SegmentType.LOGISTIC_VOLUME: 
+                            {
+                                AddSegment(segment, false, true);
+                                break;
+                            }
+                        default: 
+                            {
+                                AddSegment(segment, segment.Descriptor.MaxElements > 0);
+                                break;
+                            }
+                    }
+                }
+                else 
+                {
+                    _errors.Add(new ValidationError($"Could not parse {link.Code}: {link.Value}"));
+                }
+            }
+  
+        }
 
         private void AddSegment(Segment segment, bool isCollection = false, bool checkType = false)
         {
@@ -571,22 +610,31 @@ namespace Evebury.Gs1.DigitalLink
         /// <returns></returns>
         public DigitalLink Build()
         {
+            DigitalLink link = new();
+
+            if (_primary == null) 
+            {
+                _errors.Add(new("Missing primary segment"));
+                link.SetErrors(_errors);
+                return link;
+            }
+
             List<ValidationError> errors = [];
             errors.AddRange(_errors);
 
-            string uri = _uri;
-            if (uri.EndsWith('/')) uri = uri[..^1];
-
-
             List<Segment> segments = [.. _segments.OrderBy(e => e.Code)]; //make canonical and mutable
 
-            DigitalLink link = new();
+          
             StringBuilder sb = new();
+
+            string uri = _uri;
+            if (uri.EndsWith('/')) uri = uri[..^1];
+            sb.Append(uri);
 
 
             if (_primary.Validate(out ValidationError error))
             {
-                sb.Append(uri);
+                
                 link.Primary = _primary;
                 WriteQualifier(sb, _primary);
             }
@@ -649,10 +697,10 @@ namespace Evebury.Gs1.DigitalLink
                             }
                             amp = true;
                         }
-                        else 
+                        else
                         {
                             StringBuilder eb = new();
-                            foreach (string require in segment.Descriptor.Requires) 
+                            foreach (string require in segment.Descriptor.Requires)
                             {
                                 int code = int.Parse(require);
                                 if (Enum.IsDefined(typeof(SegmentType), code))
@@ -683,13 +731,13 @@ namespace Evebury.Gs1.DigitalLink
                     errors.Add(error);
                 }
             }
-           
+
             //finally validate uri
             uri = sb.ToString();
             Regex regex = DigitalLinkRegex();
             if (!regex.IsMatch(uri))
             {
-                errors.Add(new($"Invalid digital link uri '{uri}'."));
+                errors.Add(new($"Invalid digital link format '{uri}'."));
             }
 
             link.SetErrors(errors);
@@ -702,7 +750,7 @@ namespace Evebury.Gs1.DigitalLink
             return link;
         }
 
-        private bool IsRequiredInPath(Segment segment) 
+        private bool IsRequiredInPath(Segment segment)
         {
             HashSet<string> requires = segment.Descriptor.Requires;
             if (requires.Count == 0) return true;
@@ -738,6 +786,6 @@ namespace Evebury.Gs1.DigitalLink
         }
 
         [GeneratedRegex("^https?:(\\/\\/((([^\\/?#]*)@)?([^\\/?#:]*)(:([^\\/?#]*))?))?([^?#]*)(((\\/(\\d{2,12})\\/)(\\d{2,12}[^\\/]+)(\\/[^/]+\\/[^/]+)?[/]?(\\?([^?\\n]*))?(#([^\\n]*))?))")]
-        private static partial Regex DigitalLinkRegex();
+        internal static partial Regex DigitalLinkRegex();
     }
 }

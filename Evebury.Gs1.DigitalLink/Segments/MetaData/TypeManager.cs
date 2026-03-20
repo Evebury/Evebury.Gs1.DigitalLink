@@ -6,13 +6,13 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData
     {
         //private static Dictionary<int, ValueType> _typeMap;
 
-        public static ValueType GetValueType(int code) 
+        public static SegmentValueType GetValueType(int code) 
         {
             //if (_typeMap.TryGetValue(code, out ValueType type))
             //{
             //    return type;
             //}
-            return ValueType.String;
+            return SegmentValueType.String;
         }
 
         public static string ToCode(this SegmentType type) 

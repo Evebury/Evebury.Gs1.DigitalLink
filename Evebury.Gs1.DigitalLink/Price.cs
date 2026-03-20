@@ -7,14 +7,26 @@ namespace Evebury.Gs1.DigitalLink
     /// </summary>
     public class Price : BaseUnit<CurrencyCode>
     {
-        internal Price(double value, CurrencyCode unit) : base(value, unit)
+        /// <summary>
+        /// Constructs a Price
+        /// </summary>
+        /// <param name="value">raw decimals are inferred</param>
+        /// <param name="unit"></param>
+        public Price(double value, CurrencyCode unit) : base(value, unit)
         {
         }
 
-        internal Price(double value, int precision, CurrencyCode unit) : base(value, precision, unit)
+        /// <summary>
+        /// Constructs a Price
+        /// </summary>
+        /// <param name="value">raw decimals are set to given precision</param>
+        /// <param name="precision">precision e.g. precision=2 value=1.1d raw="1.10"</param>
+        /// <param name="unit"></param>
+        public Price(double value, int precision, CurrencyCode unit) : base(value, precision, unit)
         {
-
         }
+
+        internal Price(Double @double, CurrencyCode unit) : base(@double, unit) { }
 
         /// <summary>
         /// Get symbol

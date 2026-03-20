@@ -3,7 +3,7 @@
     /// <summary>
     /// Date Segment Type
     /// </summary>
-    public enum DateType
+    public enum DateType : int
     {
         ///<summary>
         ///Production date (YYMMDD)

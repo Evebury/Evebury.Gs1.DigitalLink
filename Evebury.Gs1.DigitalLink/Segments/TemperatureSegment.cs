@@ -8,7 +8,7 @@ namespace Evebury.Gs1.DigitalLink.Segments
         {
         }
 
-        public TemperatureSegment(Temperature unit, SegmentType type) : base(unit, ValueType.Temperature, type)
+        public TemperatureSegment(Temperature unit, SegmentType type) : base(unit, SegmentValueType.Temperature, type)
         {
         }
 

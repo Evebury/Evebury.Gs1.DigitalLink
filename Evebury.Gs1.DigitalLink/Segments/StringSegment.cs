@@ -10,12 +10,12 @@
         {
             if (string.IsNullOrWhiteSpace(value)) value = string.Empty;
             Raw = value;
-            Value = new(value, ValueType.String);
+            Value = new(value, SegmentValueType.String);
         }
 
         protected override SegmentValue GetValue()
         {
-            return new SegmentValue(Raw, ValueType.String);
+            return new SegmentValue(Raw, SegmentValueType.String);
         }
     }
 }

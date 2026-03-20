@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Evebury.Gs1.DigitalLink.Segments
+﻿namespace Evebury.Gs1.DigitalLink.Segments
 {
     internal class PriceSegment : UnitSegment<Price>
     {
@@ -8,7 +6,7 @@ namespace Evebury.Gs1.DigitalLink.Segments
         {
         }
 
-        public PriceSegment(Price unit, SegmentType type) : base(unit, ValueType.Price, type)
+        public PriceSegment(Price unit, SegmentType type) : base(unit, SegmentValueType.Price, type)
         {
             string currency = ((int)unit.Unit).ToString().PadLeft(3,'0');
             Raw = $"{currency}{Raw}";
@@ -21,7 +19,10 @@ namespace Evebury.Gs1.DigitalLink.Segments
 
         protected override SegmentValue GetValue()
         {
-            throw new NotImplementedException();
+            CurrencyCode currency = (CurrencyCode) int.Parse(Raw[..3]);
+            string value = Raw[3..];
+            Double @double = GetDoubleValue(value, 0);
+            return new SegmentValue(new Price(@double, currency), SegmentValueType.Price);
         }
     }
 }

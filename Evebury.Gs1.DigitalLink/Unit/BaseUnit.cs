@@ -38,6 +38,16 @@
         /// <summary>
         /// 
         /// </summary>
+        /// <param name="double"></param>
+        /// <param name="unit"></param>
+        protected BaseUnit(Double @double, T unit) : base(@double) 
+        {
+            Unit = unit;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
         /// <returns></returns>
         protected abstract string GetSymbol();
 

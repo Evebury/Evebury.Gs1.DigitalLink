@@ -85,7 +85,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData
 
         public static Descriptor Load(SegmentType type)
         {
-            string json = Resource.Descriptor.ResourceManager.GetString($"D{type.ToCode()}");
+            string json = Resource.Descriptor.ResourceManager.GetString(type.ToCode());
             Descriptor descriptor = JsonSerializer.Deserialize<Descriptor>(json);
             descriptor.Type = type;
             return descriptor;

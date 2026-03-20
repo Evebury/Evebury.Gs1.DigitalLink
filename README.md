@@ -15,8 +15,11 @@ using Evebury.Gs1.DigitalLink;
 using System;
 using System.Collections.Generic;
 
-//construct the builder with a primary segment
-DigitalLinkBuilder builder = new(Primary.GTIN("00074562000525"));
+//construct the builder
+DigitalLinkBuilder builder = new();
+
+//set the primary key this is required!
+builder.SetPrimaryKey(PrimaryKeyType.GTIN, "00074562000525");
 
 //optionally set your custom domain
 builder.SetCustomDomainUri("https://www.evebury.com");
@@ -56,10 +59,38 @@ else
 }
 
 ```
+
+## 🏗️ TradeItem
+```csharp
+using Evebury.Gs1.DigitalLink;
+using System;
+
+TradeItem tradeItem = new()
+{
+    GTIN = "00074562000525",
+    ExpirationDate = DateTime.Now,
+};
+
+DigitalLinkBuilder builder = new();
+builder.AddTradeItem(tradeItem);
+DigitalLink link = builder.Build();
+
+DigitalLink resolved = DigitalLinkResolver.Resolve(link.Uri);
+TradeItem resolvedTradeItem = resolved.GetTradeItem();
+System.Console.WriteLine(resolvedTradeItem.ToJson());
+```
+```json
+{
+    "GTIN":"00074562000525",
+    "ExpirationDate":"2026-03-20T00:00:00",
+    "SerialNumber":null,
+    "Price":null,
+    "NetWeight":null
+ }
+```
+
 ## 🔧 Todo
 - Write tests
-- Simplify for TradeItem only
-- Add a DigitalLink Parser for reading an uri and converting to strongly typed segment values for greater interopability.
 
 
 ## 📋 Requirements & Enterprise support

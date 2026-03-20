@@ -1,9 +1,15 @@
 ﻿namespace Evebury.Gs1.DigitalLink.Segments
 {
-    internal struct DigitalLinkSegment
+    internal class DigitalLinkSegment(string code, string value)
     {
-        public string Key { get; set; }
+        public string Code { get; set; } = code;
 
-        public string Value { get; set; }
+        public string Value { get; set; } = value;
+
+        public SegmentType Type { get; set; }
+
+        public SegmentValueType ValueType { get; set; } = SegmentValueType.Raw;
+
+        public bool IsInvalid => Code == null || Value == null;
     }
 }

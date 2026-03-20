@@ -3,55 +3,71 @@
     /// <summary>
     /// Value Type
     /// </summary>
-    public enum ValueType
+    public enum SegmentValueType
     {
+        /// <summary>
+        /// Raw or unparsed value (equivalent to string type)
+        /// </summary>
+        Raw = 0,
+        /// <summary>
+        /// Key (equivalent to string type)
+        /// </summary>
+        Key = 1,
         /// <summary>
         /// String
         /// </summary>
-        String,
+        String = 2,
         /// <summary>
         /// Date
         /// </summary>
-        Date,
+        Date = 3,
         /// <summary>
         /// DateTime
         /// </summary>
-        DateTime,
+        DateTime = 4,
         /// <summary>
         /// Period
         /// </summary>
-        Period,
+        Period = 5,
         /// <summary>
         /// Weight
         /// </summary>
-        Weight,
+        Weight = 6,
         /// <summary>
         /// Length
         /// </summary>
-        Length,
+        Length = 7,
         /// <summary>
         /// Volume
         /// </summary>
-        Volume,
+        Volume = 8,
         /// <summary>
         /// Double
         /// </summary>
-        Double,
+        Double = 9,
         /// <summary>
         /// Price
         /// </summary>
-        Price,
+        Price = 10,
         /// <summary>
         /// Integer
         /// </summary>
-        Integer,
+        Integer = 11,
         /// <summary>
         /// Boolean
         /// </summary>
-        Boolean,
+        Boolean = 12,
         /// <summary>
         /// Temperature
         /// </summary>
-        Temperature,
+        Temperature = 13,
+        /// <summary>
+        /// Country
+        /// </summary>
+        Country = 14,
+        /// <summary>
+        /// Country Code List
+        /// </summary>
+        CountryCode = 15
     }
 }

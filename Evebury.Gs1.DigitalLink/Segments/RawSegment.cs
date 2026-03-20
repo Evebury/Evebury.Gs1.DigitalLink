@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Evebury.Gs1.DigitalLink.Segments
+﻿namespace Evebury.Gs1.DigitalLink.Segments
 {
     internal class RawSegment : Segment
     {
@@ -12,12 +10,12 @@ namespace Evebury.Gs1.DigitalLink.Segments
         {
             Code = code;
             Raw = raw;
-            Value = new SegmentValue(raw, ValueType.String);
+            Value = new SegmentValue(raw, SegmentValueType.Raw);
         }
 
         protected override SegmentValue GetValue()
         {
-            throw new NotImplementedException();
+            return new SegmentValue(Raw, SegmentValueType.Raw);
         }
     }
 }

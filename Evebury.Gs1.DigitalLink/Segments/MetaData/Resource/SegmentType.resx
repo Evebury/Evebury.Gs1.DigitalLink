@@ -1,0 +1,2224 @@
+<root>
+  <xsd:schema id="root" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="00" xml:space="preserve">
+    <value>00</value>
+    <comment>Serial Shipping Container Code (SSCC)</comment>
+  </data>
+  <data name="01" xml:space="preserve">
+    <value>01</value>
+    <comment>Global Trade Item Number (GTIN)</comment>
+  </data>
+  <data name="02" xml:space="preserve">
+    <value>02</value>
+    <comment>Global Trade Item Number (GTIN) of contained trade items</comment>
+  </data>
+  <data name="03" xml:space="preserve">
+    <value>03</value>
+    <comment>Identification of a Made-to-Order (MtO) trade item (GTIN)</comment>
+  </data>
+  <data name="10" xml:space="preserve">
+    <value>10</value>
+    <comment>Batch or lot number</comment>
+  </data>
+  <data name="11" xml:space="preserve">
+    <value>11</value>
+    <comment>Production date (YYMMDD)</comment>
+  </data>
+  <data name="12" xml:space="preserve">
+    <value>12</value>
+    <comment>Due date (YYMMDD)</comment>
+  </data>
+  <data name="13" xml:space="preserve">
+    <value>13</value>
+    <comment>Packaging date (YYMMDD)</comment>
+  </data>
+  <data name="15" xml:space="preserve">
+    <value>15</value>
+    <comment>Best before date (YYMMDD)</comment>
+  </data>
+  <data name="16" xml:space="preserve">
+    <value>16</value>
+    <comment>Sell by date (YYMMDD)</comment>
+  </data>
+  <data name="17" xml:space="preserve">
+    <value>17</value>
+    <comment>Expiration date (YYMMDD)</comment>
+  </data>
+  <data name="20" xml:space="preserve">
+    <value>20</value>
+    <comment>Internal product variant</comment>
+  </data>
+  <data name="21" xml:space="preserve">
+    <value>21</value>
+    <comment>Serial number</comment>
+  </data>
+  <data name="22" xml:space="preserve">
+    <value>22</value>
+    <comment>Consumer product variant</comment>
+  </data>
+  <data name="235" xml:space="preserve">
+    <value>235</value>
+    <comment>Third Party Controlled, Serialised Extension of Global Trade Item Number (GTIN) (TPX)</comment>
+  </data>
+  <data name="240" xml:space="preserve">
+    <value>240</value>
+    <comment>Additional product identification assigned by the manufacturer</comment>
+  </data>
+  <data name="241" xml:space="preserve">
+    <value>241</value>
+    <comment>Customer part number</comment>
+  </data>
+  <data name="242" xml:space="preserve">
+    <value>242</value>
+    <comment>Made-to-Order variation number</comment>
+  </data>
+  <data name="243" xml:space="preserve">
+    <value>243</value>
+    <comment>Packaging component number</comment>
+  </data>
+  <data name="250" xml:space="preserve">
+    <value>250</value>
+    <comment>Secondary serial number</comment>
+  </data>
+  <data name="251" xml:space="preserve">
+    <value>251</value>
+    <comment>Reference to source entity</comment>
+  </data>
+  <data name="253" xml:space="preserve">
+    <value>253</value>
+    <comment>Global Document Type Identifier (GDTI)</comment>
+  </data>
+  <data name="254" xml:space="preserve">
+    <value>254</value>
+    <comment>Global Location Number (GLN) extension component</comment>
+  </data>
+  <data name="255" xml:space="preserve">
+    <value>255</value>
+    <comment>Global Coupon Number (GCN)</comment>
+  </data>
+  <data name="30" xml:space="preserve">
+    <value>30</value>
+    <comment>Variable count of items (variable measure trade item)</comment>
+  </data>
+  <data name="3100" xml:space="preserve">
+    <value>3100</value>
+    <comment>Net weight, kilograms (variable measure trade item)</comment>
+  </data>
+  <data name="3101" xml:space="preserve">
+    <value>3100</value>
+    <comment>Net weight, kilograms (variable measure trade item)</comment>
+  </data>
+  <data name="3102" xml:space="preserve">
+    <value>3100</value>
+    <comment>Net weight, kilograms (variable measure trade item)</comment>
+  </data>
+  <data name="3103" xml:space="preserve">
+    <value>3100</value>
+    <comment>Net weight, kilograms (variable measure trade item)</comment>
+  </data>
+  <data name="3104" xml:space="preserve">
+    <value>3100</value>
+    <comment>Net weight, kilograms (variable measure trade item)</comment>
+  </data>
+  <data name="3105" xml:space="preserve">
+    <value>3100</value>
+    <comment>Net weight, kilograms (variable measure trade item)</comment>
+  </data>
+  <data name="3110" xml:space="preserve">
+    <value>3110</value>
+    <comment>Length or first dimension, metres (variable measure trade item)</comment>
+  </data>
+  <data name="3111" xml:space="preserve">
+    <value>3110</value>
+    <comment>Length or first dimension, metres (variable measure trade item)</comment>
+  </data>
+  <data name="3112" xml:space="preserve">
+    <value>3110</value>
+    <comment>Length or first dimension, metres (variable measure trade item)</comment>
+  </data>
+  <data name="3113" xml:space="preserve">
+    <value>3110</value>
+    <comment>Length or first dimension, metres (variable measure trade item)</comment>
+  </data>
+  <data name="3114" xml:space="preserve">
+    <value>3110</value>
+    <comment>Length or first dimension, metres (variable measure trade item)</comment>
+  </data>
+  <data name="3115" xml:space="preserve">
+    <value>3110</value>
+    <comment>Length or first dimension, metres (variable measure trade item)</comment>
+  </data>
+  <data name="3120" xml:space="preserve">
+    <value>3120</value>
+    <comment>Width, diameter, or second dimension, metres (variable measure trade item)</comment>
+  </data>
+  <data name="3121" xml:space="preserve">
+    <value>3120</value>
+    <comment>Width, diameter, or second dimension, metres (variable measure trade item)</comment>
+  </data>
+  <data name="3122" xml:space="preserve">
+    <value>3120</value>
+    <comment>Width, diameter, or second dimension, metres (variable measure trade item)</comment>
+  </data>
+  <data name="3123" xml:space="preserve">
+    <value>3120</value>
+    <comment>Width, diameter, or second dimension, metres (variable measure trade item)</comment>
+  </data>
+  <data name="3124" xml:space="preserve">
+    <value>3120</value>
+    <comment>Width, diameter, or second dimension, metres (variable measure trade item)</comment>
+  </data>
+  <data name="3125" xml:space="preserve">
+    <value>3120</value>
+    <comment>Width, diameter, or second dimension, metres (variable measure trade item)</comment>
+  </data>
+  <data name="3130" xml:space="preserve">
+    <value>3130</value>
+    <comment>Depth, thickness, height, or third dimension, metres (variable measure trade item)</comment>
+  </data>
+  <data name="3131" xml:space="preserve">
+    <value>3130</value>
+    <comment>Depth, thickness, height, or third dimension, metres (variable measure trade item)</comment>
+  </data>
+  <data name="3132" xml:space="preserve">
+    <value>3130</value>
+    <comment>Depth, thickness, height, or third dimension, metres (variable measure trade item)</comment>
+  </data>
+  <data name="3133" xml:space="preserve">
+    <value>3130</value>
+    <comment>Depth, thickness, height, or third dimension, metres (variable measure trade item)</comment>
+  </data>
+  <data name="3134" xml:space="preserve">
+    <value>3130</value>
+    <comment>Depth, thickness, height, or third dimension, metres (variable measure trade item)</comment>
+  </data>
+  <data name="3135" xml:space="preserve">
+    <value>3130</value>
+    <comment>Depth, thickness, height, or third dimension, metres (variable measure trade item)</comment>
+  </data>
+  <data name="3140" xml:space="preserve">
+    <value>3140</value>
+    <comment>Area, square metres (variable measure trade item)</comment>
+  </data>
+  <data name="3141" xml:space="preserve">
+    <value>3140</value>
+    <comment>Area, square metres (variable measure trade item)</comment>
+  </data>
+  <data name="3142" xml:space="preserve">
+    <value>3140</value>
+    <comment>Area, square metres (variable measure trade item)</comment>
+  </data>
+  <data name="3143" xml:space="preserve">
+    <value>3140</value>
+    <comment>Area, square metres (variable measure trade item)</comment>
+  </data>
+  <data name="3144" xml:space="preserve">
+    <value>3140</value>
+    <comment>Area, square metres (variable measure trade item)</comment>
+  </data>
+  <data name="3145" xml:space="preserve">
+    <value>3140</value>
+    <comment>Area, square metres (variable measure trade item)</comment>
+  </data>
+  <data name="3150" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, litres (variable measure trade item)</comment>
+  </data>
+  <data name="3151" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, litres (variable measure trade item)</comment>
+  </data>
+  <data name="3152" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, litres (variable measure trade item)</comment>
+  </data>
+  <data name="3153" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, litres (variable measure trade item)</comment>
+  </data>
+  <data name="3154" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, litres (variable measure trade item)</comment>
+  </data>
+  <data name="3155" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, litres (variable measure trade item)</comment>
+  </data>
+  <data name="3160" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, cubic metres (variable measure trade item)</comment>
+  </data>
+  <data name="3161" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, cubic metres (variable measure trade item)</comment>
+  </data>
+  <data name="3162" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, cubic metres (variable measure trade item)</comment>
+  </data>
+  <data name="3163" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, cubic metres (variable measure trade item)</comment>
+  </data>
+  <data name="3164" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, cubic metres (variable measure trade item)</comment>
+  </data>
+  <data name="3165" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, cubic metres (variable measure trade item)</comment>
+  </data>
+  <data name="3200" xml:space="preserve">
+    <value>3100</value>
+    <comment>Net weight, pounds (variable measure trade item)</comment>
+  </data>
+  <data name="3201" xml:space="preserve">
+    <value>3100</value>
+    <comment>Net weight, pounds (variable measure trade item)</comment>
+  </data>
+  <data name="3202" xml:space="preserve">
+    <value>3100</value>
+    <comment>Net weight, pounds (variable measure trade item)</comment>
+  </data>
+  <data name="3203" xml:space="preserve">
+    <value>3100</value>
+    <comment>Net weight, pounds (variable measure trade item)</comment>
+  </data>
+  <data name="3204" xml:space="preserve">
+    <value>3100</value>
+    <comment>Net weight, pounds (variable measure trade item)</comment>
+  </data>
+  <data name="3205" xml:space="preserve">
+    <value>3100</value>
+    <comment>Net weight, pounds (variable measure trade item)</comment>
+  </data>
+  <data name="3210" xml:space="preserve">
+    <value>3110</value>
+    <comment>Length or first dimension, inches (variable measure trade item)</comment>
+  </data>
+  <data name="3211" xml:space="preserve">
+    <value>3110</value>
+    <comment>Length or first dimension, inches (variable measure trade item)</comment>
+  </data>
+  <data name="3212" xml:space="preserve">
+    <value>3110</value>
+    <comment>Length or first dimension, inches (variable measure trade item)</comment>
+  </data>
+  <data name="3213" xml:space="preserve">
+    <value>3110</value>
+    <comment>Length or first dimension, inches (variable measure trade item)</comment>
+  </data>
+  <data name="3214" xml:space="preserve">
+    <value>3110</value>
+    <comment>Length or first dimension, inches (variable measure trade item)</comment>
+  </data>
+  <data name="3215" xml:space="preserve">
+    <value>3110</value>
+    <comment>Length or first dimension, inches (variable measure trade item)</comment>
+  </data>
+  <data name="3220" xml:space="preserve">
+    <value>3110</value>
+    <comment>Length or first dimension, feet (variable measure trade item)</comment>
+  </data>
+  <data name="3221" xml:space="preserve">
+    <value>3110</value>
+    <comment>Length or first dimension, feet (variable measure trade item)</comment>
+  </data>
+  <data name="3222" xml:space="preserve">
+    <value>3110</value>
+    <comment>Length or first dimension, feet (variable measure trade item)</comment>
+  </data>
+  <data name="3223" xml:space="preserve">
+    <value>3110</value>
+    <comment>Length or first dimension, feet (variable measure trade item)</comment>
+  </data>
+  <data name="3224" xml:space="preserve">
+    <value>3110</value>
+    <comment>Length or first dimension, feet (variable measure trade item)</comment>
+  </data>
+  <data name="3225" xml:space="preserve">
+    <value>3110</value>
+    <comment>Length or first dimension, feet (variable measure trade item)</comment>
+  </data>
+  <data name="3230" xml:space="preserve">
+    <value>3110</value>
+    <comment>Length or first dimension, yards (variable measure trade item)</comment>
+  </data>
+  <data name="3231" xml:space="preserve">
+    <value>3110</value>
+    <comment>Length or first dimension, yards (variable measure trade item)</comment>
+  </data>
+  <data name="3232" xml:space="preserve">
+    <value>3110</value>
+    <comment>Length or first dimension, yards (variable measure trade item)</comment>
+  </data>
+  <data name="3233" xml:space="preserve">
+    <value>3110</value>
+    <comment>Length or first dimension, yards (variable measure trade item)</comment>
+  </data>
+  <data name="3234" xml:space="preserve">
+    <value>3110</value>
+    <comment>Length or first dimension, yards (variable measure trade item)</comment>
+  </data>
+  <data name="3235" xml:space="preserve">
+    <value>3110</value>
+    <comment>Length or first dimension, yards (variable measure trade item)</comment>
+  </data>
+  <data name="3240" xml:space="preserve">
+    <value>3120</value>
+    <comment>Width, diameter, or second dimension, inches (variable measure trade item)</comment>
+  </data>
+  <data name="3241" xml:space="preserve">
+    <value>3120</value>
+    <comment>Width, diameter, or second dimension, inches (variable measure trade item)</comment>
+  </data>
+  <data name="3242" xml:space="preserve">
+    <value>3120</value>
+    <comment>Width, diameter, or second dimension, inches (variable measure trade item)</comment>
+  </data>
+  <data name="3243" xml:space="preserve">
+    <value>3120</value>
+    <comment>Width, diameter, or second dimension, inches (variable measure trade item)</comment>
+  </data>
+  <data name="3244" xml:space="preserve">
+    <value>3120</value>
+    <comment>Width, diameter, or second dimension, inches (variable measure trade item)</comment>
+  </data>
+  <data name="3245" xml:space="preserve">
+    <value>3120</value>
+    <comment>Width, diameter, or second dimension, inches (variable measure trade item)</comment>
+  </data>
+  <data name="3250" xml:space="preserve">
+    <value>3120</value>
+    <comment>Width, diameter, or second dimension, feet (variable measure trade item)</comment>
+  </data>
+  <data name="3251" xml:space="preserve">
+    <value>3120</value>
+    <comment>Width, diameter, or second dimension, feet (variable measure trade item)</comment>
+  </data>
+  <data name="3252" xml:space="preserve">
+    <value>3120</value>
+    <comment>Width, diameter, or second dimension, feet (variable measure trade item)</comment>
+  </data>
+  <data name="3253" xml:space="preserve">
+    <value>3120</value>
+    <comment>Width, diameter, or second dimension, feet (variable measure trade item)</comment>
+  </data>
+  <data name="3254" xml:space="preserve">
+    <value>3120</value>
+    <comment>Width, diameter, or second dimension, feet (variable measure trade item)</comment>
+  </data>
+  <data name="3255" xml:space="preserve">
+    <value>3120</value>
+    <comment>Width, diameter, or second dimension, feet (variable measure trade item)</comment>
+  </data>
+  <data name="3260" xml:space="preserve">
+    <value>3120</value>
+    <comment>Width, diameter, or second dimension, yards (variable measure trade item)</comment>
+  </data>
+  <data name="3261" xml:space="preserve">
+    <value>3120</value>
+    <comment>Width, diameter, or second dimension, yards (variable measure trade item)</comment>
+  </data>
+  <data name="3262" xml:space="preserve">
+    <value>3120</value>
+    <comment>Width, diameter, or second dimension, yards (variable measure trade item)</comment>
+  </data>
+  <data name="3263" xml:space="preserve">
+    <value>3120</value>
+    <comment>Width, diameter, or second dimension, yards (variable measure trade item)</comment>
+  </data>
+  <data name="3264" xml:space="preserve">
+    <value>3120</value>
+    <comment>Width, diameter, or second dimension, yards (variable measure trade item)</comment>
+  </data>
+  <data name="3265" xml:space="preserve">
+    <value>3120</value>
+    <comment>Width, diameter, or second dimension, yards (variable measure trade item)</comment>
+  </data>
+  <data name="3270" xml:space="preserve">
+    <value>3130</value>
+    <comment>Depth, thickness, height, or third dimension, inches (variable measure trade item)</comment>
+  </data>
+  <data name="3271" xml:space="preserve">
+    <value>3130</value>
+    <comment>Depth, thickness, height, or third dimension, inches (variable measure trade item)</comment>
+  </data>
+  <data name="3272" xml:space="preserve">
+    <value>3130</value>
+    <comment>Depth, thickness, height, or third dimension, inches (variable measure trade item)</comment>
+  </data>
+  <data name="3273" xml:space="preserve">
+    <value>3130</value>
+    <comment>Depth, thickness, height, or third dimension, inches (variable measure trade item)</comment>
+  </data>
+  <data name="3274" xml:space="preserve">
+    <value>3130</value>
+    <comment>Depth, thickness, height, or third dimension, inches (variable measure trade item)</comment>
+  </data>
+  <data name="3275" xml:space="preserve">
+    <value>3130</value>
+    <comment>Depth, thickness, height, or third dimension, inches (variable measure trade item)</comment>
+  </data>
+  <data name="3280" xml:space="preserve">
+    <value>3130</value>
+    <comment>Depth, thickness, height, or third dimension, feet (variable measure trade item)</comment>
+  </data>
+  <data name="3281" xml:space="preserve">
+    <value>3130</value>
+    <comment>Depth, thickness, height, or third dimension, feet (variable measure trade item)</comment>
+  </data>
+  <data name="3282" xml:space="preserve">
+    <value>3130</value>
+    <comment>Depth, thickness, height, or third dimension, feet (variable measure trade item)</comment>
+  </data>
+  <data name="3283" xml:space="preserve">
+    <value>3130</value>
+    <comment>Depth, thickness, height, or third dimension, feet (variable measure trade item)</comment>
+  </data>
+  <data name="3284" xml:space="preserve">
+    <value>3130</value>
+    <comment>Depth, thickness, height, or third dimension, feet (variable measure trade item)</comment>
+  </data>
+  <data name="3285" xml:space="preserve">
+    <value>3130</value>
+    <comment>Depth, thickness, height, or third dimension, feet (variable measure trade item)</comment>
+  </data>
+  <data name="3290" xml:space="preserve">
+    <value>3130</value>
+    <comment>Depth, thickness, height, or third dimension, yards (variable measure trade item)</comment>
+  </data>
+  <data name="3291" xml:space="preserve">
+    <value>3130</value>
+    <comment>Depth, thickness, height, or third dimension, yards (variable measure trade item)</comment>
+  </data>
+  <data name="3292" xml:space="preserve">
+    <value>3130</value>
+    <comment>Depth, thickness, height, or third dimension, yards (variable measure trade item)</comment>
+  </data>
+  <data name="3293" xml:space="preserve">
+    <value>3130</value>
+    <comment>Depth, thickness, height, or third dimension, yards (variable measure trade item)</comment>
+  </data>
+  <data name="3294" xml:space="preserve">
+    <value>3130</value>
+    <comment>Depth, thickness, height, or third dimension, yards (variable measure trade item)</comment>
+  </data>
+  <data name="3295" xml:space="preserve">
+    <value>3130</value>
+    <comment>Depth, thickness, height, or third dimension, yards (variable measure trade item)</comment>
+  </data>
+  <data name="3300" xml:space="preserve">
+    <value>3300</value>
+    <comment>Logistic weight, kilograms</comment>
+  </data>
+  <data name="3301" xml:space="preserve">
+    <value>3300</value>
+    <comment>Logistic weight, kilograms</comment>
+  </data>
+  <data name="3302" xml:space="preserve">
+    <value>3300</value>
+    <comment>Logistic weight, kilograms</comment>
+  </data>
+  <data name="3303" xml:space="preserve">
+    <value>3300</value>
+    <comment>Logistic weight, kilograms</comment>
+  </data>
+  <data name="3304" xml:space="preserve">
+    <value>3300</value>
+    <comment>Logistic weight, kilograms</comment>
+  </data>
+  <data name="3305" xml:space="preserve">
+    <value>3300</value>
+    <comment>Logistic weight, kilograms</comment>
+  </data>
+  <data name="3310" xml:space="preserve">
+    <value>3310</value>
+    <comment>Length or first dimension, metres</comment>
+  </data>
+  <data name="3311" xml:space="preserve">
+    <value>3310</value>
+    <comment>Length or first dimension, metres</comment>
+  </data>
+  <data name="3312" xml:space="preserve">
+    <value>3310</value>
+    <comment>Length or first dimension, metres</comment>
+  </data>
+  <data name="3313" xml:space="preserve">
+    <value>3310</value>
+    <comment>Length or first dimension, metres</comment>
+  </data>
+  <data name="3314" xml:space="preserve">
+    <value>3310</value>
+    <comment>Length or first dimension, metres</comment>
+  </data>
+  <data name="3315" xml:space="preserve">
+    <value>3310</value>
+    <comment>Length or first dimension, metres</comment>
+  </data>
+  <data name="3320" xml:space="preserve">
+    <value>3320</value>
+    <comment>Width, diameter, or second dimension, metres</comment>
+  </data>
+  <data name="3321" xml:space="preserve">
+    <value>3320</value>
+    <comment>Width, diameter, or second dimension, metres</comment>
+  </data>
+  <data name="3322" xml:space="preserve">
+    <value>3320</value>
+    <comment>Width, diameter, or second dimension, metres</comment>
+  </data>
+  <data name="3323" xml:space="preserve">
+    <value>3320</value>
+    <comment>Width, diameter, or second dimension, metres</comment>
+  </data>
+  <data name="3324" xml:space="preserve">
+    <value>3320</value>
+    <comment>Width, diameter, or second dimension, metres</comment>
+  </data>
+  <data name="3325" xml:space="preserve">
+    <value>3320</value>
+    <comment>Width, diameter, or second dimension, metres</comment>
+  </data>
+  <data name="3330" xml:space="preserve">
+    <value>3330</value>
+    <comment>Depth, thickness, height, or third dimension, metres</comment>
+  </data>
+  <data name="3331" xml:space="preserve">
+    <value>3330</value>
+    <comment>Depth, thickness, height, or third dimension, metres</comment>
+  </data>
+  <data name="3332" xml:space="preserve">
+    <value>3330</value>
+    <comment>Depth, thickness, height, or third dimension, metres</comment>
+  </data>
+  <data name="3333" xml:space="preserve">
+    <value>3330</value>
+    <comment>Depth, thickness, height, or third dimension, metres</comment>
+  </data>
+  <data name="3334" xml:space="preserve">
+    <value>3330</value>
+    <comment>Depth, thickness, height, or third dimension, metres</comment>
+  </data>
+  <data name="3335" xml:space="preserve">
+    <value>3330</value>
+    <comment>Depth, thickness, height, or third dimension, metres</comment>
+  </data>
+  <data name="3340" xml:space="preserve">
+    <value>3340</value>
+    <comment>Area, square metres</comment>
+  </data>
+  <data name="3341" xml:space="preserve">
+    <value>3340</value>
+    <comment>Area, square metres</comment>
+  </data>
+  <data name="3342" xml:space="preserve">
+    <value>3340</value>
+    <comment>Area, square metres</comment>
+  </data>
+  <data name="3343" xml:space="preserve">
+    <value>3340</value>
+    <comment>Area, square metres</comment>
+  </data>
+  <data name="3344" xml:space="preserve">
+    <value>3340</value>
+    <comment>Area, square metres</comment>
+  </data>
+  <data name="3345" xml:space="preserve">
+    <value>3340</value>
+    <comment>Area, square metres</comment>
+  </data>
+  <data name="3350" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, litres</comment>
+  </data>
+  <data name="3351" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, litres</comment>
+  </data>
+  <data name="3352" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, litres</comment>
+  </data>
+  <data name="3353" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, litres</comment>
+  </data>
+  <data name="3354" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, litres</comment>
+  </data>
+  <data name="3355" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, litres</comment>
+  </data>
+  <data name="3360" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, cubic metres</comment>
+  </data>
+  <data name="3361" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, cubic metres</comment>
+  </data>
+  <data name="3362" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, cubic metres</comment>
+  </data>
+  <data name="3363" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, cubic metres</comment>
+  </data>
+  <data name="3364" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, cubic metres</comment>
+  </data>
+  <data name="3365" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, cubic metres</comment>
+  </data>
+  <data name="3370" xml:space="preserve">
+    <value>3370</value>
+    <comment>Kilograms per square metre</comment>
+  </data>
+  <data name="3371" xml:space="preserve">
+    <value>3370</value>
+    <comment>Kilograms per square metre</comment>
+  </data>
+  <data name="3372" xml:space="preserve">
+    <value>3370</value>
+    <comment>Kilograms per square metre</comment>
+  </data>
+  <data name="3373" xml:space="preserve">
+    <value>3370</value>
+    <comment>Kilograms per square metre</comment>
+  </data>
+  <data name="3374" xml:space="preserve">
+    <value>3370</value>
+    <comment>Kilograms per square metre</comment>
+  </data>
+  <data name="3375" xml:space="preserve">
+    <value>3370</value>
+    <comment>Kilograms per square metre</comment>
+  </data>
+  <data name="3400" xml:space="preserve">
+    <value>3300</value>
+    <comment>Logistic weight, pounds</comment>
+  </data>
+  <data name="3401" xml:space="preserve">
+    <value>3300</value>
+    <comment>Logistic weight, pounds</comment>
+  </data>
+  <data name="3402" xml:space="preserve">
+    <value>3300</value>
+    <comment>Logistic weight, pounds</comment>
+  </data>
+  <data name="3403" xml:space="preserve">
+    <value>3300</value>
+    <comment>Logistic weight, pounds</comment>
+  </data>
+  <data name="3404" xml:space="preserve">
+    <value>3300</value>
+    <comment>Logistic weight, pounds</comment>
+  </data>
+  <data name="3405" xml:space="preserve">
+    <value>3300</value>
+    <comment>Logistic weight, pounds</comment>
+  </data>
+  <data name="3410" xml:space="preserve">
+    <value>3310</value>
+    <comment>Length or first dimension, inches</comment>
+  </data>
+  <data name="3411" xml:space="preserve">
+    <value>3310</value>
+    <comment>Length or first dimension, inches</comment>
+  </data>
+  <data name="3412" xml:space="preserve">
+    <value>3310</value>
+    <comment>Length or first dimension, inches</comment>
+  </data>
+  <data name="3413" xml:space="preserve">
+    <value>3310</value>
+    <comment>Length or first dimension, inches</comment>
+  </data>
+  <data name="3414" xml:space="preserve">
+    <value>3310</value>
+    <comment>Length or first dimension, inches</comment>
+  </data>
+  <data name="3415" xml:space="preserve">
+    <value>3310</value>
+    <comment>Length or first dimension, inches</comment>
+  </data>
+  <data name="3420" xml:space="preserve">
+    <value>3310</value>
+    <comment>Length or first dimension, feet</comment>
+  </data>
+  <data name="3421" xml:space="preserve">
+    <value>3310</value>
+    <comment>Length or first dimension, feet</comment>
+  </data>
+  <data name="3422" xml:space="preserve">
+    <value>3310</value>
+    <comment>Length or first dimension, feet</comment>
+  </data>
+  <data name="3423" xml:space="preserve">
+    <value>3310</value>
+    <comment>Length or first dimension, feet</comment>
+  </data>
+  <data name="3424" xml:space="preserve">
+    <value>3310</value>
+    <comment>Length or first dimension, feet</comment>
+  </data>
+  <data name="3425" xml:space="preserve">
+    <value>3310</value>
+    <comment>Length or first dimension, feet</comment>
+  </data>
+  <data name="3430" xml:space="preserve">
+    <value>3310</value>
+    <comment>Length or first dimension, yards</comment>
+  </data>
+  <data name="3431" xml:space="preserve">
+    <value>3310</value>
+    <comment>Length or first dimension, yards</comment>
+  </data>
+  <data name="3432" xml:space="preserve">
+    <value>3310</value>
+    <comment>Length or first dimension, yards</comment>
+  </data>
+  <data name="3433" xml:space="preserve">
+    <value>3310</value>
+    <comment>Length or first dimension, yards</comment>
+  </data>
+  <data name="3434" xml:space="preserve">
+    <value>3310</value>
+    <comment>Length or first dimension, yards</comment>
+  </data>
+  <data name="3435" xml:space="preserve">
+    <value>3310</value>
+    <comment>Length or first dimension, yards</comment>
+  </data>
+  <data name="3440" xml:space="preserve">
+    <value>3320</value>
+    <comment>Width, diameter, or second dimension, inches</comment>
+  </data>
+  <data name="3441" xml:space="preserve">
+    <value>3320</value>
+    <comment>Width, diameter, or second dimension, inches</comment>
+  </data>
+  <data name="3442" xml:space="preserve">
+    <value>3320</value>
+    <comment>Width, diameter, or second dimension, inches</comment>
+  </data>
+  <data name="3443" xml:space="preserve">
+    <value>3320</value>
+    <comment>Width, diameter, or second dimension, inches</comment>
+  </data>
+  <data name="3444" xml:space="preserve">
+    <value>3320</value>
+    <comment>Width, diameter, or second dimension, inches</comment>
+  </data>
+  <data name="3445" xml:space="preserve">
+    <value>3320</value>
+    <comment>Width, diameter, or second dimension, inches</comment>
+  </data>
+  <data name="3450" xml:space="preserve">
+    <value>3320</value>
+    <comment>Width, diameter, or second dimension, feet</comment>
+  </data>
+  <data name="3451" xml:space="preserve">
+    <value>3320</value>
+    <comment>Width, diameter, or second dimension, feet</comment>
+  </data>
+  <data name="3452" xml:space="preserve">
+    <value>3320</value>
+    <comment>Width, diameter, or second dimension, feet</comment>
+  </data>
+  <data name="3453" xml:space="preserve">
+    <value>3320</value>
+    <comment>Width, diameter, or second dimension, feet</comment>
+  </data>
+  <data name="3454" xml:space="preserve">
+    <value>3320</value>
+    <comment>Width, diameter, or second dimension, feet</comment>
+  </data>
+  <data name="3455" xml:space="preserve">
+    <value>3320</value>
+    <comment>Width, diameter, or second dimension, feet</comment>
+  </data>
+  <data name="3460" xml:space="preserve">
+    <value>3320</value>
+    <comment>Width, diameter, or second dimension, yard</comment>
+  </data>
+  <data name="3461" xml:space="preserve">
+    <value>3320</value>
+    <comment>Width, diameter, or second dimension, yard</comment>
+  </data>
+  <data name="3462" xml:space="preserve">
+    <value>3320</value>
+    <comment>Width, diameter, or second dimension, yard</comment>
+  </data>
+  <data name="3463" xml:space="preserve">
+    <value>3320</value>
+    <comment>Width, diameter, or second dimension, yard</comment>
+  </data>
+  <data name="3464" xml:space="preserve">
+    <value>3320</value>
+    <comment>Width, diameter, or second dimension, yard</comment>
+  </data>
+  <data name="3465" xml:space="preserve">
+    <value>3320</value>
+    <comment>Width, diameter, or second dimension, yard</comment>
+  </data>
+  <data name="3470" xml:space="preserve">
+    <value>3330</value>
+    <comment>Depth, thickness, height, or third dimension, inches</comment>
+  </data>
+  <data name="3471" xml:space="preserve">
+    <value>3330</value>
+    <comment>Depth, thickness, height, or third dimension, inches</comment>
+  </data>
+  <data name="3472" xml:space="preserve">
+    <value>3330</value>
+    <comment>Depth, thickness, height, or third dimension, inches</comment>
+  </data>
+  <data name="3473" xml:space="preserve">
+    <value>3330</value>
+    <comment>Depth, thickness, height, or third dimension, inches</comment>
+  </data>
+  <data name="3474" xml:space="preserve">
+    <value>3330</value>
+    <comment>Depth, thickness, height, or third dimension, inches</comment>
+  </data>
+  <data name="3475" xml:space="preserve">
+    <value>3330</value>
+    <comment>Depth, thickness, height, or third dimension, inches</comment>
+  </data>
+  <data name="3480" xml:space="preserve">
+    <value>3330</value>
+    <comment>Depth, thickness, height, or third dimension, feet</comment>
+  </data>
+  <data name="3481" xml:space="preserve">
+    <value>3330</value>
+    <comment>Depth, thickness, height, or third dimension, feet</comment>
+  </data>
+  <data name="3482" xml:space="preserve">
+    <value>3330</value>
+    <comment>Depth, thickness, height, or third dimension, feet</comment>
+  </data>
+  <data name="3483" xml:space="preserve">
+    <value>3330</value>
+    <comment>Depth, thickness, height, or third dimension, feet</comment>
+  </data>
+  <data name="3484" xml:space="preserve">
+    <value>3330</value>
+    <comment>Depth, thickness, height, or third dimension, feet</comment>
+  </data>
+  <data name="3485" xml:space="preserve">
+    <value>3330</value>
+    <comment>Depth, thickness, height, or third dimension, feet</comment>
+  </data>
+  <data name="3490" xml:space="preserve">
+    <value>3330</value>
+    <comment>Depth, thickness, height, or third dimension, yards</comment>
+  </data>
+  <data name="3491" xml:space="preserve">
+    <value>3330</value>
+    <comment>Depth, thickness, height, or third dimension, yards</comment>
+  </data>
+  <data name="3492" xml:space="preserve">
+    <value>3330</value>
+    <comment>Depth, thickness, height, or third dimension, yards</comment>
+  </data>
+  <data name="3493" xml:space="preserve">
+    <value>3330</value>
+    <comment>Depth, thickness, height, or third dimension, yards</comment>
+  </data>
+  <data name="3494" xml:space="preserve">
+    <value>3330</value>
+    <comment>Depth, thickness, height, or third dimension, yards</comment>
+  </data>
+  <data name="3495" xml:space="preserve">
+    <value>3330</value>
+    <comment>Depth, thickness, height, or third dimension, yards</comment>
+  </data>
+  <data name="3500" xml:space="preserve">
+    <value>3140</value>
+    <comment>Area, square inches (variable measure trade item)</comment>
+  </data>
+  <data name="3501" xml:space="preserve">
+    <value>3140</value>
+    <comment>Area, square inches (variable measure trade item)</comment>
+  </data>
+  <data name="3502" xml:space="preserve">
+    <value>3140</value>
+    <comment>Area, square inches (variable measure trade item)</comment>
+  </data>
+  <data name="3503" xml:space="preserve">
+    <value>3140</value>
+    <comment>Area, square inches (variable measure trade item)</comment>
+  </data>
+  <data name="3504" xml:space="preserve">
+    <value>3140</value>
+    <comment>Area, square inches (variable measure trade item)</comment>
+  </data>
+  <data name="3505" xml:space="preserve">
+    <value>3140</value>
+    <comment>Area, square inches (variable measure trade item)</comment>
+  </data>
+  <data name="3510" xml:space="preserve">
+    <value>3140</value>
+    <comment>Area, square feet (variable measure trade item)</comment>
+  </data>
+  <data name="3511" xml:space="preserve">
+    <value>3140</value>
+    <comment>Area, square feet (variable measure trade item)</comment>
+  </data>
+  <data name="3512" xml:space="preserve">
+    <value>3140</value>
+    <comment>Area, square feet (variable measure trade item)</comment>
+  </data>
+  <data name="3513" xml:space="preserve">
+    <value>3140</value>
+    <comment>Area, square feet (variable measure trade item)</comment>
+  </data>
+  <data name="3514" xml:space="preserve">
+    <value>3140</value>
+    <comment>Area, square feet (variable measure trade item)</comment>
+  </data>
+  <data name="3515" xml:space="preserve">
+    <value>3140</value>
+    <comment>Area, square feet (variable measure trade item)</comment>
+  </data>
+  <data name="3520" xml:space="preserve">
+    <value>3140</value>
+    <comment>Area, square yards (variable measure trade item)</comment>
+  </data>
+  <data name="3521" xml:space="preserve">
+    <value>3140</value>
+    <comment>Area, square yards (variable measure trade item)</comment>
+  </data>
+  <data name="3522" xml:space="preserve">
+    <value>3140</value>
+    <comment>Area, square yards (variable measure trade item)</comment>
+  </data>
+  <data name="3523" xml:space="preserve">
+    <value>3140</value>
+    <comment>Area, square yards (variable measure trade item)</comment>
+  </data>
+  <data name="3524" xml:space="preserve">
+    <value>3140</value>
+    <comment>Area, square yards (variable measure trade item)</comment>
+  </data>
+  <data name="3525" xml:space="preserve">
+    <value>3140</value>
+    <comment>Area, square yards (variable measure trade item)</comment>
+  </data>
+  <data name="3530" xml:space="preserve">
+    <value>3340</value>
+    <comment>Area, square inches</comment>
+  </data>
+  <data name="3531" xml:space="preserve">
+    <value>3340</value>
+    <comment>Area, square inches</comment>
+  </data>
+  <data name="3532" xml:space="preserve">
+    <value>3340</value>
+    <comment>Area, square inches</comment>
+  </data>
+  <data name="3533" xml:space="preserve">
+    <value>3340</value>
+    <comment>Area, square inches</comment>
+  </data>
+  <data name="3534" xml:space="preserve">
+    <value>3340</value>
+    <comment>Area, square inches</comment>
+  </data>
+  <data name="3535" xml:space="preserve">
+    <value>3340</value>
+    <comment>Area, square inches</comment>
+  </data>
+  <data name="3540" xml:space="preserve">
+    <value>3340</value>
+    <comment>Area, square feet</comment>
+  </data>
+  <data name="3541" xml:space="preserve">
+    <value>3340</value>
+    <comment>Area, square feet</comment>
+  </data>
+  <data name="3542" xml:space="preserve">
+    <value>3340</value>
+    <comment>Area, square feet</comment>
+  </data>
+  <data name="3543" xml:space="preserve">
+    <value>3340</value>
+    <comment>Area, square feet</comment>
+  </data>
+  <data name="3544" xml:space="preserve">
+    <value>3340</value>
+    <comment>Area, square feet</comment>
+  </data>
+  <data name="3545" xml:space="preserve">
+    <value>3340</value>
+    <comment>Area, square feet</comment>
+  </data>
+  <data name="3550" xml:space="preserve">
+    <value>3340</value>
+    <comment>Area, square yards</comment>
+  </data>
+  <data name="3551" xml:space="preserve">
+    <value>3340</value>
+    <comment>Area, square yards</comment>
+  </data>
+  <data name="3552" xml:space="preserve">
+    <value>3340</value>
+    <comment>Area, square yards</comment>
+  </data>
+  <data name="3553" xml:space="preserve">
+    <value>3340</value>
+    <comment>Area, square yards</comment>
+  </data>
+  <data name="3554" xml:space="preserve">
+    <value>3340</value>
+    <comment>Area, square yards</comment>
+  </data>
+  <data name="3555" xml:space="preserve">
+    <value>3340</value>
+    <comment>Area, square yards</comment>
+  </data>
+  <data name="3560" xml:space="preserve">
+    <value>3100</value>
+    <comment>Net weight, troy ounces (variable measure trade item)</comment>
+  </data>
+  <data name="3561" xml:space="preserve">
+    <value>3100</value>
+    <comment>Net weight, troy ounces (variable measure trade item)</comment>
+  </data>
+  <data name="3562" xml:space="preserve">
+    <value>3100</value>
+    <comment>Net weight, troy ounces (variable measure trade item)</comment>
+  </data>
+  <data name="3563" xml:space="preserve">
+    <value>3100</value>
+    <comment>Net weight, troy ounces (variable measure trade item)</comment>
+  </data>
+  <data name="3564" xml:space="preserve">
+    <value>3100</value>
+    <comment>Net weight, troy ounces (variable measure trade item)</comment>
+  </data>
+  <data name="3565" xml:space="preserve">
+    <value>3100</value>
+    <comment>Net weight, troy ounces (variable measure trade item)</comment>
+  </data>
+  <data name="3570" xml:space="preserve">
+    <value>3100</value>
+    <comment>Net weight (or volume), ounces (variable measure trade item)</comment>
+  </data>
+  <data name="3571" xml:space="preserve">
+    <value>3100</value>
+    <comment>Net weight (or volume), ounces (variable measure trade item)</comment>
+  </data>
+  <data name="3572" xml:space="preserve">
+    <value>3100</value>
+    <comment>Net weight (or volume), ounces (variable measure trade item)</comment>
+  </data>
+  <data name="3573" xml:space="preserve">
+    <value>3100</value>
+    <comment>Net weight (or volume), ounces (variable measure trade item)</comment>
+  </data>
+  <data name="3574" xml:space="preserve">
+    <value>3100</value>
+    <comment>Net weight (or volume), ounces (variable measure trade item)</comment>
+  </data>
+  <data name="3575" xml:space="preserve">
+    <value>3100</value>
+    <comment>Net weight (or volume), ounces (variable measure trade item)</comment>
+  </data>
+  <data name="3600" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, quarts (variable measure trade item)</comment>
+  </data>
+  <data name="3601" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, quarts (variable measure trade item)</comment>
+  </data>
+  <data name="3602" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, quarts (variable measure trade item)</comment>
+  </data>
+  <data name="3603" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, quarts (variable measure trade item)</comment>
+  </data>
+  <data name="3604" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, quarts (variable measure trade item)</comment>
+  </data>
+  <data name="3605" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, quarts (variable measure trade item)</comment>
+  </data>
+  <data name="3610" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, gallons U.S. (variable measure trade item)</comment>
+  </data>
+  <data name="3611" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, gallons U.S. (variable measure trade item)</comment>
+  </data>
+  <data name="3612" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, gallons U.S. (variable measure trade item)</comment>
+  </data>
+  <data name="3613" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, gallons U.S. (variable measure trade item)</comment>
+  </data>
+  <data name="3614" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, gallons U.S. (variable measure trade item)</comment>
+  </data>
+  <data name="3615" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, gallons U.S. (variable measure trade item)</comment>
+  </data>
+  <data name="3620" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, quarts</comment>
+  </data>
+  <data name="3621" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, quarts</comment>
+  </data>
+  <data name="3622" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, quarts</comment>
+  </data>
+  <data name="3623" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, quarts</comment>
+  </data>
+  <data name="3624" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, quarts</comment>
+  </data>
+  <data name="3625" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, quarts</comment>
+  </data>
+  <data name="3630" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, gallons U.S.</comment>
+  </data>
+  <data name="3631" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, gallons U.S.</comment>
+  </data>
+  <data name="3632" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, gallons U.S.</comment>
+  </data>
+  <data name="3633" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, gallons U.S.</comment>
+  </data>
+  <data name="3634" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, gallons U.S.</comment>
+  </data>
+  <data name="3635" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, gallons U.S.</comment>
+  </data>
+  <data name="3640" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, cubic inches (variable measure trade item)</comment>
+  </data>
+  <data name="3641" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, cubic inches (variable measure trade item)</comment>
+  </data>
+  <data name="3642" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, cubic inches (variable measure trade item)</comment>
+  </data>
+  <data name="3643" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, cubic inches (variable measure trade item)</comment>
+  </data>
+  <data name="3644" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, cubic inches (variable measure trade item)</comment>
+  </data>
+  <data name="3645" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, cubic inches (variable measure trade item)</comment>
+  </data>
+  <data name="3650" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, cubic feet (variable measure trade item)</comment>
+  </data>
+  <data name="3651" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, cubic feet (variable measure trade item)</comment>
+  </data>
+  <data name="3652" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, cubic feet (variable measure trade item)</comment>
+  </data>
+  <data name="3653" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, cubic feet (variable measure trade item)</comment>
+  </data>
+  <data name="3654" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, cubic feet (variable measure trade item)</comment>
+  </data>
+  <data name="3655" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, cubic feet (variable measure trade item)</comment>
+  </data>
+  <data name="3660" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, cubic yards (variable measure trade item)</comment>
+  </data>
+  <data name="3661" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, cubic yards (variable measure trade item)</comment>
+  </data>
+  <data name="3662" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, cubic yards (variable measure trade item)</comment>
+  </data>
+  <data name="3663" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, cubic yards (variable measure trade item)</comment>
+  </data>
+  <data name="3664" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, cubic yards (variable measure trade item)</comment>
+  </data>
+  <data name="3665" xml:space="preserve">
+    <value>3150</value>
+    <comment>Net volume, cubic yards (variable measure trade item)</comment>
+  </data>
+  <data name="3670" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, cubic inches</comment>
+  </data>
+  <data name="3671" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, cubic inches</comment>
+  </data>
+  <data name="3672" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, cubic inches</comment>
+  </data>
+  <data name="3673" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, cubic inches</comment>
+  </data>
+  <data name="3674" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, cubic inches</comment>
+  </data>
+  <data name="3675" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, cubic inches</comment>
+  </data>
+  <data name="3680" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, cubic feet</comment>
+  </data>
+  <data name="3681" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, cubic feet</comment>
+  </data>
+  <data name="3682" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, cubic feet</comment>
+  </data>
+  <data name="3683" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, cubic feet</comment>
+  </data>
+  <data name="3684" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, cubic feet</comment>
+  </data>
+  <data name="3685" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, cubic feet</comment>
+  </data>
+  <data name="3690" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, cubic yards</comment>
+  </data>
+  <data name="3691" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, cubic yards</comment>
+  </data>
+  <data name="3692" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, cubic yards</comment>
+  </data>
+  <data name="3693" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, cubic yards</comment>
+  </data>
+  <data name="3694" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, cubic yards</comment>
+  </data>
+  <data name="3695" xml:space="preserve">
+    <value>3350</value>
+    <comment>Logistic volume, cubic yards</comment>
+  </data>
+  <data name="37" xml:space="preserve">
+    <value>37</value>
+    <comment>Count of trade items or trade item pieces contained in a logistic unit</comment>
+  </data>
+  <data name="3900" xml:space="preserve">
+    <value>3900</value>
+    <comment>Applicable amount payable or Coupon value, local currency</comment>
+  </data>
+  <data name="3901" xml:space="preserve">
+    <value>3900</value>
+    <comment>Applicable amount payable or Coupon value, local currency</comment>
+  </data>
+  <data name="3902" xml:space="preserve">
+    <value>3900</value>
+    <comment>Applicable amount payable or Coupon value, local currency</comment>
+  </data>
+  <data name="3903" xml:space="preserve">
+    <value>3900</value>
+    <comment>Applicable amount payable or Coupon value, local currency</comment>
+  </data>
+  <data name="3904" xml:space="preserve">
+    <value>3900</value>
+    <comment>Applicable amount payable or Coupon value, local currency</comment>
+  </data>
+  <data name="3905" xml:space="preserve">
+    <value>3900</value>
+    <comment>Applicable amount payable or Coupon value, local currency</comment>
+  </data>
+  <data name="3906" xml:space="preserve">
+    <value>3900</value>
+    <comment>Applicable amount payable or Coupon value, local currency</comment>
+  </data>
+  <data name="3907" xml:space="preserve">
+    <value>3900</value>
+    <comment>Applicable amount payable or Coupon value, local currency</comment>
+  </data>
+  <data name="3908" xml:space="preserve">
+    <value>3900</value>
+    <comment>Applicable amount payable or Coupon value, local currency</comment>
+  </data>
+  <data name="3909" xml:space="preserve">
+    <value>3900</value>
+    <comment>Applicable amount payable or Coupon value, local currency</comment>
+  </data>
+  <data name="3910" xml:space="preserve">
+    <value>3910</value>
+    <comment>Applicable amount payable with ISO currency code</comment>
+  </data>
+  <data name="3911" xml:space="preserve">
+    <value>3910</value>
+    <comment>Applicable amount payable with ISO currency code</comment>
+  </data>
+  <data name="3912" xml:space="preserve">
+    <value>3910</value>
+    <comment>Applicable amount payable with ISO currency code</comment>
+  </data>
+  <data name="3913" xml:space="preserve">
+    <value>3910</value>
+    <comment>Applicable amount payable with ISO currency code</comment>
+  </data>
+  <data name="3914" xml:space="preserve">
+    <value>3910</value>
+    <comment>Applicable amount payable with ISO currency code</comment>
+  </data>
+  <data name="3915" xml:space="preserve">
+    <value>3910</value>
+    <comment>Applicable amount payable with ISO currency code</comment>
+  </data>
+  <data name="3916" xml:space="preserve">
+    <value>3910</value>
+    <comment>Applicable amount payable with ISO currency code</comment>
+  </data>
+  <data name="3917" xml:space="preserve">
+    <value>3910</value>
+    <comment>Applicable amount payable with ISO currency code</comment>
+  </data>
+  <data name="3918" xml:space="preserve">
+    <value>3910</value>
+    <comment>Applicable amount payable with ISO currency code</comment>
+  </data>
+  <data name="3919" xml:space="preserve">
+    <value>3910</value>
+    <comment>Applicable amount payable with ISO currency code</comment>
+  </data>
+  <data name="3920" xml:space="preserve">
+    <value>3920</value>
+    <comment>Applicable amount payable, single monetary area (variable measure trade item)</comment>
+  </data>
+  <data name="3921" xml:space="preserve">
+    <value>3920</value>
+    <comment>Applicable amount payable, single monetary area (variable measure trade item)</comment>
+  </data>
+  <data name="3922" xml:space="preserve">
+    <value>3920</value>
+    <comment>Applicable amount payable, single monetary area (variable measure trade item)</comment>
+  </data>
+  <data name="3923" xml:space="preserve">
+    <value>3920</value>
+    <comment>Applicable amount payable, single monetary area (variable measure trade item)</comment>
+  </data>
+  <data name="3924" xml:space="preserve">
+    <value>3920</value>
+    <comment>Applicable amount payable, single monetary area (variable measure trade item)</comment>
+  </data>
+  <data name="3925" xml:space="preserve">
+    <value>3920</value>
+    <comment>Applicable amount payable, single monetary area (variable measure trade item)</comment>
+  </data>
+  <data name="3926" xml:space="preserve">
+    <value>3920</value>
+    <comment>Applicable amount payable, single monetary area (variable measure trade item)</comment>
+  </data>
+  <data name="3927" xml:space="preserve">
+    <value>3920</value>
+    <comment>Applicable amount payable, single monetary area (variable measure trade item)</comment>
+  </data>
+  <data name="3928" xml:space="preserve">
+    <value>3920</value>
+    <comment>Applicable amount payable, single monetary area (variable measure trade item)</comment>
+  </data>
+  <data name="3929" xml:space="preserve">
+    <value>3920</value>
+    <comment>Applicable amount payable, single monetary area (variable measure trade item)</comment>
+  </data>
+  <data name="3930" xml:space="preserve">
+    <value>3930</value>
+    <comment>Applicable amount payable with ISO currency code (variable measure trade item)</comment>
+  </data>
+  <data name="3931" xml:space="preserve">
+    <value>3930</value>
+    <comment>Applicable amount payable with ISO currency code (variable measure trade item)</comment>
+  </data>
+  <data name="3932" xml:space="preserve">
+    <value>3930</value>
+    <comment>Applicable amount payable with ISO currency code (variable measure trade item)</comment>
+  </data>
+  <data name="3933" xml:space="preserve">
+    <value>3930</value>
+    <comment>Applicable amount payable with ISO currency code (variable measure trade item)</comment>
+  </data>
+  <data name="3934" xml:space="preserve">
+    <value>3930</value>
+    <comment>Applicable amount payable with ISO currency code (variable measure trade item)</comment>
+  </data>
+  <data name="3935" xml:space="preserve">
+    <value>3930</value>
+    <comment>Applicable amount payable with ISO currency code (variable measure trade item)</comment>
+  </data>
+  <data name="3936" xml:space="preserve">
+    <value>3930</value>
+    <comment>Applicable amount payable with ISO currency code (variable measure trade item)</comment>
+  </data>
+  <data name="3937" xml:space="preserve">
+    <value>3930</value>
+    <comment>Applicable amount payable with ISO currency code (variable measure trade item)</comment>
+  </data>
+  <data name="3938" xml:space="preserve">
+    <value>3930</value>
+    <comment>Applicable amount payable with ISO currency code (variable measure trade item)</comment>
+  </data>
+  <data name="3939" xml:space="preserve">
+    <value>3930</value>
+    <comment>Applicable amount payable with ISO currency code (variable measure trade item)</comment>
+  </data>
+  <data name="3940" xml:space="preserve">
+    <value>3940</value>
+    <comment>Percentage discount of a coupon</comment>
+  </data>
+  <data name="3941" xml:space="preserve">
+    <value>3940</value>
+    <comment>Percentage discount of a coupon</comment>
+  </data>
+  <data name="3942" xml:space="preserve">
+    <value>3940</value>
+    <comment>Percentage discount of a coupon</comment>
+  </data>
+  <data name="3943" xml:space="preserve">
+    <value>3940</value>
+    <comment>Percentage discount of a coupon</comment>
+  </data>
+  <data name="3950" xml:space="preserve">
+    <value>3950</value>
+    <comment>Amount Payable per unit of measure single monetary area (variable measure trade item)</comment>
+  </data>
+  <data name="3951" xml:space="preserve">
+    <value>3950</value>
+    <comment>Amount Payable per unit of measure single monetary area (variable measure trade item)</comment>
+  </data>
+  <data name="3952" xml:space="preserve">
+    <value>3950</value>
+    <comment>Amount Payable per unit of measure single monetary area (variable measure trade item)</comment>
+  </data>
+  <data name="3953" xml:space="preserve">
+    <value>3950</value>
+    <comment>Amount Payable per unit of measure single monetary area (variable measure trade item)</comment>
+  </data>
+  <data name="3954" xml:space="preserve">
+    <value>3950</value>
+    <comment>Amount Payable per unit of measure single monetary area (variable measure trade item)</comment>
+  </data>
+  <data name="3955" xml:space="preserve">
+    <value>3950</value>
+    <comment>Amount Payable per unit of measure single monetary area (variable measure trade item)</comment>
+  </data>
+  <data name="400" xml:space="preserve">
+    <value>400</value>
+    <comment>Customers purchase order number</comment>
+  </data>
+  <data name="401" xml:space="preserve">
+    <value>401</value>
+    <comment>Global Identification Number for Consignment (GINC)</comment>
+  </data>
+  <data name="402" xml:space="preserve">
+    <value>402</value>
+    <comment>Global Shipment Identification Number (GSIN)</comment>
+  </data>
+  <data name="403" xml:space="preserve">
+    <value>403</value>
+    <comment>Routing code</comment>
+  </data>
+  <data name="410" xml:space="preserve">
+    <value>410</value>
+    <comment>Ship to / Deliver to Global Location Number (GLN)</comment>
+  </data>
+  <data name="411" xml:space="preserve">
+    <value>411</value>
+    <comment>Bill to / Invoice to Global Location Number (GLN)</comment>
+  </data>
+  <data name="412" xml:space="preserve">
+    <value>412</value>
+    <comment>Purchased from Global Location Number (GLN)</comment>
+  </data>
+  <data name="413" xml:space="preserve">
+    <value>413</value>
+    <comment>Ship for / Deliver for - Forward to Global Location Number (GLN)</comment>
+  </data>
+  <data name="414" xml:space="preserve">
+    <value>414</value>
+    <comment>Identification of a physical location - Global Location Number (GLN)</comment>
+  </data>
+  <data name="415" xml:space="preserve">
+    <value>415</value>
+    <comment>Global Location Number (GLN) of the invoicing party</comment>
+  </data>
+  <data name="416" xml:space="preserve">
+    <value>416</value>
+    <comment>Global Location Number (GLN) of the production or service location</comment>
+  </data>
+  <data name="417" xml:space="preserve">
+    <value>417</value>
+    <comment>Party Global Location Number (GLN)</comment>
+  </data>
+  <data name="420" xml:space="preserve">
+    <value>420</value>
+    <comment>Ship to / Deliver to postal code within a single postal authority</comment>
+  </data>
+  <data name="421" xml:space="preserve">
+    <value>421</value>
+    <comment>Ship to / Deliver to postal code with ISO country code</comment>
+  </data>
+  <data name="422" xml:space="preserve">
+    <value>422</value>
+    <comment>Country of origin of a trade item</comment>
+  </data>
+  <data name="423" xml:space="preserve">
+    <value>423</value>
+    <comment>Country of initial processing</comment>
+  </data>
+  <data name="424" xml:space="preserve">
+    <value>424</value>
+    <comment>Country of processing</comment>
+  </data>
+  <data name="425" xml:space="preserve">
+    <value>425</value>
+    <comment>Country of disassembly</comment>
+  </data>
+  <data name="426" xml:space="preserve">
+    <value>426</value>
+    <comment>Country covering full process chain</comment>
+  </data>
+  <data name="427" xml:space="preserve">
+    <value>427</value>
+    <comment>Country subdivision Of origin</comment>
+  </data>
+  <data name="4300" xml:space="preserve">
+    <value>4300</value>
+    <comment>Ship-to / Deliver-to company name</comment>
+  </data>
+  <data name="4301" xml:space="preserve">
+    <value>4301</value>
+    <comment>Ship-to / Deliver-to contact</comment>
+  </data>
+  <data name="4302" xml:space="preserve">
+    <value>4302</value>
+    <comment>Ship-to / Deliver-to address line 1</comment>
+  </data>
+  <data name="4303" xml:space="preserve">
+    <value>4303</value>
+    <comment>Ship-to / Deliver-to address line 2</comment>
+  </data>
+  <data name="4304" xml:space="preserve">
+    <value>4304</value>
+    <comment>Ship-to / Deliver-to suburb</comment>
+  </data>
+  <data name="4305" xml:space="preserve">
+    <value>4305</value>
+    <comment>Ship-to / Deliver-to locality</comment>
+  </data>
+  <data name="4306" xml:space="preserve">
+    <value>4306</value>
+    <comment>Ship-to / Deliver-to region</comment>
+  </data>
+  <data name="4307" xml:space="preserve">
+    <value>4307</value>
+    <comment>Ship-to / Deliver-to country code</comment>
+  </data>
+  <data name="4308" xml:space="preserve">
+    <value>4308</value>
+    <comment>Ship-to / Deliver-to telephone number</comment>
+  </data>
+  <data name="4309" xml:space="preserve">
+    <value>4309</value>
+    <comment>Ship-to / Deliver-to GEO location</comment>
+  </data>
+  <data name="4310" xml:space="preserve">
+    <value>4310</value>
+    <comment>Return-to company name</comment>
+  </data>
+  <data name="4311" xml:space="preserve">
+    <value>4311</value>
+    <comment>Return-to contact</comment>
+  </data>
+  <data name="4312" xml:space="preserve">
+    <value>4312</value>
+    <comment>Return-to address line 1</comment>
+  </data>
+  <data name="4313" xml:space="preserve">
+    <value>4313</value>
+    <comment>Return-to address line 2</comment>
+  </data>
+  <data name="4314" xml:space="preserve">
+    <value>4314</value>
+    <comment>Return-to suburb</comment>
+  </data>
+  <data name="4315" xml:space="preserve">
+    <value>4315</value>
+    <comment>Return-to locality</comment>
+  </data>
+  <data name="4316" xml:space="preserve">
+    <value>4316</value>
+    <comment>Return-to region</comment>
+  </data>
+  <data name="4317" xml:space="preserve">
+    <value>4317</value>
+    <comment>Return-to country code</comment>
+  </data>
+  <data name="4318" xml:space="preserve">
+    <value>4318</value>
+    <comment>Return-to postal code</comment>
+  </data>
+  <data name="4319" xml:space="preserve">
+    <value>4319</value>
+    <comment>Return-to telephone number</comment>
+  </data>
+  <data name="4320" xml:space="preserve">
+    <value>4320</value>
+    <comment>Service code description</comment>
+  </data>
+  <data name="4321" xml:space="preserve">
+    <value>4321</value>
+    <comment>Dangerous goods flag</comment>
+  </data>
+  <data name="4322" xml:space="preserve">
+    <value>4322</value>
+    <comment>Authority to leave</comment>
+  </data>
+  <data name="4323" xml:space="preserve">
+    <value>4323</value>
+    <comment>Signature required flag</comment>
+  </data>
+  <data name="4324" xml:space="preserve">
+    <value>4324</value>
+    <comment>Not before delivery date time (YYMMDDhhmm)</comment>
+  </data>
+  <data name="4325" xml:space="preserve">
+    <value>4325</value>
+    <comment>Not after delivery date time (YYMMDDhhmm)</comment>
+  </data>
+  <data name="4326" xml:space="preserve">
+    <value>4326</value>
+    <comment>Release date (YYMMDD)</comment>
+  </data>
+  <data name="4330" xml:space="preserve">
+    <value>4330</value>
+    <comment>Maximum temperature in Fahrenheit (expressed in hundredths of degrees)</comment>
+  </data>
+  <data name="4331" xml:space="preserve">
+    <value>todo</value>
+    <comment>Maximum temperature in Celsius (expressed in hundredths of degrees)</comment>
+  </data>
+  <data name="4332" xml:space="preserve">
+    <value>todo</value>
+    <comment>Minimum temperature in Fahrenheit (expressed in hundredths of degrees)</comment>
+  </data>
+  <data name="4333" xml:space="preserve">
+    <value>4333</value>
+    <comment>Minimum temperature in Celsius (expressed in hundredths of degrees)</comment>
+  </data>
+  <data name="7001" xml:space="preserve">
+    <value>7001</value>
+    <comment>NATO Stock Number (NSN)</comment>
+  </data>
+  <data name="7002" xml:space="preserve">
+    <value>7002</value>
+    <comment>UN/ECE meat carcasses and cuts classification</comment>
+  </data>
+  <data name="7003" xml:space="preserve">
+    <value>7003</value>
+    <comment>Expiration date and time (YYMMDDhhmm)</comment>
+  </data>
+  <data name="7004" xml:space="preserve">
+    <value>7004</value>
+    <comment>Active potency</comment>
+  </data>
+  <data name="7005" xml:space="preserve">
+    <value>7005</value>
+    <comment>Catch area</comment>
+  </data>
+  <data name="7006" xml:space="preserve">
+    <value>7006</value>
+    <comment>First freeze date (YYMMDD)</comment>
+  </data>
+  <data name="7007" xml:space="preserve">
+    <value>7007</value>
+    <comment>Harvest date (YYMMDD[YYMMDD])</comment>
+  </data>
+  <data name="7008" xml:space="preserve">
+    <value>7008</value>
+    <comment>Species for fishery purposes</comment>
+  </data>
+  <data name="7009" xml:space="preserve">
+    <value>7009</value>
+    <comment>Fishing gear type</comment>
+  </data>
+  <data name="7010" xml:space="preserve">
+    <value>7010</value>
+    <comment>Production method</comment>
+  </data>
+  <data name="7011" xml:space="preserve">
+    <value>7011</value>
+    <comment>Test by date (YYMMDD[hhmm])</comment>
+  </data>
+  <data name="7020" xml:space="preserve">
+    <value>7020</value>
+    <comment>Refurbishment lot ID</comment>
+  </data>
+  <data name="7021" xml:space="preserve">
+    <value>7021</value>
+    <comment>Functional status</comment>
+  </data>
+  <data name="7022" xml:space="preserve">
+    <value>7022</value>
+    <comment>Revision status</comment>
+  </data>
+  <data name="7023" xml:space="preserve">
+    <value>7023</value>
+    <comment>Global Individual Asset Identifier (GIAI) of an assembly</comment>
+  </data>
+  <data name="7030" xml:space="preserve">
+    <value>7030</value>
+    <comment>Number of processor with three-digit ISO country code</comment>
+  </data>
+  <data name="7031" xml:space="preserve">
+    <value>7030</value>
+    <comment>Number of processor with three-digit ISO country code</comment>
+  </data>
+  <data name="7032" xml:space="preserve">
+    <value>7030</value>
+    <comment>Number of processor with three-digit ISO country code</comment>
+  </data>
+  <data name="7033" xml:space="preserve">
+    <value>7030</value>
+    <comment>Number of processor with three-digit ISO country code</comment>
+  </data>
+  <data name="7034" xml:space="preserve">
+    <value>7030</value>
+    <comment>Number of processor with three-digit ISO country code</comment>
+  </data>
+  <data name="7035" xml:space="preserve">
+    <value>7030</value>
+    <comment>Number of processor with three-digit ISO country code</comment>
+  </data>
+  <data name="7036" xml:space="preserve">
+    <value>7030</value>
+    <comment>Number of processor with three-digit ISO country code</comment>
+  </data>
+  <data name="7037" xml:space="preserve">
+    <value>7030</value>
+    <comment>Number of processor with three-digit ISO country code</comment>
+  </data>
+  <data name="7038" xml:space="preserve">
+    <value>7030</value>
+    <comment>Number of processor with three-digit ISO country code</comment>
+  </data>
+  <data name="7039" xml:space="preserve">
+    <value>7030</value>
+    <comment>Number of processor with three-digit ISO country code</comment>
+  </data>
+  <data name="7040" xml:space="preserve">
+    <value>7040</value>
+    <comment>GS1 UIC with Extension 1 and Importer index</comment>
+  </data>
+  <data name="7041" xml:space="preserve">
+    <value>7041</value>
+    <comment>UN/CEFACT freight unit type</comment>
+  </data>
+  <data name="710" xml:space="preserve">
+    <value>710</value>
+    <comment>National Healthcare Reimbursement Number (NHRN) - Germany PZN</comment>
+  </data>
+  <data name="711" xml:space="preserve">
+    <value>711</value>
+    <comment>National Healthcare Reimbursement Number (NHRN) - France CIP</comment>
+  </data>
+  <data name="712" xml:space="preserve">
+    <value>712</value>
+    <comment>National Healthcare Reimbursement Number (NHRN) - Spain CN</comment>
+  </data>
+  <data name="713" xml:space="preserve">
+    <value>713</value>
+    <comment>National Healthcare Reimbursement Number (NHRN) - Brasil DRN</comment>
+  </data>
+  <data name="714" xml:space="preserve">
+    <value>714</value>
+    <comment>National Healthcare Reimbursement Number (NHRN) - Portugal AIM</comment>
+  </data>
+  <data name="715" xml:space="preserve">
+    <value>715</value>
+    <comment>National Healthcare Reimbursement Number (NHRN) - United States of America NDC</comment>
+  </data>
+  <data name="716" xml:space="preserve">
+    <value>716</value>
+    <comment>National Healthcare Reimbursement Number (NHRN) - Italy AIC</comment>
+  </data>
+  <data name="717" xml:space="preserve">
+    <value>717</value>
+    <comment>National Healthcare Reimbursement Number (NHRN) - Costa Rica Sanitary Register Number</comment>
+  </data>
+  <data name="7230" xml:space="preserve">
+    <value>7230</value>
+    <comment>Certification Reference</comment>
+  </data>
+  <data name="7231" xml:space="preserve">
+    <value>7230</value>
+    <comment>Certification Reference</comment>
+  </data>
+  <data name="7232" xml:space="preserve">
+    <value>7230</value>
+    <comment>Certification Reference</comment>
+  </data>
+  <data name="7233" xml:space="preserve">
+    <value>7230</value>
+    <comment>Certification Reference</comment>
+  </data>
+  <data name="7234" xml:space="preserve">
+    <value>7230</value>
+    <comment>Certification Reference</comment>
+  </data>
+  <data name="7235" xml:space="preserve">
+    <value>7230</value>
+    <comment>Certification Reference</comment>
+  </data>
+  <data name="7236" xml:space="preserve">
+    <value>7230</value>
+    <comment>Certification Reference</comment>
+  </data>
+  <data name="7237" xml:space="preserve">
+    <value>7230</value>
+    <comment>Certification Reference</comment>
+  </data>
+  <data name="7238" xml:space="preserve">
+    <value>7230</value>
+    <comment>Certification Reference</comment>
+  </data>
+  <data name="7239" xml:space="preserve">
+    <value>7230</value>
+    <comment>Certification Reference</comment>
+  </data>
+  <data name="7240" xml:space="preserve">
+    <value>7240</value>
+    <comment>Protocol ID</comment>
+  </data>
+  <data name="7241" xml:space="preserve">
+    <value>7241</value>
+    <comment>AIDC media type</comment>
+  </data>
+  <data name="7242" xml:space="preserve">
+    <value>7242</value>
+    <comment>Version Control Number (VCN)</comment>
+  </data>
+  <data name="7250" xml:space="preserve">
+    <value>7250</value>
+    <comment>Date of birth (YYYYMMDD)</comment>
+  </data>
+  <data name="7251" xml:space="preserve">
+    <value>7251</value>
+    <comment>Date and time of birth (YYYYMMDDhhmm)</comment>
+  </data>
+  <data name="7252" xml:space="preserve">
+    <value>7252</value>
+    <comment>Biological sex</comment>
+  </data>
+  <data name="7253" xml:space="preserve">
+    <value>7253</value>
+    <comment>Family name of person</comment>
+  </data>
+  <data name="7254" xml:space="preserve">
+    <value>7254</value>
+    <comment>Given name of person</comment>
+  </data>
+  <data name="7255" xml:space="preserve">
+    <value>7255</value>
+    <comment>Name suffix of person</comment>
+  </data>
+  <data name="7256" xml:space="preserve">
+    <value>7256</value>
+    <comment>Full name of person</comment>
+  </data>
+  <data name="7257" xml:space="preserve">
+    <value>7257</value>
+    <comment>Address of person</comment>
+  </data>
+  <data name="7258" xml:space="preserve">
+    <value>7258</value>
+    <comment>Baby birth sequence</comment>
+  </data>
+  <data name="7259" xml:space="preserve">
+    <value>7259</value>
+    <comment>Baby of family name</comment>
+  </data>
+  <data name="8001" xml:space="preserve">
+    <value>8001</value>
+    <comment>Roll products (width, length, core diameter, direction, splices)</comment>
+  </data>
+  <data name="8002" xml:space="preserve">
+    <value>8002</value>
+    <comment>Cellular mobile telephone identifier</comment>
+  </data>
+  <data name="8003" xml:space="preserve">
+    <value>8003</value>
+    <comment>Global Returnable Asset Identifier (GRAI)</comment>
+  </data>
+  <data name="8004" xml:space="preserve">
+    <value>8004</value>
+    <comment>Global Individual Asset Identifier (GIAI)</comment>
+  </data>
+  <data name="8005" xml:space="preserve">
+    <value>8005</value>
+    <comment>Price per unit of measure</comment>
+  </data>
+  <data name="8006" xml:space="preserve">
+    <value>8006</value>
+    <comment>Identification of an individual trade item piece (ITIP)</comment>
+  </data>
+  <data name="8007" xml:space="preserve">
+    <value>8007</value>
+    <comment>International Bank Account Number (IBAN)</comment>
+  </data>
+  <data name="8008" xml:space="preserve">
+    <value>8008</value>
+    <comment>Date and time of production (YYMMDDhh[mm[ss]])</comment>
+  </data>
+  <data name="8009" xml:space="preserve">
+    <value>8009</value>
+    <comment>Optically Readable Sensor Indicator</comment>
+  </data>
+  <data name="8010" xml:space="preserve">
+    <value>8010</value>
+    <comment>Component/Part Identifier (CPID)</comment>
+  </data>
+  <data name="8011" xml:space="preserve">
+    <value>8011</value>
+    <comment>Component/Part Identifier serial number (CPID SERIAL)</comment>
+  </data>
+  <data name="8012" xml:space="preserve">
+    <value>8012</value>
+    <comment>Software version</comment>
+  </data>
+  <data name="8013" xml:space="preserve">
+    <value>8013</value>
+    <comment>Global Model Number (GMN)</comment>
+  </data>
+  <data name="8014" xml:space="preserve">
+    <value>8014</value>
+    <comment>Highly Individualised Device Registration Identifier (HIDRI)</comment>
+  </data>
+  <data name="8017" xml:space="preserve">
+    <value>8017</value>
+    <comment>Global Service Relation Number (GSRN) to identify the relationship between an organisation offering services and the provider of services</comment>
+  </data>
+  <data name="8018" xml:space="preserve">
+    <value>8018</value>
+    <comment>Global Service Relation Number (GSRN) to identify the relationship between an organisation offering services and the recipient of services</comment>
+  </data>
+  <data name="8019" xml:space="preserve">
+    <value>8019</value>
+    <comment>Service Relation Instance Number (SRIN)</comment>
+  </data>
+  <data name="8020" xml:space="preserve">
+    <value>8020</value>
+    <comment>Payment slip reference number</comment>
+  </data>
+  <data name="8026" xml:space="preserve">
+    <value>8026</value>
+    <comment>Identification of pieces of a trade item (ITIP) contained in a logistic unit</comment>
+  </data>
+  <data name="8030" xml:space="preserve">
+    <value>8030</value>
+    <comment>Digital Signature (DigSig)</comment>
+  </data>
+  <data name="8040" xml:space="preserve">
+    <value>8040</value>
+    <comment>Internatinal Mobile Equipment Identity (IMEI)</comment>
+  </data>
+  <data name="8041" xml:space="preserve">
+    <value>8041</value>
+    <comment>Internatinal Mobile Equipment Identity 2 (IMEI2)</comment>
+  </data>
+  <data name="8042" xml:space="preserve">
+    <value>8042</value>
+    <comment>Embedded SIM number</comment>
+  </data>
+  <data name="8043" xml:space="preserve">
+    <value>8043</value>
+    <comment>Physical SIM number</comment>
+  </data>
+  <data name="8110" xml:space="preserve">
+    <value>8110</value>
+    <comment>Coupon code identification for use in North America</comment>
+  </data>
+  <data name="8111" xml:space="preserve">
+    <value>8111</value>
+    <comment>Loyalty points of a coupon</comment>
+  </data>
+  <data name="8112" xml:space="preserve">
+    <value>8112</value>
+    <comment>Positive offer file coupon code identification for use in North America</comment>
+  </data>
+  <data name="8200" xml:space="preserve">
+    <value>8200</value>
+    <comment>Extended Packaging URL</comment>
+  </data>
+  <data name="90" xml:space="preserve">
+    <value>90</value>
+    <comment>Information mutually agreed between trading partners</comment>
+  </data>
+  <data name="91" xml:space="preserve">
+    <value>91</value>
+    <comment>Company internal information</comment>
+  </data>
+  <data name="92" xml:space="preserve">
+    <value>91</value>
+    <comment>Company internal information</comment>
+  </data>
+  <data name="93" xml:space="preserve">
+    <value>91</value>
+    <comment>Company internal information</comment>
+  </data>
+  <data name="94" xml:space="preserve">
+    <value>91</value>
+    <comment>Company internal information</comment>
+  </data>
+  <data name="95" xml:space="preserve">
+    <value>91</value>
+    <comment>Company internal information</comment>
+  </data>
+  <data name="96" xml:space="preserve">
+    <value>91</value>
+    <comment>Company internal information</comment>
+  </data>
+  <data name="97" xml:space="preserve">
+    <value>91</value>
+    <comment>Company internal information</comment>
+  </data>
+  <data name="98" xml:space="preserve">
+    <value>91</value>
+    <comment>Company internal information</comment>
+  </data>
+  <data name="99" xml:space="preserve">
+    <value>91</value>
+    <comment>Company internal information</comment>
+  </data>
+</root>

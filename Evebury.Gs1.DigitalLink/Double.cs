@@ -40,6 +40,13 @@ namespace Evebury.Gs1.DigitalLink
             SetDouble(value, precision);
         }
 
+        internal Double(Double @double)
+        {
+            Value = @double.Value;
+            Precision = @double.Precision;
+            Format = @double.Format;
+        }
+
         internal void SetDouble(double value, int precision)
         {
             Value = value;

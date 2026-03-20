@@ -1,5 +1,6 @@
 ﻿using Evebury.Gs1.DigitalLink.Segments;
 using System.Collections.Generic;
+using System;
 
 namespace Evebury.Gs1.DigitalLink
 {
@@ -38,13 +39,14 @@ namespace Evebury.Gs1.DigitalLink
         internal DigitalLink() { }
 
         /// <summary>
-        /// Concats all segements in one list
+        /// Returns segments [qualifiers, attributes] as one list
         /// </summary>
+        /// <param name="includePrimary">if true will include primary segment</param>
         /// <returns></returns>
-        public List<Segment> Segments() 
+        public List<Segment> Segments(bool includePrimary = false) 
         {
             List<Segment> segments = [];
-            segments.Add(Primary);
+            if(includePrimary) segments.Add(Primary);
             segments.AddRange(Qualifiers);
             segments.AddRange(Attributes);
             return segments;
@@ -71,6 +73,25 @@ namespace Evebury.Gs1.DigitalLink
         {
             if (_errors == null) return [];
             return _errors;
+        }
+
+        /// <summary>
+        /// Gets a TradeItem object
+        /// </summary>
+        /// <returns>null if primary not set to type GTIN</returns>
+        /// <exception cref="InvalidOperationException">if link is invalid</exception>
+        public TradeItem GetTradeItem() 
+        {
+            if (!IsValid) throw new InvalidOperationException("Digital Link is not valid");
+            if(Primary.Type != SegmentType.GTIN) return null;
+
+            Primary.Value.GetKey(out string gtin);
+            TradeItem tradeItem = new()
+            {
+                GTIN = gtin
+            };
+            tradeItem.SetFields(Segments());
+            return tradeItem;
         }
     }
 }

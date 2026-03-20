@@ -3,7 +3,7 @@
     /// <summary>
     /// Period Segment Type
     /// </summary>
-    public enum PeriodType
+    public enum PeriodType : int
     {
         ///<summary>
         ///Harvest date (YYMMDD[YYMMDD])

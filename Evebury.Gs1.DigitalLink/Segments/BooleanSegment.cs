@@ -9,12 +9,12 @@
         public BooleanSegment(BooleanType type, bool value) : base((int)type)
         {
             Raw = value ? "1" : "0";
-            Value = new SegmentValue(value, ValueType.Boolean);
+            Value = new SegmentValue(value, SegmentValueType.Boolean);
         }
 
         protected override SegmentValue GetValue()
         {
-            return new SegmentValue(Raw == "1", ValueType.Boolean);
+            return new SegmentValue(Raw == "1", SegmentValueType.Boolean);
         }
     }
 }

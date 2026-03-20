@@ -3,7 +3,7 @@
     /// <summary>
     /// Country Segment Type
     /// </summary>
-    public enum CountryType 
+    public enum CountryType : int
     {
         ///<summary>
         ///Ship to / Deliver to postal code with ISO country code

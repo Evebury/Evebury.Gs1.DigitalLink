@@ -61,1478 +61,1478 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Serial Shipping Container Code (SSCC)&quot;,&quot;IsPrimary&quot;: true,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{18})&quot;}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Serial Shipping Container Code (SSCC)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{18})&quot;,&quot;Captures&quot;: [{&quot;CheckDigit&quot;: true,&quot;Fixed&quot;: true,&quot;Length&quot;: 18}]}.
         /// </summary>
-        internal static string D00 {
+        internal static string _00 {
             get {
-                return ResourceManager.GetString("D00", resourceCulture);
+                return ResourceManager.GetString("00", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Trade Item Number (GTIN)&quot;,&quot;IsPrimary&quot;: true,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{14})&quot;,&quot;Qualifiers&quot;: [&quot;22&quot;,&quot;10&quot;,&quot;21&quot;,&quot;235&quot;],&quot;Excludes&quot;: [&quot;02&quot;,&quot;03&quot;,&quot;255&quot;,&quot;37&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Trade Item Number (GTIN)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{14})&quot;,&quot;Qualifiers&quot;: [&quot;22&quot;,&quot;10&quot;,&quot;21&quot;,&quot;235&quot;],&quot;Excludes&quot;: [&quot;02&quot;,&quot;03&quot;,&quot;255&quot;,&quot;37&quot;],&quot;Captures&quot;: [{&quot;CheckDigit&quot;: true,&quot;Fixed&quot;: true,&quot;Length&quot;: 14}]}.
         /// </summary>
-        internal static string D01 {
+        internal static string _01 {
             get {
-                return ResourceManager.GetString("D01", resourceCulture);
+                return ResourceManager.GetString("01", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Trade Item Number (GTIN) of contained trade items&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{14})&quot;,&quot;Requires&quot;: [&quot;00&quot;,&quot;37&quot;],&quot;Excludes&quot;: [&quot;01&quot;,&quot;03&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Trade Item Number (GTIN) of contained trade items&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{14})&quot;,&quot;Requires&quot;: [&quot;0037&quot;,&quot;00&quot;,&quot;37&quot;],&quot;Excludes&quot;: [&quot;01&quot;,&quot;03&quot;],&quot;Captures&quot;: [{&quot;CheckDigit&quot;: true,&quot;Fixed&quot;: true,&quot;Length&quot;: 14}]}.
         /// </summary>
-        internal static string D02 {
+        internal static string _02 {
             get {
-                return ResourceManager.GetString("D02", resourceCulture);
+                return ResourceManager.GetString("02", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Identification of a Made-to-Order (MtO) trade item (GTIN)&quot;,&quot;Regex&quot;: &quot;(\\d{14})&quot;,&quot;Excludes&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;37&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Identification of a Made-to-Order (MtO) trade item (GTIN)&quot;,&quot;Regex&quot;: &quot;(\\d{14})&quot;,&quot;Excludes&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;37&quot;],&quot;Captures&quot;: [{&quot;CheckDigit&quot;: true,&quot;Fixed&quot;: true,&quot;Length&quot;: 14}]}.
         /// </summary>
-        internal static string D03 {
+        internal static string _03 {
             get {
-                return ResourceManager.GetString("D03", resourceCulture);
+                return ResourceManager.GetString("03", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Batch or lot number&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;03&quot;,&quot;8006&quot;,&quot;8026&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Batch or lot number&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;03&quot;,&quot;8006&quot;,&quot;8026&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 20}]}.
         /// </summary>
-        internal static string D10 {
+        internal static string _10 {
             get {
-                return ResourceManager.GetString("D10", resourceCulture);
+                return ResourceManager.GetString("10", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Production date (YYMMDD)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{2}(?:0\\d|1[0-2])(?:[0-2]\\d|3[01]))&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;8006&quot;,&quot;8026&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Production date (YYMMDD)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{2}(?:0\\d|1[0-2])(?:[0-2]\\d|3[01]))&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;8006&quot;,&quot;8026&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6}]}.
         /// </summary>
-        internal static string D11 {
+        internal static string _11 {
             get {
-                return ResourceManager.GetString("D11", resourceCulture);
+                return ResourceManager.GetString("11", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Due date (YYMMDD)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{2}(?:0\\d|1[0-2])(?:[0-2]\\d|3[01]))&quot;,&quot;Requires&quot;: [&quot;8020&quot;,&quot;415&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Due date (YYMMDD)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{2}(?:0\\d|1[0-2])(?:[0-2]\\d|3[01]))&quot;,&quot;Requires&quot;: [&quot;8020415&quot;,&quot;8020&quot;,&quot;415&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6}]}.
         /// </summary>
-        internal static string D12 {
+        internal static string _12 {
             get {
-                return ResourceManager.GetString("D12", resourceCulture);
+                return ResourceManager.GetString("12", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Packaging date (YYMMDD)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{2}(?:0\\d|1[0-2])(?:[0-2]\\d|3[01]))&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;8006&quot;,&quot;8026&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Packaging date (YYMMDD)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{2}(?:0\\d|1[0-2])(?:[0-2]\\d|3[01]))&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;8006&quot;,&quot;8026&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6}]}.
         /// </summary>
-        internal static string D13 {
+        internal static string _13 {
             get {
-                return ResourceManager.GetString("D13", resourceCulture);
+                return ResourceManager.GetString("13", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Best before date (YYMMDD)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{2}(?:0\\d|1[0-2])(?:[0-2]\\d|3[01]))&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;8006&quot;,&quot;8026&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Best before date (YYMMDD)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{2}(?:0\\d|1[0-2])(?:[0-2]\\d|3[01]))&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;8006&quot;,&quot;8026&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6}]}.
         /// </summary>
-        internal static string D15 {
+        internal static string _15 {
             get {
-                return ResourceManager.GetString("D15", resourceCulture);
+                return ResourceManager.GetString("15", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Sell by date (YYMMDD)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{2}(?:0\\d|1[0-2])(?:[0-2]\\d|3[01]))&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;8006&quot;,&quot;8026&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Sell by date (YYMMDD)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{2}(?:0\\d|1[0-2])(?:[0-2]\\d|3[01]))&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;8006&quot;,&quot;8026&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6}]}.
         /// </summary>
-        internal static string D16 {
+        internal static string _16 {
             get {
-                return ResourceManager.GetString("D16", resourceCulture);
+                return ResourceManager.GetString("16", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Expiration date (YYMMDD)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{2}(?:0\\d|1[0-2])(?:[0-2]\\d|3[01]))&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;255&quot;,&quot;8006&quot;,&quot;8026&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Expiration date (YYMMDD)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{2}(?:0\\d|1[0-2])(?:[0-2]\\d|3[01]))&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;255&quot;,&quot;8006&quot;,&quot;8026&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6}]}.
         /// </summary>
-        internal static string D17 {
+        internal static string _17 {
             get {
-                return ResourceManager.GetString("D17", resourceCulture);
+                return ResourceManager.GetString("17", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Internal product variant&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{2})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;8006&quot;,&quot;8026&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Internal product variant&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{2})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;8006&quot;,&quot;8026&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 2}]}.
         /// </summary>
-        internal static string D20 {
+        internal static string _20 {
             get {
-                return ResourceManager.GetString("D20", resourceCulture);
+                return ResourceManager.GetString("20", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Serial number&quot;,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;03&quot;,&quot;8006&quot;],&quot;Excludes&quot;: [&quot;235&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Serial number&quot;,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;03&quot;,&quot;8006&quot;],&quot;Excludes&quot;: [&quot;235&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 20}]}.
         /// </summary>
-        internal static string D21 {
+        internal static string _21 {
             get {
-                return ResourceManager.GetString("D21", resourceCulture);
+                return ResourceManager.GetString("21", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Consumer product variant&quot;,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Consumer product variant&quot;,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 20}]}.
         /// </summary>
-        internal static string D22 {
+        internal static string _22 {
             get {
-                return ResourceManager.GetString("D22", resourceCulture);
+                return ResourceManager.GetString("22", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Third Party Controlled, Serialised Extension of Global Trade Item Number (GTIN) (TPX)&quot;,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,28})&quot;,&quot;Requires&quot;: [&quot;01&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Third Party Controlled, Serialised Extension of Global Trade Item Number (GTIN) (TPX)&quot;,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,28})&quot;,&quot;Requires&quot;: [&quot;01&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 28}]}.
         /// </summary>
-        internal static string D235 {
+        internal static string _235 {
             get {
-                return ResourceManager.GetString("D235", resourceCulture);
+                return ResourceManager.GetString("235", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Additional product identification assigned by the manufacturer&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,30})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;8006&quot;,&quot;8026&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Additional product identification assigned by the manufacturer&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,30})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;8006&quot;,&quot;8026&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 30}]}.
         /// </summary>
-        internal static string D240 {
+        internal static string _240 {
             get {
-                return ResourceManager.GetString("D240", resourceCulture);
+                return ResourceManager.GetString("240", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Customer part number&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,30})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;8006&quot;,&quot;8026&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Customer part number&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,30})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;8006&quot;,&quot;8026&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 30}]}.
         /// </summary>
-        internal static string D241 {
+        internal static string _241 {
             get {
-                return ResourceManager.GetString("D241", resourceCulture);
+                return ResourceManager.GetString("241", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Made-to-Order variation number&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{1,6})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;03&quot;,&quot;8006&quot;,&quot;8026&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Made-to-Order variation number&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{1,6})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;03&quot;,&quot;8006&quot;,&quot;8026&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 6}]}.
         /// </summary>
-        internal static string D242 {
+        internal static string _242 {
             get {
-                return ResourceManager.GetString("D242", resourceCulture);
+                return ResourceManager.GetString("242", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Packaging component number&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Packaging component number&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 20}]}.
         /// </summary>
-        internal static string D243 {
+        internal static string _243 {
             get {
-                return ResourceManager.GetString("D243", resourceCulture);
+                return ResourceManager.GetString("243", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Secondary serial number&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,30})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;21&quot;,&quot;8006&quot;,&quot;21&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Secondary serial number&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,30})&quot;,&quot;Requires&quot;: [&quot;0121&quot;,&quot;01&quot;,&quot;21&quot;,&quot;800621&quot;,&quot;8006&quot;,&quot;21&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 30}]}.
         /// </summary>
-        internal static string D250 {
+        internal static string _250 {
             get {
-                return ResourceManager.GetString("D250", resourceCulture);
+                return ResourceManager.GetString("250", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Reference to source entity&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,30})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;8006&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Reference to source entity&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,30})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;8006&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 30}]}.
         /// </summary>
-        internal static string D251 {
+        internal static string _251 {
             get {
-                return ResourceManager.GetString("D251", resourceCulture);
+                return ResourceManager.GetString("251", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Document Type Identifier (GDTI)&quot;,&quot;IsPrimary&quot;: true,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{13})([!%-?A-Z_a-z\\x22]{0,17})&quot;}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Document Type Identifier (GDTI)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{13})([!%-?A-Z_a-z\\x22]{0,17})&quot;,&quot;Captures&quot;: [{&quot;CheckDigit&quot;: true,&quot;Fixed&quot;: true,&quot;Length&quot;: 13},{&quot;Length&quot;: 17}]}.
         /// </summary>
-        internal static string D253 {
+        internal static string _253 {
             get {
-                return ResourceManager.GetString("D253", resourceCulture);
+                return ResourceManager.GetString("253", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Location Number (GLN) extension component&quot;,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;414&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Location Number (GLN) extension component&quot;,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;414&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 20}]}.
         /// </summary>
-        internal static string D254 {
+        internal static string _254 {
             get {
-                return ResourceManager.GetString("D254", resourceCulture);
+                return ResourceManager.GetString("254", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Coupon Number (GCN)&quot;,&quot;IsPrimary&quot;: true,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{13})(\\d{0,12})&quot;,&quot;Excludes&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;415&quot;,&quot;8006&quot;,&quot;8020&quot;,&quot;8026&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Coupon Number (GCN)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{13})(\\d{0,12})&quot;,&quot;Excludes&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;415&quot;,&quot;8006&quot;,&quot;8020&quot;,&quot;8026&quot;],&quot;Captures&quot;: [{&quot;CheckDigit&quot;: true,&quot;Fixed&quot;: true,&quot;Length&quot;: 13},{&quot;Length&quot;: 12}]}.
         /// </summary>
-        internal static string D255 {
+        internal static string _255 {
             get {
-                return ResourceManager.GetString("D255", resourceCulture);
+                return ResourceManager.GetString("255", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Variable count of items (variable measure trade item)&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{0,8})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Variable count of items (variable measure trade item)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{0,8})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 8}]}.
         /// </summary>
-        internal static string D30 {
+        internal static string _30 {
             get {
-                return ResourceManager.GetString("D30", resourceCulture);
+                return ResourceManager.GetString("30", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Net weight, kilograms (variable measure trade item)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Excludes&quot;: []}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Net weight, kilograms (variable measure trade item)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Excludes&quot;: [&quot;31003105&quot;,&quot;3100&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6}]}.
         /// </summary>
-        internal static string D3100 {
+        internal static string _3100 {
             get {
-                return ResourceManager.GetString("D3100", resourceCulture);
+                return ResourceManager.GetString("3100", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Length or first dimension, metres (variable measure trade item)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Excludes&quot;: []}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Length or first dimension, metres (variable measure trade item)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Excludes&quot;: [&quot;31103115&quot;,&quot;3110&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6}]}.
         /// </summary>
-        internal static string D3110 {
+        internal static string _3110 {
             get {
-                return ResourceManager.GetString("D3110", resourceCulture);
+                return ResourceManager.GetString("3110", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Width, diameter, or second dimension, metres (variable measure trade item)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Excludes&quot;: []}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Width, diameter, or second dimension, metres (variable measure trade item)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Excludes&quot;: [&quot;31203125&quot;,&quot;3120&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6}]}.
         /// </summary>
-        internal static string D3120 {
+        internal static string _3120 {
             get {
-                return ResourceManager.GetString("D3120", resourceCulture);
+                return ResourceManager.GetString("3120", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Depth, thickness, height, or third dimension, metres (variable measure trade item)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Excludes&quot;: []}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Depth, thickness, height, or third dimension, metres (variable measure trade item)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Excludes&quot;: [&quot;31303135&quot;,&quot;3130&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6}]}.
         /// </summary>
-        internal static string D3130 {
+        internal static string _3130 {
             get {
-                return ResourceManager.GetString("D3130", resourceCulture);
+                return ResourceManager.GetString("3130", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Area, square metres (variable measure trade item)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Excludes&quot;: []}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Area, square metres (variable measure trade item)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Excludes&quot;: [&quot;31403145&quot;,&quot;3140&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6}]}.
         /// </summary>
-        internal static string D3140 {
+        internal static string _3140 {
             get {
-                return ResourceManager.GetString("D3140", resourceCulture);
+                return ResourceManager.GetString("3140", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Net volume, litres (variable measure trade item)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Excludes&quot;: []}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Net volume, litres (variable measure trade item)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Excludes&quot;: [&quot;31503155&quot;,&quot;3150&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6}]}.
         /// </summary>
-        internal static string D3150 {
+        internal static string _3150 {
             get {
-                return ResourceManager.GetString("D3150", resourceCulture);
+                return ResourceManager.GetString("3150", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Logistic weight, kilograms&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;00&quot;,&quot;01&quot;],&quot;Excludes&quot;: []}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Logistic weight, kilograms&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;00&quot;,&quot;01&quot;],&quot;Excludes&quot;: [&quot;33003305&quot;,&quot;3300&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6}]}.
         /// </summary>
-        internal static string D3300 {
+        internal static string _3300 {
             get {
-                return ResourceManager.GetString("D3300", resourceCulture);
+                return ResourceManager.GetString("3300", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Length or first dimension, metres&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;00&quot;,&quot;01&quot;],&quot;Excludes&quot;: []}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Length or first dimension, metres&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;00&quot;,&quot;01&quot;],&quot;Excludes&quot;: [&quot;33103315&quot;,&quot;3310&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6}]}.
         /// </summary>
-        internal static string D3310 {
+        internal static string _3310 {
             get {
-                return ResourceManager.GetString("D3310", resourceCulture);
+                return ResourceManager.GetString("3310", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Width, diameter, or second dimension, metres&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;00&quot;,&quot;01&quot;],&quot;Excludes&quot;: []}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Width, diameter, or second dimension, metres&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;00&quot;,&quot;01&quot;],&quot;Excludes&quot;: [&quot;33203325&quot;,&quot;3320&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6}]}.
         /// </summary>
-        internal static string D3320 {
+        internal static string _3320 {
             get {
-                return ResourceManager.GetString("D3320", resourceCulture);
+                return ResourceManager.GetString("3320", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Depth, thickness, height, or third dimension, metres&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;00&quot;,&quot;01&quot;],&quot;Excludes&quot;: []}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Depth, thickness, height, or third dimension, metres&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;00&quot;,&quot;01&quot;],&quot;Excludes&quot;: [&quot;33303335&quot;,&quot;3330&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6}]}.
         /// </summary>
-        internal static string D3330 {
+        internal static string _3330 {
             get {
-                return ResourceManager.GetString("D3330", resourceCulture);
+                return ResourceManager.GetString("3330", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Area, square metres&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;00&quot;,&quot;01&quot;],&quot;Excludes&quot;: []}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Area, square metres&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;00&quot;,&quot;01&quot;],&quot;Excludes&quot;: [&quot;33403345&quot;,&quot;3340&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6}]}.
         /// </summary>
-        internal static string D3340 {
+        internal static string _3340 {
             get {
-                return ResourceManager.GetString("D3340", resourceCulture);
+                return ResourceManager.GetString("3340", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Logistic volume, litres&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;00&quot;,&quot;01&quot;],&quot;Excludes&quot;: []}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Logistic volume, litres&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;00&quot;,&quot;01&quot;],&quot;Excludes&quot;: [&quot;33503355&quot;,&quot;3350&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6}]}.
         /// </summary>
-        internal static string D3350 {
+        internal static string _3350 {
             get {
-                return ResourceManager.GetString("D3350", resourceCulture);
+                return ResourceManager.GetString("3350", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Kilograms per square metre&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;01&quot;],&quot;Excludes&quot;: []}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Kilograms per square metre&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;01&quot;],&quot;Excludes&quot;: [&quot;33703375&quot;,&quot;3370&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6}]}.
         /// </summary>
-        internal static string D3370 {
+        internal static string _3370 {
             get {
-                return ResourceManager.GetString("D3370", resourceCulture);
+                return ResourceManager.GetString("3370", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Count of trade items or trade item pieces contained in a logistic unit&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{1,8})&quot;,&quot;Requires&quot;: [&quot;00&quot;,&quot;02&quot;,&quot;00&quot;,&quot;8026&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Count of trade items or trade item pieces contained in a logistic unit&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{1,8})&quot;,&quot;Requires&quot;: [&quot;0002&quot;,&quot;00&quot;,&quot;02&quot;,&quot;008026&quot;,&quot;00&quot;,&quot;8026&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 8}]}.
         /// </summary>
-        internal static string D37 {
+        internal static string _37 {
             get {
-                return ResourceManager.GetString("D37", resourceCulture);
+                return ResourceManager.GetString("37", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Applicable amount payable or Coupon value, local currency&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{1,15})&quot;,&quot;MaxElements&quot;: 10,&quot;Requires&quot;: [&quot;255&quot;,&quot;8020&quot;,&quot;415&quot;],&quot;Excludes&quot;: [&quot;8111&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Applicable amount payable or Coupon value, local currency&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{1,15})&quot;,&quot;MaxElements&quot;: 10,&quot;Requires&quot;: [&quot;255&quot;,&quot;8020415&quot;,&quot;8020&quot;,&quot;415&quot;],&quot;Excludes&quot;: [&quot;39003909&quot;,&quot;3900&quot;,&quot;39103919&quot;,&quot;3910&quot;,&quot;39403943&quot;,&quot;3940&quot;,&quot;8111&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 15}]}.
         /// </summary>
-        internal static string D3900 {
+        internal static string _3900 {
             get {
-                return ResourceManager.GetString("D3900", resourceCulture);
+                return ResourceManager.GetString("3900", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Applicable amount payable with ISO currency code&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{3})(\\d{1,15})&quot;,&quot;MaxElements&quot;: 10,&quot;Requires&quot;: [&quot;8020&quot;,&quot;415&quot;],&quot;Excludes&quot;: []}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Applicable amount payable with ISO currency code&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{3})(\\d{1,15})&quot;,&quot;MaxElements&quot;: 10,&quot;Requires&quot;: [&quot;8020415&quot;,&quot;8020&quot;,&quot;415&quot;],&quot;Excludes&quot;: [&quot;39103919&quot;,&quot;3910&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 3},{&quot;Length&quot;: 15}]}.
         /// </summary>
-        internal static string D3910 {
+        internal static string _3910 {
             get {
-                return ResourceManager.GetString("D3910", resourceCulture);
+                return ResourceManager.GetString("3910", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Applicable amount payable, single monetary area (variable measure trade item)&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{1,15})&quot;,&quot;MaxElements&quot;: 10,&quot;Requires&quot;: [&quot;30&quot;],&quot;Excludes&quot;: []}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Applicable amount payable, single monetary area (variable measure trade item)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{1,15})&quot;,&quot;MaxElements&quot;: 10,&quot;Requires&quot;: [&quot;30&quot;,&quot;31003195&quot;,&quot;3100&quot;,&quot;32003295&quot;,&quot;3200&quot;,&quot;35003595&quot;,&quot;3500&quot;,&quot;36003695&quot;,&quot;3600&quot;],&quot;Excludes&quot;: [&quot;39203929&quot;,&quot;3920&quot;,&quot;39303939&quot;,&quot;3930&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 15}]}.
         /// </summary>
-        internal static string D3920 {
+        internal static string _3920 {
             get {
-                return ResourceManager.GetString("D3920", resourceCulture);
+                return ResourceManager.GetString("3920", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Applicable amount payable with ISO currency code (variable measure trade item)&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{3})(\\d{1,15})&quot;,&quot;MaxElements&quot;: 10,&quot;Requires&quot;: [&quot;30&quot;],&quot;Excludes&quot;: []}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Applicable amount payable with ISO currency code (variable measure trade item)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{3})(\\d{1,15})&quot;,&quot;MaxElements&quot;: 10,&quot;Requires&quot;: [&quot;30&quot;,&quot;31003195&quot;,&quot;3100&quot;,&quot;32003295&quot;,&quot;3200&quot;,&quot;35003595&quot;,&quot;3500&quot;,&quot;36003695&quot;,&quot;3600&quot;],&quot;Excludes&quot;: [&quot;39303939&quot;,&quot;3930&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 3},{&quot;Length&quot;: 15}]}.
         /// </summary>
-        internal static string D3930 {
+        internal static string _3930 {
             get {
-                return ResourceManager.GetString("D3930", resourceCulture);
+                return ResourceManager.GetString("3930", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Percentage discount of a coupon&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{4})&quot;,&quot;MaxElements&quot;: 4,&quot;Requires&quot;: [&quot;255&quot;],&quot;Excludes&quot;: [&quot;8111&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Percentage discount of a coupon&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{4})&quot;,&quot;MaxElements&quot;: 4,&quot;Requires&quot;: [&quot;255&quot;],&quot;Excludes&quot;: [&quot;39403943&quot;,&quot;3940&quot;,&quot;8111&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 4}]}.
         /// </summary>
-        internal static string D3940 {
+        internal static string _3940 {
             get {
-                return ResourceManager.GetString("D3940", resourceCulture);
+                return ResourceManager.GetString("3940", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Amount Payable per unit of measure single monetary area (variable measure trade item)&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;30&quot;],&quot;Excludes&quot;: [&quot;8005&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Amount Payable per unit of measure single monetary area (variable measure trade item)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;MaxElements&quot;: 6,&quot;Requires&quot;: [&quot;30&quot;,&quot;31003195&quot;,&quot;3100&quot;,&quot;32003295&quot;,&quot;3200&quot;,&quot;35003595&quot;,&quot;3500&quot;,&quot;36003695&quot;,&quot;3600&quot;],&quot;Excludes&quot;: [&quot;39203929&quot;,&quot;3920&quot;,&quot;39303939&quot;,&quot;3930&quot;,&quot;39503955&quot;,&quot;3950&quot;,&quot;8005&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6}]}.
         /// </summary>
-        internal static string D3950 {
+        internal static string _3950 {
             get {
-                return ResourceManager.GetString("D3950", resourceCulture);
+                return ResourceManager.GetString("3950", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Customers purchase order number&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,30})&quot;}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Customers purchase order number&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,30})&quot;,&quot;Captures&quot;: [{&quot;Length&quot;: 30}]}.
         /// </summary>
-        internal static string D400 {
+        internal static string _400 {
             get {
-                return ResourceManager.GetString("D400", resourceCulture);
+                return ResourceManager.GetString("400", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Identification Number for Consignment (GINC)&quot;,&quot;IsPrimary&quot;: true,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,30})&quot;}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Identification Number for Consignment (GINC)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,30})&quot;,&quot;Captures&quot;: [{&quot;Length&quot;: 30}]}.
         /// </summary>
-        internal static string D401 {
+        internal static string _401 {
             get {
-                return ResourceManager.GetString("D401", resourceCulture);
+                return ResourceManager.GetString("401", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Shipment Identification Number (GSIN)&quot;,&quot;IsPrimary&quot;: true,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{17})&quot;}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Shipment Identification Number (GSIN)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{17})&quot;,&quot;Captures&quot;: [{&quot;CheckDigit&quot;: true,&quot;Fixed&quot;: true,&quot;Length&quot;: 17}]}.
         /// </summary>
-        internal static string D402 {
+        internal static string _402 {
             get {
-                return ResourceManager.GetString("D402", resourceCulture);
+                return ResourceManager.GetString("402", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Routing code&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,30})&quot;,&quot;Requires&quot;: [&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Routing code&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,30})&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 30}]}.
         /// </summary>
-        internal static string D403 {
+        internal static string _403 {
             get {
-                return ResourceManager.GetString("D403", resourceCulture);
+                return ResourceManager.GetString("403", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship to / Deliver to Global Location Number (GLN)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{13})&quot;}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship to / Deliver to Global Location Number (GLN)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{13})&quot;,&quot;Captures&quot;: [{&quot;CheckDigit&quot;: true,&quot;Fixed&quot;: true,&quot;Length&quot;: 13}]}.
         /// </summary>
-        internal static string D410 {
+        internal static string _410 {
             get {
-                return ResourceManager.GetString("D410", resourceCulture);
+                return ResourceManager.GetString("410", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Bill to / Invoice to Global Location Number (GLN)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{13})&quot;}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Bill to / Invoice to Global Location Number (GLN)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{13})&quot;,&quot;Captures&quot;: [{&quot;CheckDigit&quot;: true,&quot;Fixed&quot;: true,&quot;Length&quot;: 13}]}.
         /// </summary>
-        internal static string D411 {
+        internal static string _411 {
             get {
-                return ResourceManager.GetString("D411", resourceCulture);
+                return ResourceManager.GetString("411", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Purchased from Global Location Number (GLN)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{13})&quot;}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Purchased from Global Location Number (GLN)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{13})&quot;,&quot;Captures&quot;: [{&quot;CheckDigit&quot;: true,&quot;Fixed&quot;: true,&quot;Length&quot;: 13}]}.
         /// </summary>
-        internal static string D412 {
+        internal static string _412 {
             get {
-                return ResourceManager.GetString("D412", resourceCulture);
+                return ResourceManager.GetString("412", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship for / Deliver for - Forward to Global Location Number (GLN)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{13})&quot;}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship for / Deliver for - Forward to Global Location Number (GLN)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{13})&quot;,&quot;Captures&quot;: [{&quot;CheckDigit&quot;: true,&quot;Fixed&quot;: true,&quot;Length&quot;: 13}]}.
         /// </summary>
-        internal static string D413 {
+        internal static string _413 {
             get {
-                return ResourceManager.GetString("D413", resourceCulture);
+                return ResourceManager.GetString("413", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Identification of a physical location - Global Location Number (GLN)&quot;,&quot;IsPrimary&quot;: true,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{13})&quot;,&quot;Qualifiers&quot;: [&quot;254&quot;,&quot;7040&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Identification of a physical location - Global Location Number (GLN)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{13})&quot;,&quot;Qualifiers&quot;: [&quot;254&quot;,&quot;7040&quot;],&quot;Captures&quot;: [{&quot;CheckDigit&quot;: true,&quot;Fixed&quot;: true,&quot;Length&quot;: 13}]}.
         /// </summary>
-        internal static string D414 {
+        internal static string _414 {
             get {
-                return ResourceManager.GetString("D414", resourceCulture);
+                return ResourceManager.GetString("414", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Location Number (GLN) of the invoicing party&quot;,&quot;IsPrimary&quot;: true,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{13})&quot;,&quot;Qualifiers&quot;: [&quot;8020&quot;],&quot;Requires&quot;: [&quot;8020&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Location Number (GLN) of the invoicing party&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{13})&quot;,&quot;Qualifiers&quot;: [&quot;8020&quot;],&quot;Requires&quot;: [&quot;8020&quot;],&quot;Captures&quot;: [{&quot;CheckDigit&quot;: true,&quot;Fixed&quot;: true,&quot;Length&quot;: 13}]}.
         /// </summary>
-        internal static string D415 {
+        internal static string _415 {
             get {
-                return ResourceManager.GetString("D415", resourceCulture);
+                return ResourceManager.GetString("415", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Location Number (GLN) of the production or service location&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{13})&quot;}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Location Number (GLN) of the production or service location&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{13})&quot;,&quot;Captures&quot;: [{&quot;CheckDigit&quot;: true,&quot;Fixed&quot;: true,&quot;Length&quot;: 13}]}.
         /// </summary>
-        internal static string D416 {
+        internal static string _416 {
             get {
-                return ResourceManager.GetString("D416", resourceCulture);
+                return ResourceManager.GetString("416", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Party Global Location Number (GLN)&quot;,&quot;IsPrimary&quot;: true,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{13})&quot;,&quot;Qualifiers&quot;: [&quot;7040&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Party Global Location Number (GLN)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{13})&quot;,&quot;Qualifiers&quot;: [&quot;7040&quot;],&quot;Captures&quot;: [{&quot;CheckDigit&quot;: true,&quot;Fixed&quot;: true,&quot;Length&quot;: 13}]}.
         /// </summary>
-        internal static string D417 {
+        internal static string _417 {
             get {
-                return ResourceManager.GetString("D417", resourceCulture);
+                return ResourceManager.GetString("417", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship to / Deliver to postal code within a single postal authority&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Excludes&quot;: [&quot;421&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship to / Deliver to postal code within a single postal authority&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Excludes&quot;: [&quot;421&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 20}]}.
         /// </summary>
-        internal static string D420 {
+        internal static string _420 {
             get {
-                return ResourceManager.GetString("D420", resourceCulture);
+                return ResourceManager.GetString("420", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship to / Deliver to postal code with ISO country code&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{3})([!%-?A-Z_a-z\\x22]{1,9})&quot;,&quot;Excludes&quot;: [&quot;4307&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship to / Deliver to postal code with ISO country code&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{3})([!%-?A-Z_a-z\\x22]{1,9})&quot;,&quot;Excludes&quot;: [&quot;4307&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 3},{&quot;Length&quot;: 9}]}.
         /// </summary>
-        internal static string D421 {
+        internal static string _421 {
             get {
-                return ResourceManager.GetString("D421", resourceCulture);
+                return ResourceManager.GetString("421", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Country of origin of a trade item&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{3})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;8006&quot;,&quot;8026&quot;],&quot;Excludes&quot;: [&quot;426&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Country of origin of a trade item&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{3})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;8006&quot;,&quot;8026&quot;],&quot;Excludes&quot;: [&quot;426&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 3}]}.
         /// </summary>
-        internal static string D422 {
+        internal static string _422 {
             get {
-                return ResourceManager.GetString("D422", resourceCulture);
+                return ResourceManager.GetString("422", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Country of initial processing&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;((?:\\d{3}){1,5})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Excludes&quot;: [&quot;426&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Country of initial processing&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;((?:\\d{3}){1,5})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Excludes&quot;: [&quot;426&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 15}]}.
         /// </summary>
-        internal static string D423 {
+        internal static string _423 {
             get {
-                return ResourceManager.GetString("D423", resourceCulture);
+                return ResourceManager.GetString("423", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Country of processing&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{3})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Excludes&quot;: [&quot;426&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Country of processing&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{3})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Excludes&quot;: [&quot;426&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 3}]}.
         /// </summary>
-        internal static string D424 {
+        internal static string _424 {
             get {
-                return ResourceManager.GetString("D424", resourceCulture);
+                return ResourceManager.GetString("424", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Country of disassembly&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;((?:\\d{3}){1,5})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Excludes&quot;: [&quot;426&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Country of disassembly&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;((?:\\d{3}){1,5})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Excludes&quot;: [&quot;426&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 15}]}.
         /// </summary>
-        internal static string D425 {
+        internal static string _425 {
             get {
-                return ResourceManager.GetString("D425", resourceCulture);
+                return ResourceManager.GetString("425", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Country covering full process chain&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{3})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Country covering full process chain&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{3})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 3}]}.
         /// </summary>
-        internal static string D426 {
+        internal static string _426 {
             get {
-                return ResourceManager.GetString("D426", resourceCulture);
+                return ResourceManager.GetString("426", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Country subdivision Of origin&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,3})&quot;,&quot;Requires&quot;: [&quot;422&quot;,&quot;01&quot;,&quot;422&quot;,&quot;02&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Country subdivision Of origin&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,3})&quot;,&quot;Requires&quot;: [&quot;42201&quot;,&quot;422&quot;,&quot;01&quot;,&quot;42202&quot;,&quot;422&quot;,&quot;02&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 3}]}.
         /// </summary>
-        internal static string D427 {
+        internal static string _427 {
             get {
-                return ResourceManager.GetString("D427", resourceCulture);
+                return ResourceManager.GetString("427", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship-to / Deliver-to company name&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,35})&quot;,&quot;Requires&quot;: [&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship-to / Deliver-to company name&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,35})&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 35}]}.
         /// </summary>
-        internal static string D4300 {
+        internal static string _4300 {
             get {
-                return ResourceManager.GetString("D4300", resourceCulture);
+                return ResourceManager.GetString("4300", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship-to / Deliver-to contact&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,35})&quot;,&quot;Requires&quot;: [&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship-to / Deliver-to contact&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,35})&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 35}]}.
         /// </summary>
-        internal static string D4301 {
+        internal static string _4301 {
             get {
-                return ResourceManager.GetString("D4301", resourceCulture);
+                return ResourceManager.GetString("4301", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship-to / Deliver-to address line 1&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})&quot;,&quot;Requires&quot;: [&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship-to / Deliver-to address line 1&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 70}]}.
         /// </summary>
-        internal static string D4302 {
+        internal static string _4302 {
             get {
-                return ResourceManager.GetString("D4302", resourceCulture);
+                return ResourceManager.GetString("4302", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship-to / Deliver-to address line 2&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})&quot;,&quot;Requires&quot;: [&quot;4302&quot;,&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship-to / Deliver-to address line 2&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})&quot;,&quot;Requires&quot;: [&quot;430200&quot;,&quot;4302&quot;,&quot;00&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 70}]}.
         /// </summary>
-        internal static string D4303 {
+        internal static string _4303 {
             get {
-                return ResourceManager.GetString("D4303", resourceCulture);
+                return ResourceManager.GetString("4303", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship-to / Deliver-to suburb&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})&quot;,&quot;Requires&quot;: [&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship-to / Deliver-to suburb&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 70}]}.
         /// </summary>
-        internal static string D4304 {
+        internal static string _4304 {
             get {
-                return ResourceManager.GetString("D4304", resourceCulture);
+                return ResourceManager.GetString("4304", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship-to / Deliver-to locality&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})&quot;,&quot;Requires&quot;: [&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship-to / Deliver-to locality&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 70}]}.
         /// </summary>
-        internal static string D4305 {
+        internal static string _4305 {
             get {
-                return ResourceManager.GetString("D4305", resourceCulture);
+                return ResourceManager.GetString("4305", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship-to / Deliver-to region&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})&quot;,&quot;Requires&quot;: [&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship-to / Deliver-to region&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 70}]}.
         /// </summary>
-        internal static string D4306 {
+        internal static string _4306 {
             get {
-                return ResourceManager.GetString("D4306", resourceCulture);
+                return ResourceManager.GetString("4306", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship-to / Deliver-to country code&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([A-Z0-9]{2})&quot;,&quot;Requires&quot;: [&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship-to / Deliver-to country code&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([A-Z0-9]{2})&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 2}]}.
         /// </summary>
-        internal static string D4307 {
+        internal static string _4307 {
             get {
-                return ResourceManager.GetString("D4307", resourceCulture);
+                return ResourceManager.GetString("4307", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship-to / Deliver-to telephone number&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,30})&quot;,&quot;Requires&quot;: [&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship-to / Deliver-to telephone number&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,30})&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 30}]}.
         /// </summary>
-        internal static string D4308 {
+        internal static string _4308 {
             get {
-                return ResourceManager.GetString("D4308", resourceCulture);
+                return ResourceManager.GetString("4308", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship-to / Deliver-to GEO location&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{20})&quot;,&quot;Requires&quot;: [&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Ship-to / Deliver-to GEO location&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{20})&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 20}]}.
         /// </summary>
-        internal static string D4309 {
+        internal static string _4309 {
             get {
-                return ResourceManager.GetString("D4309", resourceCulture);
+                return ResourceManager.GetString("4309", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Return-to company name&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,35})&quot;,&quot;Requires&quot;: [&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Return-to company name&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,35})&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 35}]}.
         /// </summary>
-        internal static string D4310 {
+        internal static string _4310 {
             get {
-                return ResourceManager.GetString("D4310", resourceCulture);
+                return ResourceManager.GetString("4310", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Return-to contact&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,35})&quot;,&quot;Requires&quot;: [&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Return-to contact&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,35})&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 35}]}.
         /// </summary>
-        internal static string D4311 {
+        internal static string _4311 {
             get {
-                return ResourceManager.GetString("D4311", resourceCulture);
+                return ResourceManager.GetString("4311", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Return-to address line 1&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})&quot;,&quot;Requires&quot;: [&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Return-to address line 1&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 70}]}.
         /// </summary>
-        internal static string D4312 {
+        internal static string _4312 {
             get {
-                return ResourceManager.GetString("D4312", resourceCulture);
+                return ResourceManager.GetString("4312", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Return-to address line 2&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})&quot;,&quot;Requires&quot;: [&quot;4312&quot;,&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Return-to address line 2&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})&quot;,&quot;Requires&quot;: [&quot;431200&quot;,&quot;4312&quot;,&quot;00&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 70}]}.
         /// </summary>
-        internal static string D4313 {
+        internal static string _4313 {
             get {
-                return ResourceManager.GetString("D4313", resourceCulture);
+                return ResourceManager.GetString("4313", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Return-to suburb&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})&quot;,&quot;Requires&quot;: [&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Return-to suburb&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 70}]}.
         /// </summary>
-        internal static string D4314 {
+        internal static string _4314 {
             get {
-                return ResourceManager.GetString("D4314", resourceCulture);
+                return ResourceManager.GetString("4314", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Return-to locality&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})&quot;,&quot;Requires&quot;: [&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Return-to locality&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 70}]}.
         /// </summary>
-        internal static string D4315 {
+        internal static string _4315 {
             get {
-                return ResourceManager.GetString("D4315", resourceCulture);
+                return ResourceManager.GetString("4315", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Return-to region&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})&quot;,&quot;Requires&quot;: [&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Return-to region&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 70}]}.
         /// </summary>
-        internal static string D4316 {
+        internal static string _4316 {
             get {
-                return ResourceManager.GetString("D4316", resourceCulture);
+                return ResourceManager.GetString("4316", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Return-to country code&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([A-Z0-9]{2})&quot;,&quot;Requires&quot;: [&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Return-to country code&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([A-Z0-9]{2})&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 2}]}.
         /// </summary>
-        internal static string D4317 {
+        internal static string _4317 {
             get {
-                return ResourceManager.GetString("D4317", resourceCulture);
+                return ResourceManager.GetString("4317", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Return-to postal code&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Return-to postal code&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 20}]}.
         /// </summary>
-        internal static string D4318 {
+        internal static string _4318 {
             get {
-                return ResourceManager.GetString("D4318", resourceCulture);
+                return ResourceManager.GetString("4318", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Return-to telephone number&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,30})&quot;,&quot;Requires&quot;: [&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Return-to telephone number&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,30})&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 30}]}.
         /// </summary>
-        internal static string D4319 {
+        internal static string _4319 {
             get {
-                return ResourceManager.GetString("D4319", resourceCulture);
+                return ResourceManager.GetString("4319", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Service code description&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,35})&quot;,&quot;Requires&quot;: [&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Service code description&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,35})&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 35}]}.
         /// </summary>
-        internal static string D4320 {
+        internal static string _4320 {
             get {
-                return ResourceManager.GetString("D4320", resourceCulture);
+                return ResourceManager.GetString("4320", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Dangerous goods flag&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([01])&quot;,&quot;Requires&quot;: [&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Dangerous goods flag&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([01])&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 1}]}.
         /// </summary>
-        internal static string D4321 {
+        internal static string _4321 {
             get {
-                return ResourceManager.GetString("D4321", resourceCulture);
+                return ResourceManager.GetString("4321", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Authority to leave&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([01])&quot;,&quot;Requires&quot;: [&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Authority to leave&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([01])&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 1}]}.
         /// </summary>
-        internal static string D4322 {
+        internal static string _4322 {
             get {
-                return ResourceManager.GetString("D4322", resourceCulture);
+                return ResourceManager.GetString("4322", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Signature required flag&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([01])&quot;,&quot;Requires&quot;: [&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Signature required flag&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([01])&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 1}]}.
         /// </summary>
-        internal static string D4323 {
+        internal static string _4323 {
             get {
-                return ResourceManager.GetString("D4323", resourceCulture);
+                return ResourceManager.GetString("4323", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Not before delivery date time (YYMMDDhhmm)&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{10})&quot;,&quot;Requires&quot;: [&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Not before delivery date time (YYMMDDhhmm)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{10})&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6},{&quot;Fixed&quot;: true,&quot;Length&quot;: 4}]}.
         /// </summary>
-        internal static string D4324 {
+        internal static string _4324 {
             get {
-                return ResourceManager.GetString("D4324", resourceCulture);
+                return ResourceManager.GetString("4324", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Not after delivery date time (YYMMDDhhmm)&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{10})&quot;,&quot;Requires&quot;: [&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Not after delivery date time (YYMMDDhhmm)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{10})&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6},{&quot;Fixed&quot;: true,&quot;Length&quot;: 4}]}.
         /// </summary>
-        internal static string D4325 {
+        internal static string _4325 {
             get {
-                return ResourceManager.GetString("D4325", resourceCulture);
+                return ResourceManager.GetString("4325", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Release date (YYMMDD)&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;Requires&quot;: [&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Release date (YYMMDD)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6}]}.
         /// </summary>
-        internal static string D4326 {
+        internal static string _4326 {
             get {
-                return ResourceManager.GetString("D4326", resourceCulture);
+                return ResourceManager.GetString("4326", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Maximum temperature in Fahrenheit (expressed in hundredths of degrees)&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{6}[-]?)&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Excludes&quot;: [&quot;4331&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Maximum temperature in Fahrenheit (expressed in hundredths of degrees)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6}[-]?)&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Excludes&quot;: [&quot;4331&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6},{&quot;Fixed&quot;: true,&quot;Length&quot;: 1}]}.
         /// </summary>
-        internal static string D4330 {
+        internal static string _4330 {
             get {
-                return ResourceManager.GetString("D4330", resourceCulture);
+                return ResourceManager.GetString("4330", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Minimum temperature in Celsius (expressed in hundredths of degrees)&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{6}[-]?)&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Excludes&quot;: [&quot;4332&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Minimum temperature in Celsius (expressed in hundredths of degrees)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6}[-]?)&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Excludes&quot;: [&quot;4332&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6},{&quot;Fixed&quot;: true,&quot;Length&quot;: 1}]}.
         /// </summary>
-        internal static string D4333 {
+        internal static string _4333 {
             get {
-                return ResourceManager.GetString("D4333", resourceCulture);
+                return ResourceManager.GetString("4333", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;NATO Stock Number (NSN)&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{13})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;8006&quot;,&quot;8026&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;NATO Stock Number (NSN)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{13})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;,&quot;8006&quot;,&quot;8026&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 13}]}.
         /// </summary>
-        internal static string D7001 {
+        internal static string _7001 {
             get {
-                return ResourceManager.GetString("D7001", resourceCulture);
+                return ResourceManager.GetString("7001", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;UN/ECE meat carcasses and cuts classification&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,30})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;UN/ECE meat carcasses and cuts classification&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,30})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 30}]}.
         /// </summary>
-        internal static string D7002 {
+        internal static string _7002 {
             get {
-                return ResourceManager.GetString("D7002", resourceCulture);
+                return ResourceManager.GetString("7002", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Expiration date and time (YYMMDDhhmm)&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{10})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Expiration date and time (YYMMDDhhmm)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{10})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6},{&quot;Fixed&quot;: true,&quot;Length&quot;: 4}]}.
         /// </summary>
-        internal static string D7003 {
+        internal static string _7003 {
             get {
-                return ResourceManager.GetString("D7003", resourceCulture);
+                return ResourceManager.GetString("7003", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Active potency&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{0,4})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;10&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Active potency&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{0,4})&quot;,&quot;Requires&quot;: [&quot;0110&quot;,&quot;01&quot;,&quot;10&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 4}]}.
         /// </summary>
-        internal static string D7004 {
+        internal static string _7004 {
             get {
-                return ResourceManager.GetString("D7004", resourceCulture);
+                return ResourceManager.GetString("7004", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Catch area&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,12})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Catch area&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,12})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 12}]}.
         /// </summary>
-        internal static string D7005 {
+        internal static string _7005 {
             get {
-                return ResourceManager.GetString("D7005", resourceCulture);
+                return ResourceManager.GetString("7005", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;First freeze date (YYMMDD)&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;First freeze date (YYMMDD)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6}]}.
         /// </summary>
-        internal static string D7006 {
+        internal static string _7006 {
             get {
-                return ResourceManager.GetString("D7006", resourceCulture);
+                return ResourceManager.GetString("7006", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Harvest date (YYMMDD[YYMMDD])&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})(\\d{6})?&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Harvest date (YYMMDD[YYMMDD])&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})(\\d{6})?&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6},{&quot;Fixed&quot;: true,&quot;Length&quot;: 6}]}.
         /// </summary>
-        internal static string D7007 {
+        internal static string _7007 {
             get {
-                return ResourceManager.GetString("D7007", resourceCulture);
+                return ResourceManager.GetString("7007", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Species for fishery purposes&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,3})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Species for fishery purposes&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,3})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 3}]}.
         /// </summary>
-        internal static string D7008 {
+        internal static string _7008 {
             get {
-                return ResourceManager.GetString("D7008", resourceCulture);
+                return ResourceManager.GetString("7008", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Fishing gear type&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,10})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Fishing gear type&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,10})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 10}]}.
         /// </summary>
-        internal static string D7009 {
+        internal static string _7009 {
             get {
-                return ResourceManager.GetString("D7009", resourceCulture);
+                return ResourceManager.GetString("7009", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Production method&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,2})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Production method&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,2})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 2}]}.
         /// </summary>
-        internal static string D7010 {
+        internal static string _7010 {
             get {
-                return ResourceManager.GetString("D7010", resourceCulture);
+                return ResourceManager.GetString("7010", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Test by date (YYMMDD[hhmm])&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})(\\d{4})?&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Test by date (YYMMDD[hhmm])&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})(\\d{4})?&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6},{&quot;Fixed&quot;: true,&quot;Length&quot;: 4}]}.
         /// </summary>
-        internal static string D7011 {
+        internal static string _7011 {
             get {
-                return ResourceManager.GetString("D7011", resourceCulture);
+                return ResourceManager.GetString("7011", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Refurbishment lot ID&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;416&quot;,&quot;01&quot;,&quot;416&quot;,&quot;8006&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Refurbishment lot ID&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;41601&quot;,&quot;416&quot;,&quot;01&quot;,&quot;4168006&quot;,&quot;416&quot;,&quot;8006&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 20}]}.
         /// </summary>
-        internal static string D7020 {
+        internal static string _7020 {
             get {
-                return ResourceManager.GetString("D7020", resourceCulture);
+                return ResourceManager.GetString("7020", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Functional status&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;8006&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Functional status&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;8006&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 20}]}.
         /// </summary>
-        internal static string D7021 {
+        internal static string _7021 {
             get {
-                return ResourceManager.GetString("D7021", resourceCulture);
+                return ResourceManager.GetString("7021", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Revision status&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;7021&quot;,&quot;01&quot;,&quot;7021&quot;,&quot;8006&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Revision status&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;702101&quot;,&quot;7021&quot;,&quot;01&quot;,&quot;70218006&quot;,&quot;7021&quot;,&quot;8006&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 20}]}.
         /// </summary>
-        internal static string D7022 {
+        internal static string _7022 {
             get {
-                return ResourceManager.GetString("D7022", resourceCulture);
+                return ResourceManager.GetString("7022", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Individual Asset Identifier (GIAI) of an assembly&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,30})&quot;}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Individual Asset Identifier (GIAI) of an assembly&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,30})&quot;,&quot;Captures&quot;: [{&quot;Length&quot;: 30}]}.
         /// </summary>
-        internal static string D7023 {
+        internal static string _7023 {
             get {
-                return ResourceManager.GetString("D7023", resourceCulture);
+                return ResourceManager.GetString("7023", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Number of processor with three-digit ISO country code&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{3})([!%-?A-Z_a-z\\x22]{1,27})&quot;,&quot;MaxElements&quot;: 10,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Number of processor with three-digit ISO country code&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{3})([!%-?A-Z_a-z\\x22]{1,27})&quot;,&quot;MaxElements&quot;: 10,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 3},{&quot;Length&quot;: 27}]}.
         /// </summary>
-        internal static string D7030 {
+        internal static string _7030 {
             get {
-                return ResourceManager.GetString("D7030", resourceCulture);
+                return ResourceManager.GetString("7030", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;GS1 UIC with Extension 1 and Importer index&quot;,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d)([!%-?A-Z_a-z\\x22])([!%-?A-Z_a-z\\x22])([!%-?A-Z_a-z\\x22])&quot;}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;GS1 UIC with Extension 1 and Importer index&quot;,&quot;Regex&quot;: &quot;(\\d)([!%-?A-Z_a-z\\x22])([!%-?A-Z_a-z\\x22])([!%-?A-Z_a-z\\x22])&quot;,&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 1},{&quot;Fixed&quot;: true,&quot;Length&quot;: 1},{&quot;Fixed&quot;: true,&quot;Length&quot;: 1},{&quot;Fixed&quot;: true,&quot;Length&quot;: 1}]}.
         /// </summary>
-        internal static string D7040 {
+        internal static string _7040 {
             get {
-                return ResourceManager.GetString("D7040", resourceCulture);
+                return ResourceManager.GetString("7040", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;UN/CEFACT freight unit type&quot;,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,4})&quot;,&quot;Requires&quot;: [&quot;00&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;UN/CEFACT freight unit type&quot;,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,4})&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 4}]}.
         /// </summary>
-        internal static string D7041 {
+        internal static string _7041 {
             get {
-                return ResourceManager.GetString("D7041", resourceCulture);
+                return ResourceManager.GetString("7041", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;National Healthcare Reimbursement Number (NHRN) - Germany PZN&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;National Healthcare Reimbursement Number (NHRN) - Germany PZN&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 20}]}.
         /// </summary>
-        internal static string D710 {
+        internal static string _710 {
             get {
-                return ResourceManager.GetString("D710", resourceCulture);
+                return ResourceManager.GetString("710", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;National Healthcare Reimbursement Number (NHRN) - France CIP&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;National Healthcare Reimbursement Number (NHRN) - France CIP&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 20}]}.
         /// </summary>
-        internal static string D711 {
+        internal static string _711 {
             get {
-                return ResourceManager.GetString("D711", resourceCulture);
+                return ResourceManager.GetString("711", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;National Healthcare Reimbursement Number (NHRN) - Spain CN&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;National Healthcare Reimbursement Number (NHRN) - Spain CN&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 20}]}.
         /// </summary>
-        internal static string D712 {
+        internal static string _712 {
             get {
-                return ResourceManager.GetString("D712", resourceCulture);
+                return ResourceManager.GetString("712", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;National Healthcare Reimbursement Number (NHRN) - Brasil DRN&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;National Healthcare Reimbursement Number (NHRN) - Brasil DRN&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 20}]}.
         /// </summary>
-        internal static string D713 {
+        internal static string _713 {
             get {
-                return ResourceManager.GetString("D713", resourceCulture);
+                return ResourceManager.GetString("713", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;National Healthcare Reimbursement Number (NHRN) - Portugal AIM&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;National Healthcare Reimbursement Number (NHRN) - Portugal AIM&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 20}]}.
         /// </summary>
-        internal static string D714 {
+        internal static string _714 {
             get {
-                return ResourceManager.GetString("D714", resourceCulture);
+                return ResourceManager.GetString("714", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;National Healthcare Reimbursement Number (NHRN) - United States of America NDC&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;National Healthcare Reimbursement Number (NHRN) - United States of America NDC&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 20}]}.
         /// </summary>
-        internal static string D715 {
+        internal static string _715 {
             get {
-                return ResourceManager.GetString("D715", resourceCulture);
+                return ResourceManager.GetString("715", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;National Healthcare Reimbursement Number (NHRN) - Italy AIC&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;National Healthcare Reimbursement Number (NHRN) - Italy AIC&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 20}]}.
         /// </summary>
-        internal static string D716 {
+        internal static string _716 {
             get {
-                return ResourceManager.GetString("D716", resourceCulture);
+                return ResourceManager.GetString("716", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;National Healthcare Reimbursement Number (NHRN) - Costa Rica Sanitary Register Number&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;National Healthcare Reimbursement Number (NHRN) - Costa Rica Sanitary Register Number&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 20}]}.
         /// </summary>
-        internal static string D717 {
+        internal static string _717 {
             get {
-                return ResourceManager.GetString("D717", resourceCulture);
+                return ResourceManager.GetString("717", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Certification Reference&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{3,30})&quot;,&quot;MaxElements&quot;: 10,&quot;Requires&quot;: [&quot;01&quot;,&quot;8004&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Certification Reference&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{3,30})&quot;,&quot;MaxElements&quot;: 10,&quot;Requires&quot;: [&quot;01&quot;,&quot;8004&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 2},{&quot;Length&quot;: 28}]}.
         /// </summary>
-        internal static string D7230 {
+        internal static string _7230 {
             get {
-                return ResourceManager.GetString("D7230", resourceCulture);
+                return ResourceManager.GetString("7230", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Protocol ID&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;8006&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Protocol ID&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;8006&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 20}]}.
         /// </summary>
-        internal static string D7240 {
+        internal static string _7240 {
             get {
-                return ResourceManager.GetString("D7240", resourceCulture);
+                return ResourceManager.GetString("7240", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;AIDC media type&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{2})&quot;,&quot;Requires&quot;: [&quot;8017&quot;,&quot;8018&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;AIDC media type&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{2})&quot;,&quot;Requires&quot;: [&quot;8017&quot;,&quot;8018&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 2}]}.
         /// </summary>
-        internal static string D7241 {
+        internal static string _7241 {
             get {
-                return ResourceManager.GetString("D7241", resourceCulture);
+                return ResourceManager.GetString("7241", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Version Control Number (VCN)&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,25})&quot;,&quot;Requires&quot;: [&quot;8017&quot;,&quot;8018&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Version Control Number (VCN)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,25})&quot;,&quot;Requires&quot;: [&quot;8017&quot;,&quot;8018&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 25}]}.
         /// </summary>
-        internal static string D7242 {
+        internal static string _7242 {
             get {
-                return ResourceManager.GetString("D7242", resourceCulture);
+                return ResourceManager.GetString("7242", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Date of birth (YYYYMMDD)&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{4}(?:0\\d|1[0-2])(?:[0-2]\\d|3[01]))&quot;,&quot;Requires&quot;: [&quot;8018&quot;],&quot;Excludes&quot;: [&quot;7251&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Date of birth (YYYYMMDD)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{4}(?:0\\d|1[0-2])(?:[0-2]\\d|3[01]))&quot;,&quot;Requires&quot;: [&quot;8018&quot;],&quot;Excludes&quot;: [&quot;7251&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 8}]}.
         /// </summary>
-        internal static string D7250 {
+        internal static string _7250 {
             get {
-                return ResourceManager.GetString("D7250", resourceCulture);
+                return ResourceManager.GetString("7250", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Date and time of birth (YYYYMMDDhhmm)&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{4}(?:0\\d|1[0-2])(?:[0-2]\\d|3[01])(?:[01]\\d|2[0-3])(?:[0-5]\\d))&quot;,&quot;Requires&quot;: [&quot;8018&quot;],&quot;Excludes&quot;: [&quot;7250&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Date and time of birth (YYYYMMDDhhmm)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{4}(?:0\\d|1[0-2])(?:[0-2]\\d|3[01])(?:[01]\\d|2[0-3])(?:[0-5]\\d))&quot;,&quot;Requires&quot;: [&quot;8018&quot;],&quot;Excludes&quot;: [&quot;7250&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 8},{&quot;Fixed&quot;: true,&quot;Length&quot;: 4}]}.
         /// </summary>
-        internal static string D7251 {
+        internal static string _7251 {
             get {
-                return ResourceManager.GetString("D7251", resourceCulture);
+                return ResourceManager.GetString("7251", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Biological sex&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{1})&quot;,&quot;Requires&quot;: [&quot;8018&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Biological sex&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{1})&quot;,&quot;Requires&quot;: [&quot;8018&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 1}]}.
         /// </summary>
-        internal static string D7252 {
+        internal static string _7252 {
             get {
-                return ResourceManager.GetString("D7252", resourceCulture);
+                return ResourceManager.GetString("7252", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Family name of person&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,40})&quot;,&quot;Requires&quot;: [&quot;8017&quot;,&quot;8018&quot;],&quot;Excludes&quot;: [&quot;7256&quot;,&quot;7259&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Family name of person&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,40})&quot;,&quot;Requires&quot;: [&quot;8017&quot;,&quot;8018&quot;],&quot;Excludes&quot;: [&quot;7256&quot;,&quot;7259&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 40}]}.
         /// </summary>
-        internal static string D7253 {
+        internal static string _7253 {
             get {
-                return ResourceManager.GetString("D7253", resourceCulture);
+                return ResourceManager.GetString("7253", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Given name of person&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,40})&quot;,&quot;Requires&quot;: [&quot;8017&quot;,&quot;8018&quot;],&quot;Excludes&quot;: [&quot;7256&quot;,&quot;7259&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Given name of person&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,40})&quot;,&quot;Requires&quot;: [&quot;8017&quot;,&quot;8018&quot;],&quot;Excludes&quot;: [&quot;7256&quot;,&quot;7259&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 40}]}.
         /// </summary>
-        internal static string D7254 {
+        internal static string _7254 {
             get {
-                return ResourceManager.GetString("D7254", resourceCulture);
+                return ResourceManager.GetString("7254", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Name suffix of person&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,10})&quot;,&quot;Requires&quot;: [&quot;8017&quot;,&quot;8018&quot;],&quot;Excludes&quot;: [&quot;7256&quot;,&quot;7259&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Name suffix of person&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,10})&quot;,&quot;Requires&quot;: [&quot;8017&quot;,&quot;8018&quot;],&quot;Excludes&quot;: [&quot;7256&quot;,&quot;7259&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 10}]}.
         /// </summary>
-        internal static string D7255 {
+        internal static string _7255 {
             get {
-                return ResourceManager.GetString("D7255", resourceCulture);
+                return ResourceManager.GetString("7255", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Full name of person&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,90})&quot;,&quot;Requires&quot;: [&quot;8017&quot;,&quot;8018&quot;],&quot;Excludes&quot;: [&quot;7253&quot;,&quot;7254&quot;,&quot;7255&quot;,&quot;7259&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Full name of person&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,90})&quot;,&quot;Requires&quot;: [&quot;8017&quot;,&quot;8018&quot;],&quot;Excludes&quot;: [&quot;7253&quot;,&quot;7254&quot;,&quot;7255&quot;,&quot;7259&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 90}]}.
         /// </summary>
-        internal static string D7256 {
+        internal static string _7256 {
             get {
-                return ResourceManager.GetString("D7256", resourceCulture);
+                return ResourceManager.GetString("7256", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Address of person&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})&quot;,&quot;Requires&quot;: [&quot;8018&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Address of person&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,70})&quot;,&quot;Requires&quot;: [&quot;8018&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 70}]}.
         /// </summary>
-        internal static string D7257 {
+        internal static string _7257 {
             get {
-                return ResourceManager.GetString("D7257", resourceCulture);
+                return ResourceManager.GetString("7257", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Baby birth sequence&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d[/]\\d)&quot;,&quot;Requires&quot;: [&quot;8018&quot;,&quot;7259&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Baby birth sequence&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d[/]\\d)&quot;,&quot;Requires&quot;: [&quot;80187259&quot;,&quot;8018&quot;,&quot;7259&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 3}]}.
         /// </summary>
-        internal static string D7258 {
+        internal static string _7258 {
             get {
-                return ResourceManager.GetString("D7258", resourceCulture);
+                return ResourceManager.GetString("7258", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Baby of family name&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,40})&quot;,&quot;Requires&quot;: [&quot;8018&quot;],&quot;Excludes&quot;: [&quot;7253&quot;,&quot;7254&quot;,&quot;7255&quot;,&quot;7256&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Baby of family name&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;((?:[!%-?A-Z_a-z\\x22]|%[0-9A-Fa-f][0-9A-Fa-f]%[0-9A-Fa-f][0-9A-Fa-f]){1,40})&quot;,&quot;Requires&quot;: [&quot;8018&quot;],&quot;Excludes&quot;: [&quot;7253&quot;,&quot;7254&quot;,&quot;7255&quot;,&quot;7256&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 40}]}.
         /// </summary>
-        internal static string D7259 {
+        internal static string _7259 {
             get {
-                return ResourceManager.GetString("D7259", resourceCulture);
+                return ResourceManager.GetString("7259", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Roll products (width, length, core diameter, direction, splices)&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{4})(\\d{5})(\\d{3})(\\d{1})(\\d{1})&quot;,&quot;Requires&quot;: [&quot;01&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Roll products (width, length, core diameter, direction, splices)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{4})(\\d{5})(\\d{3})(\\d{1})(\\d{1})&quot;,&quot;Requires&quot;: [&quot;01&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 4},{&quot;Fixed&quot;: true,&quot;Length&quot;: 5},{&quot;Fixed&quot;: true,&quot;Length&quot;: 3},{&quot;Fixed&quot;: true,&quot;Length&quot;: 1},{&quot;Fixed&quot;: true,&quot;Length&quot;: 1}]}.
         /// </summary>
-        internal static string D8001 {
+        internal static string _8001 {
             get {
-                return ResourceManager.GetString("D8001", resourceCulture);
+                return ResourceManager.GetString("8001", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Cellular mobile telephone identifier&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Cellular mobile telephone identifier&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Captures&quot;: [{&quot;Length&quot;: 20}]}.
         /// </summary>
-        internal static string D8002 {
+        internal static string _8002 {
             get {
-                return ResourceManager.GetString("D8002", resourceCulture);
+                return ResourceManager.GetString("8002", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Returnable Asset Identifier (GRAI)&quot;,&quot;IsPrimary&quot;: true,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(0)(\\d{13})([!%-?A-Z_a-z\\x22]{0,16})&quot;}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Returnable Asset Identifier (GRAI)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(0)(\\d{13})([!%-?A-Z_a-z\\x22]{0,16})&quot;,&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 1},{&quot;CheckDigit&quot;: true,&quot;Fixed&quot;: true,&quot;Length&quot;: 13},{&quot;Length&quot;: 16}]}.
         /// </summary>
-        internal static string D8003 {
+        internal static string _8003 {
             get {
-                return ResourceManager.GetString("D8003", resourceCulture);
+                return ResourceManager.GetString("8003", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Individual Asset Identifier (GIAI)&quot;,&quot;IsPrimary&quot;: true,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,30})&quot;,&quot;Qualifiers&quot;: [&quot;7040&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Individual Asset Identifier (GIAI)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,30})&quot;,&quot;Qualifiers&quot;: [&quot;7040&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 30}]}.
         /// </summary>
-        internal static string D8004 {
+        internal static string _8004 {
             get {
-                return ResourceManager.GetString("D8004", resourceCulture);
+                return ResourceManager.GetString("8004", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Price per unit of measure&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Price per unit of measure&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6}]}.
         /// </summary>
-        internal static string D8005 {
+        internal static string _8005 {
             get {
-                return ResourceManager.GetString("D8005", resourceCulture);
+                return ResourceManager.GetString("8005", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Identification of an individual trade item piece (ITIP)&quot;,&quot;IsPrimary&quot;: true,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{14})(\\d{4})&quot;,&quot;Qualifiers&quot;: [&quot;22&quot;,&quot;10&quot;,&quot;21&quot;],&quot;Excludes&quot;: [&quot;01&quot;,&quot;37&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Identification of an individual trade item piece (ITIP)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{14})(\\d{4})&quot;,&quot;Qualifiers&quot;: [&quot;22&quot;,&quot;10&quot;,&quot;21&quot;],&quot;Excludes&quot;: [&quot;01&quot;,&quot;37&quot;],&quot;Captures&quot;: [{&quot;CheckDigit&quot;: true,&quot;Fixed&quot;: true,&quot;Length&quot;: 14},{&quot;Fixed&quot;: true,&quot;Length&quot;: 4}]}.
         /// </summary>
-        internal static string D8006 {
+        internal static string _8006 {
             get {
-                return ResourceManager.GetString("D8006", resourceCulture);
+                return ResourceManager.GetString("8006", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;International Bank Account Number (IBAN)&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,34})&quot;,&quot;Requires&quot;: [&quot;8020&quot;,&quot;415&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;International Bank Account Number (IBAN)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,34})&quot;,&quot;Requires&quot;: [&quot;8020415&quot;,&quot;8020&quot;,&quot;415&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 34}]}.
         /// </summary>
-        internal static string D8007 {
+        internal static string _8007 {
             get {
-                return ResourceManager.GetString("D8007", resourceCulture);
+                return ResourceManager.GetString("8007", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Date and time of production (YYMMDDhh[mm[ss]])&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{2}(?:0\\d|1[0-2])(?:[0-2]\\d|3[01])(?:[01]\\d|2[0-3]))((?:[0-5]\\d)(?:[0-5]\\d)?)?&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Date and time of production (YYMMDDhh[mm[ss]])&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{2}(?:0\\d|1[0-2])(?:[0-2]\\d|3[01])(?:[01]\\d|2[0-3]))((?:[0-5]\\d)(?:[0-5]\\d)?)?&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;02&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 8},{&quot;Length&quot;: 4}]}.
         /// </summary>
-        internal static string D8008 {
+        internal static string _8008 {
             get {
-                return ResourceManager.GetString("D8008", resourceCulture);
+                return ResourceManager.GetString("8008", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Optically Readable Sensor Indicator&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,50})&quot;,&quot;Requires&quot;: [&quot;00&quot;,&quot;01&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Optically Readable Sensor Indicator&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,50})&quot;,&quot;Requires&quot;: [&quot;00&quot;,&quot;01&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 50}]}.
         /// </summary>
-        internal static string D8009 {
+        internal static string _8009 {
             get {
-                return ResourceManager.GetString("D8009", resourceCulture);
+                return ResourceManager.GetString("8009", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Component/Part Identifier (CPID)&quot;,&quot;IsPrimary&quot;: true,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([A-Z0-9/#-]{5,30})&quot;,&quot;Qualifiers&quot;: [&quot;8011&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Component/Part Identifier (CPID)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([A-Z0-9/#-]{5,30})&quot;,&quot;Qualifiers&quot;: [&quot;8011&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 30}]}.
         /// </summary>
-        internal static string D8010 {
+        internal static string _8010 {
             get {
-                return ResourceManager.GetString("D8010", resourceCulture);
+                return ResourceManager.GetString("8010", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Component/Part Identifier serial number (CPID SERIAL)&quot;,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{1,12})&quot;,&quot;Requires&quot;: [&quot;8010&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Component/Part Identifier serial number (CPID SERIAL)&quot;,&quot;Regex&quot;: &quot;(\\d{1,12})&quot;,&quot;Requires&quot;: [&quot;8010&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 12}]}.
         /// </summary>
-        internal static string D8011 {
+        internal static string _8011 {
             get {
-                return ResourceManager.GetString("D8011", resourceCulture);
+                return ResourceManager.GetString("8011", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Software version&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;8006&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Software version&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;8006&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 20}]}.
         /// </summary>
-        internal static string D8012 {
+        internal static string _8012 {
             get {
-                return ResourceManager.GetString("D8012", resourceCulture);
+                return ResourceManager.GetString("8012", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Model Number (GMN)&quot;,&quot;IsPrimary&quot;: true,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,25})&quot;}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Model Number (GMN)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,25})&quot;,&quot;Captures&quot;: [{&quot;Length&quot;: 25}]}.
         /// </summary>
-        internal static string D8013 {
+        internal static string _8013 {
             get {
-                return ResourceManager.GetString("D8013", resourceCulture);
+                return ResourceManager.GetString("8013", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Highly Individualised Device Registration Identifier (HIDRI)&quot;,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,25})&quot;,&quot;Requires&quot;: [&quot;01&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Highly Individualised Device Registration Identifier (HIDRI)&quot;,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,25})&quot;,&quot;Requires&quot;: [&quot;01&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 25}]}.
         /// </summary>
-        internal static string D8014 {
+        internal static string _8014 {
             get {
-                return ResourceManager.GetString("D8014", resourceCulture);
+                return ResourceManager.GetString("8014", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Service Relation Number (GSRN) to identify the relationship between an organisation offering services and the provider of services&quot;,&quot;IsPrimary&quot;: true,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{18})&quot;,&quot;Qualifiers&quot;: [&quot;8019&quot;],&quot;Excludes&quot;: [&quot;8018&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Service Relation Number (GSRN) to identify the relationship between an organisation offering services and the provider of services&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{18})&quot;,&quot;Qualifiers&quot;: [&quot;8019&quot;],&quot;Excludes&quot;: [&quot;8018&quot;],&quot;Captures&quot;: [{&quot;CheckDigit&quot;: true,&quot;Fixed&quot;: true,&quot;Length&quot;: 18}]}.
         /// </summary>
-        internal static string D8017 {
+        internal static string _8017 {
             get {
-                return ResourceManager.GetString("D8017", resourceCulture);
+                return ResourceManager.GetString("8017", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Service Relation Number (GSRN) to identify the relationship between an organisation offering services and the recipient of services&quot;,&quot;IsPrimary&quot;: true,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{18})&quot;,&quot;Qualifiers&quot;: [&quot;8019&quot;],&quot;Excludes&quot;: [&quot;8017&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Global Service Relation Number (GSRN) to identify the relationship between an organisation offering services and the recipient of services&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{18})&quot;,&quot;Qualifiers&quot;: [&quot;8019&quot;],&quot;Excludes&quot;: [&quot;8017&quot;],&quot;Captures&quot;: [{&quot;CheckDigit&quot;: true,&quot;Fixed&quot;: true,&quot;Length&quot;: 18}]}.
         /// </summary>
-        internal static string D8018 {
+        internal static string _8018 {
             get {
-                return ResourceManager.GetString("D8018", resourceCulture);
+                return ResourceManager.GetString("8018", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Service Relation Instance Number (SRIN)&quot;,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{1,10})&quot;,&quot;Requires&quot;: [&quot;8017&quot;,&quot;8018&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Service Relation Instance Number (SRIN)&quot;,&quot;Regex&quot;: &quot;(\\d{1,10})&quot;,&quot;Requires&quot;: [&quot;8017&quot;,&quot;8018&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 10}]}.
         /// </summary>
-        internal static string D8019 {
+        internal static string _8019 {
             get {
-                return ResourceManager.GetString("D8019", resourceCulture);
+                return ResourceManager.GetString("8019", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Payment slip reference number&quot;,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,25})&quot;,&quot;Requires&quot;: [&quot;415&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Payment slip reference number&quot;,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,25})&quot;,&quot;Requires&quot;: [&quot;415&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 25}]}.
         /// </summary>
-        internal static string D8020 {
+        internal static string _8020 {
             get {
-                return ResourceManager.GetString("D8020", resourceCulture);
+                return ResourceManager.GetString("8020", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Identification of pieces of a trade item (ITIP) contained in a logistic unit&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{14})(\\d{4})&quot;,&quot;Requires&quot;: [&quot;00&quot;,&quot;37&quot;],&quot;Excludes&quot;: [&quot;02&quot;,&quot;8006&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Identification of pieces of a trade item (ITIP) contained in a logistic unit&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{14})(\\d{4})&quot;,&quot;Requires&quot;: [&quot;0037&quot;,&quot;00&quot;,&quot;37&quot;],&quot;Excludes&quot;: [&quot;02&quot;,&quot;8006&quot;],&quot;Captures&quot;: [{&quot;CheckDigit&quot;: true,&quot;Fixed&quot;: true,&quot;Length&quot;: 14},{&quot;Fixed&quot;: true,&quot;Length&quot;: 4}]}.
         /// </summary>
-        internal static string D8026 {
+        internal static string _8026 {
             get {
-                return ResourceManager.GetString("D8026", resourceCulture);
+                return ResourceManager.GetString("8026", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Digital Signature (DigSig)&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([0-9A-Za-z_-]{1,90})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;21&quot;,&quot;8006&quot;,&quot;21&quot;,&quot;8010&quot;,&quot;8011&quot;,&quot;8003&quot;,&quot;8004&quot;,&quot;8017&quot;,&quot;8018&quot;,&quot;00&quot;,&quot;253&quot;,&quot;255&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Digital Signature (DigSig)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([0-9A-Za-z_-]{1,90})&quot;,&quot;Requires&quot;: [&quot;0121&quot;,&quot;01&quot;,&quot;21&quot;,&quot;800621&quot;,&quot;8006&quot;,&quot;21&quot;,&quot;80108011&quot;,&quot;8010&quot;,&quot;8011&quot;,&quot;8003&quot;,&quot;8004&quot;,&quot;8017&quot;,&quot;8018&quot;,&quot;00&quot;,&quot;253&quot;,&quot;255&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 90}]}.
         /// </summary>
-        internal static string D8030 {
+        internal static string _8030 {
             get {
-                return ResourceManager.GetString("D8030", resourceCulture);
+                return ResourceManager.GetString("8030", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Internatinal Mobile Equipment Identity (IMEI)&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{15})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;21&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Internatinal Mobile Equipment Identity (IMEI)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{15})&quot;,&quot;Requires&quot;: [&quot;0121&quot;,&quot;01&quot;,&quot;21&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 15}]}.
         /// </summary>
-        internal static string D8040 {
+        internal static string _8040 {
             get {
-                return ResourceManager.GetString("D8040", resourceCulture);
+                return ResourceManager.GetString("8040", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Internatinal Mobile Equipment Identity 2 (IMEI2)&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{15})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;21&quot;,&quot;8040&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Internatinal Mobile Equipment Identity 2 (IMEI2)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{15})&quot;,&quot;Requires&quot;: [&quot;01218040&quot;,&quot;01&quot;,&quot;21&quot;,&quot;8040&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 15}]}.
         /// </summary>
-        internal static string D8041 {
+        internal static string _8041 {
             get {
-                return ResourceManager.GetString("D8041", resourceCulture);
+                return ResourceManager.GetString("8041", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Embedded SIM number&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{32})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;21&quot;,&quot;8040&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Embedded SIM number&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{32})&quot;,&quot;Requires&quot;: [&quot;01218040&quot;,&quot;01&quot;,&quot;21&quot;,&quot;8040&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 32}]}.
         /// </summary>
-        internal static string D8042 {
+        internal static string _8042 {
             get {
-                return ResourceManager.GetString("D8042", resourceCulture);
+                return ResourceManager.GetString("8042", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Physical SIM number&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{18,20})&quot;,&quot;Requires&quot;: [&quot;01&quot;,&quot;21&quot;,&quot;8040&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Physical SIM number&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{18,20})&quot;,&quot;Requires&quot;: [&quot;01218040&quot;,&quot;01&quot;,&quot;21&quot;,&quot;8040&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 18},{&quot;Length&quot;: 2}]}.
         /// </summary>
-        internal static string D8043 {
+        internal static string _8043 {
             get {
-                return ResourceManager.GetString("D8043", resourceCulture);
+                return ResourceManager.GetString("8043", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Coupon code identification for use in North America&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,70})&quot;}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Coupon code identification for use in North America&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,70})&quot;,&quot;Captures&quot;: [{&quot;Length&quot;: 70}]}.
         /// </summary>
-        internal static string D8110 {
+        internal static string _8110 {
             get {
-                return ResourceManager.GetString("D8110", resourceCulture);
+                return ResourceManager.GetString("8110", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Loyalty points of a coupon&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;(\\d{4})&quot;,&quot;Requires&quot;: [&quot;255&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Loyalty points of a coupon&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{4})&quot;,&quot;Requires&quot;: [&quot;255&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 4}]}.
         /// </summary>
-        internal static string D8111 {
+        internal static string _8111 {
             get {
-                return ResourceManager.GetString("D8111", resourceCulture);
+                return ResourceManager.GetString("8111", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Positive offer file coupon code identification for use in North America&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,70})&quot;}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Positive offer file coupon code identification for use in North America&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,70})&quot;,&quot;Captures&quot;: [{&quot;Length&quot;: 70}]}.
         /// </summary>
-        internal static string D8112 {
+        internal static string _8112 {
             get {
-                return ResourceManager.GetString("D8112", resourceCulture);
+                return ResourceManager.GetString("8112", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Extended Packaging URL&quot;,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,70})&quot;,&quot;Requires&quot;: [&quot;01&quot;]}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Extended Packaging URL&quot;,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,70})&quot;,&quot;Requires&quot;: [&quot;01&quot;],&quot;Captures&quot;: [{&quot;Length&quot;: 70}]}.
         /// </summary>
-        internal static string D8200 {
+        internal static string _8200 {
             get {
-                return ResourceManager.GetString("D8200", resourceCulture);
+                return ResourceManager.GetString("8200", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Information mutually agreed between trading partners&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,30})&quot;}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Information mutually agreed between trading partners&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,30})&quot;,&quot;Captures&quot;: [{&quot;Length&quot;: 30}]}.
         /// </summary>
-        internal static string D90 {
+        internal static string _90 {
             get {
-                return ResourceManager.GetString("D90", resourceCulture);
+                return ResourceManager.GetString("90", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Company internal information&quot;,&quot;Attribute&quot;: true,&quot;Separator&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,90})&quot;,&quot;MaxElements&quot;: 9}.
+        ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Company internal information&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;([!%-?A-Z_a-z\\x22]{1,90})&quot;,&quot;MaxElements&quot;: 9,&quot;Captures&quot;: [{&quot;Length&quot;: 90}]}.
         /// </summary>
-        internal static string D91 {
+        internal static string _91 {
             get {
-                return ResourceManager.GetString("D91", resourceCulture);
+                return ResourceManager.GetString("91", resourceCulture);
             }
         }
     }

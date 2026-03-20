@@ -1,9 +1,9 @@
 ﻿namespace Evebury.Gs1.DigitalLink
 {
     /// <summary>
-    /// Boolean Segement Type
+    /// Boolean Segment Type
     /// </summary>
-    public enum BooleanType
+    public enum BooleanType : int
     {
         ///<summary>
         ///Dangerous goods flag

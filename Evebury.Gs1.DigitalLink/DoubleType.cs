@@ -3,7 +3,7 @@
     /// <summary>
     /// Double Segment Type
     /// </summary>
-    public enum DoubleType
+    public enum DoubleType : int
     {
         ///<summary>
         ///Applicable amount payable or Coupon value, local currency

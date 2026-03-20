@@ -3,7 +3,7 @@
     /// <summary>
     /// Segment Type
     /// </summary>
-    public enum SegmentType
+    public enum SegmentType : int
     {
         ///<summary>
         ///Serial Shipping Container Code (SSCC)

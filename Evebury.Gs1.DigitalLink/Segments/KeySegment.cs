@@ -6,7 +6,7 @@
         {
         }
 
-        public KeySegment(PrimaryType type, string value) : base((int)type)
+        public KeySegment(PrimaryKeyType type, string value) : base((int)type)
         {
             SetValue(value);
         }
@@ -40,12 +40,13 @@
                     }
             }
             Raw = value;
+            Value = new SegmentValue(Raw, SegmentValueType.Key);
         }
 
 
         protected override SegmentValue GetValue()
         {
-            return new SegmentValue(Raw, ValueType.String);
+            return new SegmentValue(Raw, SegmentValueType.Key);
         }
     }
 }

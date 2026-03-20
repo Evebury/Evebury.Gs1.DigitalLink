@@ -1,5 +1,4 @@
 ﻿using Evebury.Gs1.DigitalLink.Segments.MetaData;
-using System;
 using System.Globalization;
 
 namespace Evebury.Gs1.DigitalLink.Segments
@@ -21,12 +20,12 @@ namespace Evebury.Gs1.DigitalLink.Segments
                 Raw = raw.PadLeft(capture.Length, '0');
             }
             else Raw = raw;
-            Value = new SegmentValue(value, ValueType.Integer);
+            Value = new SegmentValue(value, SegmentValueType.Integer);
         }
 
         protected override SegmentValue GetValue()
         {
-            throw new NotImplementedException();
+            return new SegmentValue(int.Parse(Raw), SegmentValueType.Integer);
         }
     }
 }

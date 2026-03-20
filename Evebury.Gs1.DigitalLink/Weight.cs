@@ -7,9 +7,22 @@ namespace Evebury.Gs1.DigitalLink
     /// </summary>
     public class Weight : BaseUnit<WeightUnit>
     {
-        internal Weight(double value, WeightUnit unit):base(value, unit) { }
+        /// <summary>
+        /// Constructs a Weight
+        /// </summary>
+        /// <param name="value">raw decimals are inferred</param>
+        /// <param name="unit"></param>
+        public Weight(double value, WeightUnit unit):base(value, unit) { }
 
-        internal Weight(double value, int precision, WeightUnit unit): base(value, precision, unit) { }
+        /// <summary>
+        /// Constructs a Weight
+        /// </summary>
+        /// <param name="value">raw decimals are set to given precision</param>
+        /// <param name="precision">precision e.g. precision=2 value=1.1d raw="1.10"</param>
+        /// <param name="unit"></param>
+        public Weight(double value, int precision, WeightUnit unit): base(value, precision, unit) { }
+
+        internal Weight(Double @double, WeightUnit unit):base(@double, unit) { }
 
         /// <summary>
         /// 
