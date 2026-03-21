@@ -36,6 +36,12 @@ namespace Evebury.Gs1.DigitalLink
         public Weight NetWeight { get; set; }
 
 
+        /// <summary>
+        /// Any other segments
+        /// </summary>
+        public IReadOnlyList<Segment> Segments { get; private set; } = [];
+
+
         internal void SetFields(List<Segment> segments) 
         {
             Segment segment;
@@ -78,6 +84,8 @@ namespace Evebury.Gs1.DigitalLink
                 }
                 segments.Remove(segment);
             }
+
+            Segments = segments;
         }
 
         internal void AddFields(DigitalLinkBuilder builder) 
