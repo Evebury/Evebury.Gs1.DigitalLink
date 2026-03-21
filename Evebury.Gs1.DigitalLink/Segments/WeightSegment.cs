@@ -73,12 +73,12 @@ namespace Evebury.Gs1.DigitalLink.Segments
             int offset = int.MaxValue;
             int type = (int)Type;
             int code = (int)Math.Round(int.Parse(Code) /10d) * 10;
-            foreach (WeightUnit weightUnit in Enum.GetValues<WeightUnit>())
+            foreach (WeightUnit @enum in Enum.GetValues<WeightUnit>())
             {
-                int unitOffset = GetUnitOffset(new Weight(0, weightUnit));
+                int unitOffset = GetUnitOffset(new Weight(0, @enum));
                 if (type + unitOffset == code)
                 {
-                    unit = weightUnit;
+                    unit = @enum;
                     offset = unitOffset;
                     break;
                 }

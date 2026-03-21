@@ -94,12 +94,12 @@ namespace Evebury.Gs1.DigitalLink
 
             if (Price != null)
             {
-                builder.AddPrice(PriceType.PRICE_TRADE_ITEM, Price.Value, Price.Precision, Price.Unit);
+                builder.AddPrice(PriceType.PRICE_TRADE_ITEM, Price);
             }
 
             if (NetWeight != null) 
             {
-                builder.AddNetWeight(NetWeight.Value, NetWeight.Precision, NetWeight.Unit);
+                builder.AddNetWeight(NetWeight);
             }
         }
 

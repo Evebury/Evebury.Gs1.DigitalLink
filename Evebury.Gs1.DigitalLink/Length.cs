@@ -7,13 +7,27 @@ namespace Evebury.Gs1.DigitalLink
     /// </summary>
     public class Length : BaseUnit<LengthUnit>
     {
-        internal Length(double value, LengthUnit unit) : base(value, unit)
+        /// <summary>
+        /// Constructs a Length
+        /// </summary>
+        /// <param name="value">raw decimals are inferred</param>
+        /// <param name="unit"></param>
+        public Length(double value, LengthUnit unit) : base(value, unit)
         {
         }
 
-        internal Length(double value, int precision, LengthUnit unit) : base(value, precision, unit)
+        /// <summary>
+        /// Constructs a Length
+        /// </summary>
+        /// <param name="value">raw decimals are set to given precision</param>
+        /// <param name="precision">precision e.g. precision=2 value=1.1d raw="1.10"</param>
+        /// <param name="unit"></param>
+        public Length(double value, int precision, LengthUnit unit) : base(value, precision, unit)
         {
         }
+
+        internal Length(Double @double, LengthUnit unit) : base(@double, unit) { }
+
 
         /// <summary>
         /// Gets the symbol

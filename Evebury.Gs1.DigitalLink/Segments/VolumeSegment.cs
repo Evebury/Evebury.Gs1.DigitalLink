@@ -59,7 +59,23 @@ namespace Evebury.Gs1.DigitalLink.Segments
 
         protected override SegmentValue GetValue()
         {
-            throw new NotImplementedException();
+            VolumeUnit unit = VolumeUnit.LITRES;
+            int offset = int.MaxValue;
+            int type = (int)Type;
+            int code = (int)Math.Round(int.Parse(Code) / 10d) * 10;
+            foreach (VolumeUnit @enum in Enum.GetValues<VolumeUnit>())
+            {
+                int unitOffset = GetUnitOffset(new Volume(0, @enum));
+                if (type + unitOffset == code)
+                {
+                    unit = @enum;
+                    offset = unitOffset;
+                    break;
+                }
+
+            }
+            Double @double = GetDoubleValue(offset);
+            return new SegmentValue(new Volume(@double, unit), SegmentValueType.Volume);
         }
     }
 }

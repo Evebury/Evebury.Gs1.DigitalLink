@@ -58,7 +58,7 @@ namespace Evebury.Gs1.DigitalLink.Segments
         /// <returns></returns>
         public readonly bool GetPeriod(out Period period)
         {
-            period = new();
+            period = null;
             if (Value is Period value)
             {
                 period = value;
@@ -260,6 +260,38 @@ namespace Evebury.Gs1.DigitalLink.Segments
             if (Value is List<CountryCode> value)
             {
                 countries = value;
+                return true;
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// Type == ValueType.Gender
+        /// </summary>
+        /// <param name="gender"></param>
+        /// <returns></returns>
+        public readonly bool GetGender(out GenderCode gender)
+        {
+            gender = GenderCode.NotKnown;
+            if (Value is GenderCode value)
+            {
+                gender = value;
+                return true;
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// Type == ValueType.Roll
+        /// </summary>
+        /// <param name="roll"></param>
+        /// <returns></returns>
+        public readonly bool GetRoll(out Roll roll)
+        {
+            roll = null;
+            if (Value is Roll value)
+            {
+                roll = value;
                 return true;
             }
             return false;

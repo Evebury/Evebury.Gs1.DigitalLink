@@ -7,15 +7,32 @@ namespace Evebury.Gs1.DigitalLink
     /// </summary>
     public class Volume : BaseUnit<VolumeUnit>
     {
-        internal Volume(double value, VolumeUnit unit) : base(value, unit)
+        /// <summary>
+        /// Constructs a Volume
+        /// </summary>
+        /// <param name="value">raw decimals are inferred</param>
+        /// <param name="unit"></param>
+        public Volume(double value, VolumeUnit unit) : base(value, unit)
         {
             SetPower();
         }
 
-        internal Volume(double value, int precision, VolumeUnit unit) : base(value, precision, unit)
+        /// <summary>
+        /// Constructs a Volume
+        /// </summary>
+        /// <param name="value">raw decimals are set to given precision</param>
+        /// <param name="precision">precision e.g. precision=2 value=1.1d raw="1.10"</param>
+        /// <param name="unit"></param>
+        public Volume(double value, int precision, VolumeUnit unit) : base(value, precision, unit)
         {
             SetPower();
         }
+
+        internal Volume(Double @double, VolumeUnit unit) : base(@double, unit) 
+        {
+            SetPower();
+        }
+
 
         private void SetPower() 
         {

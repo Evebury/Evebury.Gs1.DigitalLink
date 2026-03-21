@@ -146,6 +146,16 @@ namespace Evebury.Gs1.DigitalLink.Segments
                         segment = new CountrySegment(link);
                         break;
                     }
+                case SegmentValueType.GenderCode:
+                    {
+                        segment = new GenderSegment(link);
+                        break;
+                    }
+                case SegmentValueType.Roll:
+                    {
+                        segment = new RollSegment(link);
+                        break;
+                    }
                 default: 
                     {
                         segment = new RawSegment(link);

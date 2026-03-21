@@ -75,19 +75,4 @@ namespace Evebury.Gs1.DigitalLink
         /// </summary>
         TROY_OUNCE = 3,
     }
-
-    /// <summary>
-    /// Logistic Weight UOM
-    /// </summary>
-    public enum LogisticWeightUnit 
-    {
-        /// <summary>
-        /// Kilogram
-        /// </summary>
-        KILOGRAM = 0,
-        /// <summary>
-        /// Pounds
-        /// </summary>
-        POUNDS = 1,
-    }
 }

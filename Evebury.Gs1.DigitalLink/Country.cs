@@ -15,8 +15,15 @@
         /// </summary>
         public string Value { get; private set; }
 
-        internal Country(CountryCode countryCode, string value = "") 
+
+        /// <summary>
+        /// Contructs a Country with a label
+        /// </summary>
+        /// <param name="countryCode"></param>
+        /// <param name="value"></param>
+        public Country(CountryCode countryCode, string value) 
         {
+            if (string.IsNullOrEmpty(value)) value = string.Empty;
             Code = countryCode;
             Value = value;
         }

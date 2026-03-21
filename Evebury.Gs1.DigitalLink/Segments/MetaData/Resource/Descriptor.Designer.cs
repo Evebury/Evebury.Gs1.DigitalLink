@@ -900,9 +900,9 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         /// <summary>
         ///   Looks up a localized string similar to {&quot;Label&quot;: &quot;Minimum temperature in Celsius (expressed in hundredths of degrees)&quot;,&quot;Attribute&quot;: true,&quot;Regex&quot;: &quot;(\\d{6}[-]?)&quot;,&quot;Requires&quot;: [&quot;00&quot;],&quot;Excludes&quot;: [&quot;4332&quot;],&quot;Captures&quot;: [{&quot;Fixed&quot;: true,&quot;Length&quot;: 6},{&quot;Fixed&quot;: true,&quot;Length&quot;: 1}]}.
         /// </summary>
-        internal static string _4333 {
+        internal static string _4332 {
             get {
-                return ResourceManager.GetString("4333", resourceCulture);
+                return ResourceManager.GetString("4332", resourceCulture);
             }
         }
         

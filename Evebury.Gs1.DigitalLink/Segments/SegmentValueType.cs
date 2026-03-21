@@ -68,6 +68,14 @@
         /// <summary>
         /// Country Code List
         /// </summary>
-        CountryCode = 15
+        CountryCode = 15,
+        /// <summary>
+        /// Gender Code
+        /// </summary>
+        GenderCode = 16,
+        /// <summary>
+        /// Roll
+        /// </summary>
+        Roll = 17,
     }
 }

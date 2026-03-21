@@ -31,11 +31,11 @@ builder.AddDate(DateType.PRODUCTION_DATE, DateTime.Now);
 builder.AddString(StringType.INTERNAL_COMPANY, "value1/with slash");
 builder.AddString(StringType.INTERNAL_COMPANY, "value2");
 
-//add net weight value (decimal precision inferred from value)
-builder.AddNetWeight(290.3, WeightUnit.POUNDS);
+//add net weight value (decimal precision inferred)
+builder.AddNetWeight(new Weight(290.3, WeightUnit.POUNDS));
 
-//add price and set value to the decimal precision
-builder.AddPrice(PriceType.PRICE_TRADE_ITEM, 88, 2, CurrencyCode.EUR);
+//add price value set to the decimal precision
+builder.AddPrice(PriceType.PRICE_TRADE_ITEM, new Price(88, 2, CurrencyCode.EUR));
 
 //uncomment to raise validation error
 //builder.AddKey(KeyType.GTIN, "00074562000526");
@@ -74,7 +74,7 @@ TradeItem tradeItem = new()
 };
 
 DigitalLinkBuilder builder = new();
-builder.AddTradeItem(tradeItem);
+builder.SetTradeItem(tradeItem);
 DigitalLink link = builder.Build();
 
 DigitalLink resolved = DigitalLinkResolver.Resolve(link.Uri);
@@ -103,8 +103,8 @@ Console.WriteLine(resolvedTradeItem.ToJson());
 }
 ```
 
-## 🔧 Todo
-- Write tests
+## 🔧 Collaboration
+- If you need more fields added to TradeItem or require another object. Feel free to raise an issue or fork this repository.
 
 
 ## 📋 Requirements & Enterprise support

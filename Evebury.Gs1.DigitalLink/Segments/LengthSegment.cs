@@ -81,7 +81,23 @@ namespace Evebury.Gs1.DigitalLink.Segments
 
         protected override SegmentValue GetValue()
         {
-            throw new NotImplementedException();
+            LengthUnit unit = LengthUnit.METER;
+            int offset = int.MaxValue;
+            int type = (int)Type;
+            int code = (int)Math.Round(int.Parse(Code) / 10d) * 10;
+            foreach (LengthUnit @enum in Enum.GetValues<LengthUnit>())
+            {
+                int unitOffset = GetUnitOffset(new Length(0, @enum));
+                if (type + unitOffset == code)
+                {
+                    unit = @enum;
+                    offset = unitOffset;
+                    break;
+                }
+
+            }
+            Double @double = GetDoubleValue(offset);
+            return new SegmentValue(new Length(@double, unit), SegmentValueType.Length);
         }
     }
 }

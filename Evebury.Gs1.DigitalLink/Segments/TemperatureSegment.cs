@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Evebury.Gs1.DigitalLink.Segments
+﻿namespace Evebury.Gs1.DigitalLink.Segments
 {
     internal class TemperatureSegment : UnitSegment<Temperature>
     {
@@ -20,7 +18,29 @@ namespace Evebury.Gs1.DigitalLink.Segments
 
         protected override SegmentValue GetValue()
         {
-            throw new NotImplementedException();
+            TemperatureUnit unit = TemperatureUnit.FAHRENHEIT;
+            int offset = 0;
+            if (int.Parse(Code) != (int)Type) 
+            {
+                unit = TemperatureUnit.CELSIUS;
+                offset = 1;
+            }
+            bool negate = false;
+            string raw = Raw;
+            if (raw.EndsWith('-')) 
+            {
+                raw = raw[..^1];
+                negate = true;
+            }
+            Double @double = GetDoubleValue(raw, offset);
+            double d = @double.Value;
+            d *= 0.01;
+            if (negate) 
+            {
+                d *= -1;
+            }
+            @double = new(d);
+            return new SegmentValue(new Temperature(@double, unit), SegmentValueType.Temperature);
         }
     }
 }

@@ -7,7 +7,7 @@ namespace Evebury.Gs1.DigitalLink
     /// </summary>
     /// <param name="start"></param>
     /// <param name="end"></param>
-    public struct Period(DateTime start, DateTime end)
+    public class Period(DateTime start, DateTime end)
     {
         /// <summary>
         /// Start date

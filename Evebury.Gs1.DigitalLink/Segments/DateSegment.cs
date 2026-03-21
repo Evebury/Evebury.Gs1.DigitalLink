@@ -17,7 +17,7 @@ namespace Evebury.Gs1.DigitalLink.Segments
 
         public DateSegment(DateTimeType type, DateTime value) : base((int)type)
         {
-            Raw = value.ToString("yyMMddhhmm");
+            Raw = value.ToString("yyMMddHHmm");
             Value = new(value, SegmentValueType.DateTime);
         }
 
@@ -59,22 +59,22 @@ namespace Evebury.Gs1.DigitalLink.Segments
                 {
                     case 0: 
                         {
-                            year = Convert.ToInt16($"20{Raw[i]}{Raw[i + 1]}");
+                            year = Convert.ToInt16($"20{value[i]}{value[i + 1]}");
                             break;
                         }
                     case 2:
                         {
-                            month = Convert.ToInt16($"{Raw[i]}{Raw[i + 1]}");
+                            month = Convert.ToInt16($"{value[i]}{value[i + 1]}");
                             break;
                         }
                     case 4:
                         {
-                            day = Convert.ToInt16($"{Raw[i]}{Raw[i + 1]}");
+                            day = Convert.ToInt16($"{value[i]}{value[i + 1]}");
                             break;
                         }
                     case 6:
                         {
-                            hour = Convert.ToInt16($"{Raw[i]}{Raw[i + 1]}");
+                            hour = Convert.ToInt16($"{value[i]}{value[i + 1]}");
                             break;
                         }
                     case 8:
@@ -84,7 +84,7 @@ namespace Evebury.Gs1.DigitalLink.Segments
                         }
                     case 10:
                         {
-                            second = Convert.ToInt16($"{Raw[i]}{Raw[i + 1]}");
+                            second = Convert.ToInt16($"{value[i]}{value[i + 1]}");
                             break;
                         }
                 }

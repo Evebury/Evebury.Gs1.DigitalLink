@@ -380,7 +380,7 @@
         ///<summary>
         ///Minimum temperature (expressed in hundredths of degrees)
         ///</summary>
-        MINIMUM_TEMPERATURE = 4333,
+        MINIMUM_TEMPERATURE = 4332,
         ///<summary>
         ///NATO Stock Number (NSN)
         ///</summary>

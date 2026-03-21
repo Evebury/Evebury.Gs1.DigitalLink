@@ -7,13 +7,27 @@ namespace Evebury.Gs1.DigitalLink
     /// </summary>
     public class Temperature : BaseUnit<TemperatureUnit>
     {
-        internal Temperature(double value, TemperatureUnit unit) : base(value, unit)
+        /// <summary>
+        /// Constructs a Temperature
+        /// </summary>
+        /// <param name="value">raw decimals are inferred</param>
+        /// <param name="unit"></param>
+        public Temperature(double value, TemperatureUnit unit) : base(value, unit)
         {
         }
 
+        /// <summary>
+        /// Constructs a Temperature
+        /// </summary>
+        /// <param name="value">raw decimals are set to given precision</param>
+        /// <param name="precision">precision e.g. precision=2 value=1.1d raw="1.10"</param>
+        /// <param name="unit"></param>
         internal Temperature(double value, int precision, TemperatureUnit unit) : base(value, precision, unit)
         {
         }
+
+        internal Temperature(Double @double, TemperatureUnit unit) : base(@double, unit) { }
+
 
         /// <summary>
         /// 

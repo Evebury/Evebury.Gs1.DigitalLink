@@ -900,9 +900,9 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         /// <summary>
         ///   Looks up a localized string similar to 13.
         /// </summary>
-        internal static string _4333 {
+        internal static string _4332 {
             get {
-                return ResourceManager.GetString("4333", resourceCulture);
+                return ResourceManager.GetString("4332", resourceCulture);
             }
         }
         
@@ -1195,7 +1195,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 0.
+        ///   Looks up a localized string similar to 16.
         /// </summary>
         internal static string _7252 {
             get {
@@ -1267,7 +1267,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 0.
+        ///   Looks up a localized string similar to 17.
         /// </summary>
         internal static string _8001 {
             get {

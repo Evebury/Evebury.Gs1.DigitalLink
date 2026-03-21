@@ -56,7 +56,7 @@ namespace Evebury.Gs1.DigitalLink
         /// </summary>
         /// <param name="tradeItem"></param>
         /// <exception cref="ArgumentNullException"></exception>
-        public void AddTradeItem(TradeItem tradeItem) 
+        public void SetTradeItem(TradeItem tradeItem) 
         {
             ArgumentNullException.ThrowIfNull(tradeItem);
             SetPrimaryKey(PrimaryKeyType.GTIN, tradeItem.GTIN);
@@ -106,10 +106,12 @@ namespace Evebury.Gs1.DigitalLink
         /// Add Period Segment
         /// </summary>
         /// <param name="type"></param>
-        /// <param name="value"></param>
-        public void AddPeriod(PeriodType type, Period value)
+        /// <param name="period"></param>
+        /// <exception cref="ArgumentNullException"></exception>
+        public void AddPeriod(PeriodType type, Period period)
         {
-            DateSegment segment = new(type, value);
+            ArgumentNullException.ThrowIfNull(period);
+            DateSegment segment = new(type, period);
             AddSegment(segment);
         }
         #endregion
@@ -118,46 +120,28 @@ namespace Evebury.Gs1.DigitalLink
         /// <summary>
         /// Add NetWeight Segment
         /// </summary>
-        /// <param name="value">raw decimals are inferred</param>
-        /// <param name="unit"></param>
-        public void AddNetWeight(double value, WeightUnit unit)
+        /// <param name="weight"></param>
+        /// <exception cref="ArgumentNullException"></exception>
+        public void AddNetWeight(Weight weight)
         {
-            WeightSegment segment = new(new Weight(value, unit), SegmentType.NET_WEIGHT);
+            ArgumentNullException.ThrowIfNull(weight);
+            WeightSegment segment = new(weight, SegmentType.NET_WEIGHT);
             AddSegment(segment, false, true);
         }
 
-        /// <summary>
-        /// Add NetWeight Segment
-        /// </summary>
-        /// <param name="value">raw decimals are set to given precision</param>
-        /// <param name="precision">precision e.g. precision=2 value=1.1d raw="1.10"</param>
-        /// <param name="unit"></param>
-        public void AddNetWeight(double value, int precision, WeightUnit unit)
-        {
-            WeightSegment segment = new(new Weight(value, precision, unit), SegmentType.NET_WEIGHT);
-            AddSegment(segment, false, true);
-        }
 
         /// <summary>
-        /// Add Logistic GrossWeight Segment
+        /// Add Logistic GrossWeight Segment (KILOGRAM or POUNDS)
         /// </summary>
-        /// <param name="value">raw decimals are inferred</param>
-        /// <param name="unit"></param>
-        public void AddLogisticGrossWeight(double value, LogisticWeightUnit unit)
+        /// <param name="weight"></param>
+        /// <exception cref="ArgumentNullException"></exception>
+        /// <exception cref="ArgumentOutOfRangeException">Unit must be POUNDS or KILOGRAM</exception>
+        public void AddLogisticGrossWeight(Weight weight)
         {
-            WeightSegment segment = new(new Weight(value, (WeightUnit)(int)unit), SegmentType.LOGISTIC_GROSS_WEIGHT);
-            AddSegment(segment, false, true);
-        }
+            ArgumentNullException.ThrowIfNull(weight);
+            if (weight.Unit != WeightUnit.KILOGRAM && weight.Unit != WeightUnit.POUNDS) throw new ArgumentOutOfRangeException(nameof(weight),"Unit must be POUNDS or KILOGRAM");
 
-        /// <summary>
-        /// Add Logistic GrossWeight Segment
-        /// </summary>
-        /// <param name="value">raw decimals are set to given precision</param>
-        /// <param name="precision">precision e.g. precision=2 value=1.1d raw="1.10"</param>
-        /// <param name="unit"></param>
-        public void AddLogisticGrossWeight(double value, int precision, LogisticWeightUnit unit)
-        {
-            WeightSegment segment = new(new Weight(value, precision, (WeightUnit)(int)unit), SegmentType.LOGISTIC_GROSS_WEIGHT);
+            WeightSegment segment = new(weight, SegmentType.LOGISTIC_GROSS_WEIGHT);
             AddSegment(segment, false, true);
         }
 
@@ -186,24 +170,11 @@ namespace Evebury.Gs1.DigitalLink
         /// Add Length Segment
         /// </summary>
         /// <param name="type"></param>
-        /// <param name="value">raw decimals are inferred</param>
-        /// <param name="unit"></param>
-        public void AddLength(LengthType type, double value, LengthUnit unit)
+        /// <param name="length"></param>
+        /// <exception cref="ArgumentNullException"></exception>
+        public void AddLength(LengthType type, Length length)
         {
-            Length length = new(value, unit);
-            AddLength(length, type);
-        }
-
-        /// <summary>
-        /// Add Length Segment
-        /// </summary>
-        /// <param name="type"></param>
-        /// <param name="value">raw decimals are set to given precision</param>
-        /// <param name="precision">precision e.g. precision=2 value=1.1d raw="1.10"</param>
-        /// <param name="unit"></param>
-        public void AddLength(LengthType type, double value, int precision, LengthUnit unit)
-        {
-            Length length = new(value, precision, unit);
+            ArgumentNullException.ThrowIfNull(length);
             AddLength(length, type);
         }
 
@@ -238,24 +209,11 @@ namespace Evebury.Gs1.DigitalLink
         /// Add Logistic Length Segment
         /// </summary>
         /// <param name="type"></param>
-        /// <param name="value">raw decimals are inferred</param>
-        /// <param name="unit"></param>
-        public void AddLogisticLength(LengthType type, double value, LengthUnit unit)
+        /// <param name="length"></param>
+        /// <exception cref="ArgumentNullException"></exception>
+        public void AddLogisticLength(LengthType type, Length length)
         {
-            Length length = new(value, unit);
-            AddLogisticLength(length, type);
-        }
-
-        /// <summary>
-        /// Add Logistic Length Segment
-        /// </summary>
-        /// <param name="type"></param>
-        /// <param name="value">raw decimals are set to given precision</param>
-        /// <param name="precision">precision e.g. precision=2 value=1.1d raw="1.10"</param>
-        /// <param name="unit"></param>
-        public void AddLogisticLength(LengthType type, double value, int precision, LengthUnit unit)
-        {
-            Length length = new(value, precision, unit);
+            ArgumentNullException.ThrowIfNull(length);
             AddLogisticLength(length, type);
         }
 
@@ -295,93 +253,63 @@ namespace Evebury.Gs1.DigitalLink
         /// <summary>
         /// Add NetVolume Segment
         /// </summary>
-        /// <param name="value">raw decimals are inferred</param>
-        /// <param name="unit"></param>
-        public void AddNetVolume(double value, VolumeUnit unit)
+        /// <param name="volume"></param>
+        /// <exception cref="ArgumentNullException"></exception>
+        public void AddNetVolume(Volume volume)
         {
-            VolumeSegment segment = new(new Volume(value, unit), SegmentType.NET_VOLUME);
+            ArgumentNullException.ThrowIfNull(volume);
+            VolumeSegment segment = new(volume, SegmentType.NET_VOLUME);
             AddSegment(segment, false, true);
         }
 
-        /// <summary>
-        /// Add NetVolume Segment
-        /// </summary>
-        /// <param name="value">raw decimals are set to given precision</param>
-        /// <param name="precision">precision e.g. precision=2 value=1.1d raw="1.10"</param>
-        /// <param name="unit"></param>
-        public void AddNetVolume(double value, int precision, VolumeUnit unit)
-        {
-            VolumeSegment segment = new(new Volume(value, precision, unit), SegmentType.NET_VOLUME);
-            AddSegment(segment, false, true);
-        }
 
         /// <summary>
         /// Add Logistic NetVolume Segment
         /// </summary>
-        /// <param name="value">raw decimals are inferred</param>
-        /// <param name="unit"></param>
-        public void AddLogisticVolume(double value, VolumeUnit unit)
+        /// <param name="volume"></param>
+        /// <exception cref="ArgumentNullException"></exception>
+        public void AddLogisticVolume(Volume volume)
         {
-            VolumeSegment segment = new(new Volume(value, unit), SegmentType.LOGISTIC_VOLUME);
+            ArgumentNullException.ThrowIfNull(volume);
+            VolumeSegment segment = new(volume, SegmentType.LOGISTIC_VOLUME);
             AddSegment(segment, false, true);
         }
 
-        /// <summary>
-        /// Add Logistic Volume Segment
-        /// </summary>
-        /// <param name="value">raw decimals are set to given precision</param>
-        /// <param name="precision">precision e.g. precision=2 value=1.1d raw="1.10"</param>
-        /// <param name="unit"></param>
-        public void AddLogisticVolume(double value, int precision, VolumeUnit unit)
-        {
-            VolumeSegment segment = new(new Volume(value, precision, unit), SegmentType.LOGISTIC_VOLUME);
-            AddSegment(segment, false, true);
-        }
 
         /// <summary>
         /// Add Price Segment
         /// </summary>
         /// <param name="type"></param>
-        /// <param name="value">raw decimals are inferred</param>
-        /// <param name="currency"></param>
-        public void AddPrice(PriceType type, double value, CurrencyCode currency)
+        /// <param name="price"></param>
+        /// <exception cref="ArgumentNullException"></exception>
+        public void AddPrice(PriceType type, Price price)
         {
-            PriceSegment segment = new(new Price(value, currency), (SegmentType)(int)type);
-            AddSegment(segment, false, true);
-        }
-
-        /// <summary>
-        /// Add Price Segment
-        /// </summary>
-        /// <param name="type"></param>
-        /// <param name="value">raw decimals are set to given precision</param>
-        /// <param name="precision">precision e.g. precision=2 value=1.1d raw="1.10"</param>
-        /// <param name="currency"></param>
-        public void AddPrice(PriceType type, double value, int precision, CurrencyCode currency)
-        {
-            PriceSegment segment = new(new Price(value, precision, currency), (SegmentType)(int)type);
+            ArgumentNullException.ThrowIfNull(price);
+            PriceSegment segment = new(price, (SegmentType)(int)type);
             AddSegment(segment, false, true);
         }
 
         /// <summary>
         /// Add MinimumTemperature
         /// </summary>
-        /// <param name="value">in 100 of degrees. 23.3 will be multiplied by 100 for raw</param>
-        /// <param name="unit"></param>
-        public void AddMinimumTemperature(double value, TemperatureUnit unit)
+        /// <param name="temperature">in 100 of degrees. 23.3 will be multiplied by 100 for raw</param>
+        /// <exception cref="ArgumentNullException"></exception>
+        public void AddMinimumTemperature(Temperature temperature)
         {
-            TemperatureSegment segment = new(new Temperature(value * 100, 0, unit), SegmentType.MINIMUM_TEMPERATURE);
+            ArgumentNullException.ThrowIfNull(temperature);
+            TemperatureSegment segment = new(new Temperature(temperature.Value * 100, 0, temperature.Unit), SegmentType.MINIMUM_TEMPERATURE);
             AddSegment(segment);
         }
 
         /// <summary>
         /// Add MaximumTemperature
         /// </summary>
-        /// <param name="value">in 100 of degrees. 23.3 will be multiplied by 100 for raw</param>
-        /// <param name="unit"></param>
-        public void AddMaximumTemperature(double value, TemperatureUnit unit)
+        /// <param name="temperature">in 100 of degrees. 23.3 will be multiplied by 100 for raw</param>
+        /// <exception cref="ArgumentNullException"></exception>
+        public void AddMaximumTemperature(Temperature temperature)
         {
-            TemperatureSegment segment = new(new Temperature(value * 100, 0, unit), SegmentType.MAXIMUM_TEMPERATURE);
+            ArgumentNullException.ThrowIfNull(temperature);
+            TemperatureSegment segment = new(new Temperature(temperature.Value * 100, 0, temperature.Unit), SegmentType.MAXIMUM_TEMPERATURE);
             AddSegment(segment);
         }
 
@@ -395,8 +323,10 @@ namespace Evebury.Gs1.DigitalLink
         /// </summary>
         /// <param name="type"></param>
         /// <param name="value"></param>
+        /// <exception cref="ArgumentNullException"></exception>
         public void AddString(StringType type, string value)
         {
+            if(string.IsNullOrWhiteSpace(value)) throw new ArgumentNullException(nameof(value));
             StringSegment segment = new(type, value);
             AddSegment(segment, segment.Descriptor.MaxElements > 0);
         }
@@ -457,7 +387,7 @@ namespace Evebury.Gs1.DigitalLink
         /// <param name="genderCode"></param>
         public void AddGender(GenderCode genderCode)
         {
-            IntegerSegment segment = new(SegmentType.BIOLOGICAL_SEX, (int)genderCode);
+            GenderSegment segment = new(genderCode, SegmentType.BIOLOGICAL_SEX);
             AddSegment(segment);
         }
 
@@ -468,8 +398,7 @@ namespace Evebury.Gs1.DigitalLink
         /// <param name="countryCode"></param>
         public void AddCountry(CountryCodeType type, CountryCode countryCode)
         {
-            CountrySegment segment = new(type, [countryCode]);
-            AddSegment(segment);
+            AddCountry(type, [countryCode]);
         }
 
         /// <summary>
@@ -477,8 +406,11 @@ namespace Evebury.Gs1.DigitalLink
         /// </summary>
         /// <param name="type"></param>
         /// <param name="countryCodes">Nb! SHIP_TO_COUNTRY and COUNTRY_OF_ORIGIN can only be added once</param>
+        /// <exception cref="ArgumentNullException"></exception>
         public void AddCountry(CountryCodeType type, List<CountryCode> countryCodes)
         {
+            ArgumentNullException.ThrowIfNull(countryCodes);
+            if (countryCodes.Count == 0) throw new ArgumentNullException(nameof(countryCodes), "Count = 0");
             CountrySegment segment = new(type, countryCodes);
             AddSegment(segment);
         }
@@ -490,33 +422,23 @@ namespace Evebury.Gs1.DigitalLink
         /// <param name="type"></param>
         /// <param name="countryCode"></param>
         /// <param name="value"></param>
+        /// <exception cref="ArgumentNullException"></exception>
         public void AddCountryWithValue(CountryType type, CountryCode countryCode, string value)
         {
+            if (string.IsNullOrWhiteSpace(value)) throw new ArgumentNullException(nameof(value));
             CountrySegment segment = new(type, new Country(countryCode, value));
             AddSegment(segment, segment.Descriptor.MaxElements > 0);
         }
 
         /// <summary>
-        /// The GS1 Application Identifier (8001) indicates that the GS1 Application Identifier data fields contain 
-        /// the variable attributes of a roll product.Depending on the method of production, some roll products 
-        /// cannot be numbered according to standard criteria that have been determined in advance.They are,
-        /// therefore, classified as variable items.For those products where the standard trade measures are 
-        /// not sufficient, the following guidelines should be used
+        /// Add Roll Product
         /// </summary>
-        /// <param name="slitWidth">slit width in millimetres (width of the roll)</param>
-        /// <param name="length"> actual length in metres</param>
-        /// <param name="diameter">internal core diameter in millimetres</param>
-        /// <param name="winding">winding direction (face out 0, face in 1, undefined 9)</param>
-        /// <param name="splices">number of splices (0 to 8 = actual number, 9 = number unknown)</param>
-        public void AddRollProduct(int slitWidth, int length, int diameter, int winding, int splices)
+        /// <param name="roll"></param>
+        /// <exception cref="ArgumentNullException"></exception>
+        public void AddRoll(Roll roll)
         {
-            StringBuilder sb = new();
-            sb.Append(slitWidth.ToString().PadLeft(4, '0'));
-            sb.Append(length.ToString().PadLeft(5, '0'));
-            sb.Append(diameter.ToString().PadLeft(3, '0'));
-            sb.Append(winding);
-            sb.Append(splices);
-            RawSegment segment = new(SegmentType.ROLL_PRODUCT, SegmentType.ROLL_PRODUCT.ToCode(), sb.ToString());
+            ArgumentNullException.ThrowIfNull(roll);
+            RollSegment segment = new(SegmentType.ROLL_PRODUCT, roll);
             AddSegment(segment);
         }
 
@@ -527,8 +449,11 @@ namespace Evebury.Gs1.DigitalLink
         /// <param name="type"></param>
         /// <param name="code"></param>
         /// <param name="raw"></param>
+        /// <exception cref="ArgumentNullException"></exception>
         public void AddRaw(SegmentType type, string code, string raw)
         {
+            if (string.IsNullOrWhiteSpace(code)) throw new ArgumentNullException(nameof(code));
+            if (string.IsNullOrWhiteSpace(raw)) throw new ArgumentNullException(nameof(raw));
             RawSegment segment = new(type, code, raw);
             AddSegment(segment, segment.Descriptor.MaxElements > 0);
         }

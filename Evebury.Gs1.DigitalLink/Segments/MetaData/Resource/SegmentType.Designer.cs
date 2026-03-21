@@ -61,10 +61,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						00
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 00.
         /// </summary>
         internal static string _00 {
             get {
@@ -73,10 +70,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						01
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 01.
         /// </summary>
         internal static string _01 {
             get {
@@ -85,10 +79,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						02
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 02.
         /// </summary>
         internal static string _02 {
             get {
@@ -97,10 +88,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						03
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 03.
         /// </summary>
         internal static string _03 {
             get {
@@ -109,10 +97,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						10
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 10.
         /// </summary>
         internal static string _10 {
             get {
@@ -121,10 +106,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						11
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 11.
         /// </summary>
         internal static string _11 {
             get {
@@ -133,10 +115,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						12
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 12.
         /// </summary>
         internal static string _12 {
             get {
@@ -145,10 +124,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						13
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 13.
         /// </summary>
         internal static string _13 {
             get {
@@ -157,10 +133,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						15
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 15.
         /// </summary>
         internal static string _15 {
             get {
@@ -169,10 +142,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						16
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 16.
         /// </summary>
         internal static string _16 {
             get {
@@ -181,10 +151,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						17
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 17.
         /// </summary>
         internal static string _17 {
             get {
@@ -193,10 +160,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						20
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 20.
         /// </summary>
         internal static string _20 {
             get {
@@ -205,10 +169,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						21
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 21.
         /// </summary>
         internal static string _21 {
             get {
@@ -217,10 +178,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						22
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 22.
         /// </summary>
         internal static string _22 {
             get {
@@ -229,10 +187,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						235
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 235.
         /// </summary>
         internal static string _235 {
             get {
@@ -241,10 +196,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						240
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 240.
         /// </summary>
         internal static string _240 {
             get {
@@ -253,10 +205,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						241
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 241.
         /// </summary>
         internal static string _241 {
             get {
@@ -265,10 +214,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						242
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 242.
         /// </summary>
         internal static string _242 {
             get {
@@ -277,10 +223,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						243
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 243.
         /// </summary>
         internal static string _243 {
             get {
@@ -289,10 +232,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						250
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 250.
         /// </summary>
         internal static string _250 {
             get {
@@ -301,10 +241,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						251
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 251.
         /// </summary>
         internal static string _251 {
             get {
@@ -313,10 +250,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						253
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 253.
         /// </summary>
         internal static string _253 {
             get {
@@ -325,10 +259,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						254
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 254.
         /// </summary>
         internal static string _254 {
             get {
@@ -337,10 +268,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						255
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 255.
         /// </summary>
         internal static string _255 {
             get {
@@ -349,10 +277,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						30
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 30.
         /// </summary>
         internal static string _30 {
             get {
@@ -361,10 +286,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3100
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3100.
         /// </summary>
         internal static string _3100 {
             get {
@@ -373,10 +295,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3100
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3100.
         /// </summary>
         internal static string _3101 {
             get {
@@ -385,10 +304,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3100
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3100.
         /// </summary>
         internal static string _3102 {
             get {
@@ -397,10 +313,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3100
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3100.
         /// </summary>
         internal static string _3103 {
             get {
@@ -409,10 +322,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3100
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3100.
         /// </summary>
         internal static string _3104 {
             get {
@@ -421,10 +331,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3100
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3100.
         /// </summary>
         internal static string _3105 {
             get {
@@ -433,10 +340,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3110
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3110.
         /// </summary>
         internal static string _3110 {
             get {
@@ -445,10 +349,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3110
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3110.
         /// </summary>
         internal static string _3111 {
             get {
@@ -457,10 +358,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3110
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3110.
         /// </summary>
         internal static string _3112 {
             get {
@@ -469,10 +367,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3110
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3110.
         /// </summary>
         internal static string _3113 {
             get {
@@ -481,10 +376,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3110
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3110.
         /// </summary>
         internal static string _3114 {
             get {
@@ -493,10 +385,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3110
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3110.
         /// </summary>
         internal static string _3115 {
             get {
@@ -505,10 +394,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3120
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3120.
         /// </summary>
         internal static string _3120 {
             get {
@@ -517,10 +403,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3120
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3120.
         /// </summary>
         internal static string _3121 {
             get {
@@ -529,10 +412,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3120
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3120.
         /// </summary>
         internal static string _3122 {
             get {
@@ -541,10 +421,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3120
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3120.
         /// </summary>
         internal static string _3123 {
             get {
@@ -553,10 +430,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3120
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3120.
         /// </summary>
         internal static string _3124 {
             get {
@@ -565,10 +439,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3120
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3120.
         /// </summary>
         internal static string _3125 {
             get {
@@ -577,10 +448,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3130
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3130.
         /// </summary>
         internal static string _3130 {
             get {
@@ -589,10 +457,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3130
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3130.
         /// </summary>
         internal static string _3131 {
             get {
@@ -601,10 +466,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3130
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3130.
         /// </summary>
         internal static string _3132 {
             get {
@@ -613,10 +475,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3130
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3130.
         /// </summary>
         internal static string _3133 {
             get {
@@ -625,10 +484,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3130
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3130.
         /// </summary>
         internal static string _3134 {
             get {
@@ -637,10 +493,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3130
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3130.
         /// </summary>
         internal static string _3135 {
             get {
@@ -649,10 +502,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3140
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3140.
         /// </summary>
         internal static string _3140 {
             get {
@@ -661,10 +511,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3140
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3140.
         /// </summary>
         internal static string _3141 {
             get {
@@ -673,10 +520,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3140
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3140.
         /// </summary>
         internal static string _3142 {
             get {
@@ -685,10 +529,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3140
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3140.
         /// </summary>
         internal static string _3143 {
             get {
@@ -697,10 +538,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3140
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3140.
         /// </summary>
         internal static string _3144 {
             get {
@@ -709,10 +547,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3140
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3140.
         /// </summary>
         internal static string _3145 {
             get {
@@ -721,10 +556,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3150
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3150 {
             get {
@@ -733,10 +565,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3150
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3151 {
             get {
@@ -745,10 +574,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3150
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3152 {
             get {
@@ -757,10 +583,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3150
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3153 {
             get {
@@ -769,10 +592,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3150
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3154 {
             get {
@@ -781,10 +601,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3150
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3155 {
             get {
@@ -793,10 +610,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3160 {
             get {
@@ -805,10 +619,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3161 {
             get {
@@ -817,10 +628,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3162 {
             get {
@@ -829,10 +637,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3163 {
             get {
@@ -841,10 +646,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3164 {
             get {
@@ -853,10 +655,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3165 {
             get {
@@ -865,10 +664,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3100.
         /// </summary>
         internal static string _3200 {
             get {
@@ -877,10 +673,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3100.
         /// </summary>
         internal static string _3201 {
             get {
@@ -889,10 +682,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3100.
         /// </summary>
         internal static string _3202 {
             get {
@@ -901,10 +691,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3100.
         /// </summary>
         internal static string _3203 {
             get {
@@ -913,10 +700,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3100.
         /// </summary>
         internal static string _3204 {
             get {
@@ -925,10 +709,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3100.
         /// </summary>
         internal static string _3205 {
             get {
@@ -937,10 +718,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3110.
         /// </summary>
         internal static string _3210 {
             get {
@@ -949,10 +727,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3110.
         /// </summary>
         internal static string _3211 {
             get {
@@ -961,10 +736,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3110.
         /// </summary>
         internal static string _3212 {
             get {
@@ -973,10 +745,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3110.
         /// </summary>
         internal static string _3213 {
             get {
@@ -985,10 +754,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3110.
         /// </summary>
         internal static string _3214 {
             get {
@@ -997,10 +763,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3110.
         /// </summary>
         internal static string _3215 {
             get {
@@ -1009,10 +772,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3110.
         /// </summary>
         internal static string _3220 {
             get {
@@ -1021,10 +781,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3110.
         /// </summary>
         internal static string _3221 {
             get {
@@ -1033,10 +790,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3110.
         /// </summary>
         internal static string _3222 {
             get {
@@ -1045,10 +799,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3110.
         /// </summary>
         internal static string _3223 {
             get {
@@ -1057,10 +808,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3110.
         /// </summary>
         internal static string _3224 {
             get {
@@ -1069,10 +817,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3110.
         /// </summary>
         internal static string _3225 {
             get {
@@ -1081,10 +826,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3110.
         /// </summary>
         internal static string _3230 {
             get {
@@ -1093,10 +835,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3110.
         /// </summary>
         internal static string _3231 {
             get {
@@ -1105,10 +844,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3110.
         /// </summary>
         internal static string _3232 {
             get {
@@ -1117,10 +853,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3110.
         /// </summary>
         internal static string _3233 {
             get {
@@ -1129,10 +862,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3110.
         /// </summary>
         internal static string _3234 {
             get {
@@ -1141,10 +871,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3110.
         /// </summary>
         internal static string _3235 {
             get {
@@ -1153,10 +880,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3120.
         /// </summary>
         internal static string _3240 {
             get {
@@ -1165,10 +889,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3120.
         /// </summary>
         internal static string _3241 {
             get {
@@ -1177,10 +898,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3120.
         /// </summary>
         internal static string _3242 {
             get {
@@ -1189,10 +907,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3120.
         /// </summary>
         internal static string _3243 {
             get {
@@ -1201,10 +916,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3120.
         /// </summary>
         internal static string _3244 {
             get {
@@ -1213,10 +925,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3120.
         /// </summary>
         internal static string _3245 {
             get {
@@ -1225,10 +934,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3120.
         /// </summary>
         internal static string _3250 {
             get {
@@ -1237,10 +943,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3120.
         /// </summary>
         internal static string _3251 {
             get {
@@ -1249,10 +952,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3120.
         /// </summary>
         internal static string _3252 {
             get {
@@ -1261,10 +961,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3120.
         /// </summary>
         internal static string _3253 {
             get {
@@ -1273,10 +970,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3120.
         /// </summary>
         internal static string _3254 {
             get {
@@ -1285,10 +979,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3120.
         /// </summary>
         internal static string _3255 {
             get {
@@ -1297,10 +988,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3120.
         /// </summary>
         internal static string _3260 {
             get {
@@ -1309,10 +997,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3120.
         /// </summary>
         internal static string _3261 {
             get {
@@ -1321,10 +1006,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3120.
         /// </summary>
         internal static string _3262 {
             get {
@@ -1333,10 +1015,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3120.
         /// </summary>
         internal static string _3263 {
             get {
@@ -1345,10 +1024,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3120.
         /// </summary>
         internal static string _3264 {
             get {
@@ -1357,10 +1033,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3120.
         /// </summary>
         internal static string _3265 {
             get {
@@ -1369,10 +1042,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3130.
         /// </summary>
         internal static string _3270 {
             get {
@@ -1381,10 +1051,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3130.
         /// </summary>
         internal static string _3271 {
             get {
@@ -1393,10 +1060,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3130.
         /// </summary>
         internal static string _3272 {
             get {
@@ -1405,10 +1069,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3130.
         /// </summary>
         internal static string _3273 {
             get {
@@ -1417,10 +1078,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3130.
         /// </summary>
         internal static string _3274 {
             get {
@@ -1429,10 +1087,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3130.
         /// </summary>
         internal static string _3275 {
             get {
@@ -1441,10 +1096,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3130.
         /// </summary>
         internal static string _3280 {
             get {
@@ -1453,10 +1105,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3130.
         /// </summary>
         internal static string _3281 {
             get {
@@ -1465,10 +1114,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3130.
         /// </summary>
         internal static string _3282 {
             get {
@@ -1477,10 +1123,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3130.
         /// </summary>
         internal static string _3283 {
             get {
@@ -1489,10 +1132,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3130.
         /// </summary>
         internal static string _3284 {
             get {
@@ -1501,10 +1141,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3130.
         /// </summary>
         internal static string _3285 {
             get {
@@ -1513,10 +1150,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3130.
         /// </summary>
         internal static string _3290 {
             get {
@@ -1525,10 +1159,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3130.
         /// </summary>
         internal static string _3291 {
             get {
@@ -1537,10 +1168,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3130.
         /// </summary>
         internal static string _3292 {
             get {
@@ -1549,10 +1177,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3130.
         /// </summary>
         internal static string _3293 {
             get {
@@ -1561,10 +1186,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3130.
         /// </summary>
         internal static string _3294 {
             get {
@@ -1573,10 +1195,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3130.
         /// </summary>
         internal static string _3295 {
             get {
@@ -1585,10 +1204,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3300
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3300.
         /// </summary>
         internal static string _3300 {
             get {
@@ -1597,10 +1213,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3300
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3300.
         /// </summary>
         internal static string _3301 {
             get {
@@ -1609,10 +1222,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3300
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3300.
         /// </summary>
         internal static string _3302 {
             get {
@@ -1621,10 +1231,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3300
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3300.
         /// </summary>
         internal static string _3303 {
             get {
@@ -1633,10 +1240,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3300
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3300.
         /// </summary>
         internal static string _3304 {
             get {
@@ -1645,10 +1249,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3300
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3300.
         /// </summary>
         internal static string _3305 {
             get {
@@ -1657,10 +1258,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3310
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3310.
         /// </summary>
         internal static string _3310 {
             get {
@@ -1669,10 +1267,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3310
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3310.
         /// </summary>
         internal static string _3311 {
             get {
@@ -1681,10 +1276,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3310
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3310.
         /// </summary>
         internal static string _3312 {
             get {
@@ -1693,10 +1285,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3310
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3310.
         /// </summary>
         internal static string _3313 {
             get {
@@ -1705,10 +1294,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3310
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3310.
         /// </summary>
         internal static string _3314 {
             get {
@@ -1717,10 +1303,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3310
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3310.
         /// </summary>
         internal static string _3315 {
             get {
@@ -1729,10 +1312,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3320
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3320.
         /// </summary>
         internal static string _3320 {
             get {
@@ -1741,10 +1321,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3320
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3320.
         /// </summary>
         internal static string _3321 {
             get {
@@ -1753,10 +1330,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3320
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3320.
         /// </summary>
         internal static string _3322 {
             get {
@@ -1765,10 +1339,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3320
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3320.
         /// </summary>
         internal static string _3323 {
             get {
@@ -1777,10 +1348,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3320
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3320.
         /// </summary>
         internal static string _3324 {
             get {
@@ -1789,10 +1357,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3320
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3320.
         /// </summary>
         internal static string _3325 {
             get {
@@ -1801,10 +1366,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3330
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3330.
         /// </summary>
         internal static string _3330 {
             get {
@@ -1813,10 +1375,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3330
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3330.
         /// </summary>
         internal static string _3331 {
             get {
@@ -1825,10 +1384,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3330
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3330.
         /// </summary>
         internal static string _3332 {
             get {
@@ -1837,10 +1393,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3330
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3330.
         /// </summary>
         internal static string _3333 {
             get {
@@ -1849,10 +1402,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3330
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3330.
         /// </summary>
         internal static string _3334 {
             get {
@@ -1861,10 +1411,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3330
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3330.
         /// </summary>
         internal static string _3335 {
             get {
@@ -1873,10 +1420,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3340
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3340.
         /// </summary>
         internal static string _3340 {
             get {
@@ -1885,10 +1429,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3340
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3340.
         /// </summary>
         internal static string _3341 {
             get {
@@ -1897,10 +1438,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3340
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3340.
         /// </summary>
         internal static string _3342 {
             get {
@@ -1909,10 +1447,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3340
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3340.
         /// </summary>
         internal static string _3343 {
             get {
@@ -1921,10 +1456,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3340
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3340.
         /// </summary>
         internal static string _3344 {
             get {
@@ -1933,10 +1465,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3340
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3340.
         /// </summary>
         internal static string _3345 {
             get {
@@ -1945,10 +1474,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3350
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3350 {
             get {
@@ -1957,10 +1483,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3350
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3351 {
             get {
@@ -1969,10 +1492,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3350
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3352 {
             get {
@@ -1981,10 +1501,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3350
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3353 {
             get {
@@ -1993,10 +1510,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3350
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3354 {
             get {
@@ -2005,10 +1519,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3350
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3355 {
             get {
@@ -2017,10 +1528,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3360 {
             get {
@@ -2029,10 +1537,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3361 {
             get {
@@ -2041,10 +1546,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3362 {
             get {
@@ -2053,10 +1555,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3363 {
             get {
@@ -2065,10 +1564,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3364 {
             get {
@@ -2077,10 +1573,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3365 {
             get {
@@ -2089,10 +1582,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3370
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3370.
         /// </summary>
         internal static string _3370 {
             get {
@@ -2101,10 +1591,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3370
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3370.
         /// </summary>
         internal static string _3371 {
             get {
@@ -2113,10 +1600,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3370
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3370.
         /// </summary>
         internal static string _3372 {
             get {
@@ -2125,10 +1609,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3370
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3370.
         /// </summary>
         internal static string _3373 {
             get {
@@ -2137,10 +1618,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3370
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3370.
         /// </summary>
         internal static string _3374 {
             get {
@@ -2149,10 +1627,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3370
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3370.
         /// </summary>
         internal static string _3375 {
             get {
@@ -2161,10 +1636,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3300.
         /// </summary>
         internal static string _3400 {
             get {
@@ -2173,10 +1645,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3300.
         /// </summary>
         internal static string _3401 {
             get {
@@ -2185,10 +1654,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3300.
         /// </summary>
         internal static string _3402 {
             get {
@@ -2197,10 +1663,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3300.
         /// </summary>
         internal static string _3403 {
             get {
@@ -2209,10 +1672,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3300.
         /// </summary>
         internal static string _3404 {
             get {
@@ -2221,10 +1681,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3300.
         /// </summary>
         internal static string _3405 {
             get {
@@ -2233,10 +1690,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3310.
         /// </summary>
         internal static string _3410 {
             get {
@@ -2245,10 +1699,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3310.
         /// </summary>
         internal static string _3411 {
             get {
@@ -2257,10 +1708,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3310.
         /// </summary>
         internal static string _3412 {
             get {
@@ -2269,10 +1717,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3310.
         /// </summary>
         internal static string _3413 {
             get {
@@ -2281,10 +1726,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3310.
         /// </summary>
         internal static string _3414 {
             get {
@@ -2293,10 +1735,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3310.
         /// </summary>
         internal static string _3415 {
             get {
@@ -2305,10 +1744,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3310.
         /// </summary>
         internal static string _3420 {
             get {
@@ -2317,10 +1753,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3310.
         /// </summary>
         internal static string _3421 {
             get {
@@ -2329,10 +1762,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3310.
         /// </summary>
         internal static string _3422 {
             get {
@@ -2341,10 +1771,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3310.
         /// </summary>
         internal static string _3423 {
             get {
@@ -2353,10 +1780,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3310.
         /// </summary>
         internal static string _3424 {
             get {
@@ -2365,10 +1789,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3310.
         /// </summary>
         internal static string _3425 {
             get {
@@ -2377,10 +1798,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3310.
         /// </summary>
         internal static string _3430 {
             get {
@@ -2389,10 +1807,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3310.
         /// </summary>
         internal static string _3431 {
             get {
@@ -2401,10 +1816,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3310.
         /// </summary>
         internal static string _3432 {
             get {
@@ -2413,10 +1825,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3310.
         /// </summary>
         internal static string _3433 {
             get {
@@ -2425,10 +1834,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3310.
         /// </summary>
         internal static string _3434 {
             get {
@@ -2437,10 +1843,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3310.
         /// </summary>
         internal static string _3435 {
             get {
@@ -2449,10 +1852,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3320.
         /// </summary>
         internal static string _3440 {
             get {
@@ -2461,10 +1861,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3320.
         /// </summary>
         internal static string _3441 {
             get {
@@ -2473,10 +1870,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3320.
         /// </summary>
         internal static string _3442 {
             get {
@@ -2485,10 +1879,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3320.
         /// </summary>
         internal static string _3443 {
             get {
@@ -2497,10 +1888,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3320.
         /// </summary>
         internal static string _3444 {
             get {
@@ -2509,10 +1897,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3320.
         /// </summary>
         internal static string _3445 {
             get {
@@ -2521,10 +1906,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3320.
         /// </summary>
         internal static string _3450 {
             get {
@@ -2533,10 +1915,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3320.
         /// </summary>
         internal static string _3451 {
             get {
@@ -2545,10 +1924,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3320.
         /// </summary>
         internal static string _3452 {
             get {
@@ -2557,10 +1933,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3320.
         /// </summary>
         internal static string _3453 {
             get {
@@ -2569,10 +1942,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3320.
         /// </summary>
         internal static string _3454 {
             get {
@@ -2581,10 +1951,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3320.
         /// </summary>
         internal static string _3455 {
             get {
@@ -2593,10 +1960,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3320.
         /// </summary>
         internal static string _3460 {
             get {
@@ -2605,10 +1969,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3320.
         /// </summary>
         internal static string _3461 {
             get {
@@ -2617,10 +1978,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3320.
         /// </summary>
         internal static string _3462 {
             get {
@@ -2629,10 +1987,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3320.
         /// </summary>
         internal static string _3463 {
             get {
@@ -2641,10 +1996,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3320.
         /// </summary>
         internal static string _3464 {
             get {
@@ -2653,10 +2005,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3320.
         /// </summary>
         internal static string _3465 {
             get {
@@ -2665,10 +2014,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3330.
         /// </summary>
         internal static string _3470 {
             get {
@@ -2677,10 +2023,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3330.
         /// </summary>
         internal static string _3471 {
             get {
@@ -2689,10 +2032,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3330.
         /// </summary>
         internal static string _3472 {
             get {
@@ -2701,10 +2041,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3330.
         /// </summary>
         internal static string _3473 {
             get {
@@ -2713,10 +2050,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3330.
         /// </summary>
         internal static string _3474 {
             get {
@@ -2725,10 +2059,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3330.
         /// </summary>
         internal static string _3475 {
             get {
@@ -2737,10 +2068,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3330.
         /// </summary>
         internal static string _3480 {
             get {
@@ -2749,10 +2077,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3330.
         /// </summary>
         internal static string _3481 {
             get {
@@ -2761,10 +2086,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3330.
         /// </summary>
         internal static string _3482 {
             get {
@@ -2773,10 +2095,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3330.
         /// </summary>
         internal static string _3483 {
             get {
@@ -2785,10 +2104,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3330.
         /// </summary>
         internal static string _3484 {
             get {
@@ -2797,10 +2113,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3330.
         /// </summary>
         internal static string _3485 {
             get {
@@ -2809,10 +2122,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3330.
         /// </summary>
         internal static string _3490 {
             get {
@@ -2821,10 +2131,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3330.
         /// </summary>
         internal static string _3491 {
             get {
@@ -2833,10 +2140,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3330.
         /// </summary>
         internal static string _3492 {
             get {
@@ -2845,10 +2149,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3330.
         /// </summary>
         internal static string _3493 {
             get {
@@ -2857,10 +2158,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3330.
         /// </summary>
         internal static string _3494 {
             get {
@@ -2869,10 +2167,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3330.
         /// </summary>
         internal static string _3495 {
             get {
@@ -2881,10 +2176,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3140.
         /// </summary>
         internal static string _3500 {
             get {
@@ -2893,10 +2185,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3140.
         /// </summary>
         internal static string _3501 {
             get {
@@ -2905,10 +2194,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3140.
         /// </summary>
         internal static string _3502 {
             get {
@@ -2917,10 +2203,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3140.
         /// </summary>
         internal static string _3503 {
             get {
@@ -2929,10 +2212,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3140.
         /// </summary>
         internal static string _3504 {
             get {
@@ -2941,10 +2221,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3140.
         /// </summary>
         internal static string _3505 {
             get {
@@ -2953,10 +2230,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3140.
         /// </summary>
         internal static string _3510 {
             get {
@@ -2965,10 +2239,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3140.
         /// </summary>
         internal static string _3511 {
             get {
@@ -2977,10 +2248,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3140.
         /// </summary>
         internal static string _3512 {
             get {
@@ -2989,10 +2257,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3140.
         /// </summary>
         internal static string _3513 {
             get {
@@ -3001,10 +2266,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3140.
         /// </summary>
         internal static string _3514 {
             get {
@@ -3013,10 +2275,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3140.
         /// </summary>
         internal static string _3515 {
             get {
@@ -3025,10 +2284,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3140.
         /// </summary>
         internal static string _3520 {
             get {
@@ -3037,10 +2293,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3140.
         /// </summary>
         internal static string _3521 {
             get {
@@ -3049,10 +2302,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3140.
         /// </summary>
         internal static string _3522 {
             get {
@@ -3061,10 +2311,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3140.
         /// </summary>
         internal static string _3523 {
             get {
@@ -3073,10 +2320,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3140.
         /// </summary>
         internal static string _3524 {
             get {
@@ -3085,10 +2329,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3140.
         /// </summary>
         internal static string _3525 {
             get {
@@ -3097,10 +2338,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3340.
         /// </summary>
         internal static string _3530 {
             get {
@@ -3109,10 +2347,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3340.
         /// </summary>
         internal static string _3531 {
             get {
@@ -3121,10 +2356,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3340.
         /// </summary>
         internal static string _3532 {
             get {
@@ -3133,10 +2365,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3340.
         /// </summary>
         internal static string _3533 {
             get {
@@ -3145,10 +2374,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3340.
         /// </summary>
         internal static string _3534 {
             get {
@@ -3157,10 +2383,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3340.
         /// </summary>
         internal static string _3535 {
             get {
@@ -3169,10 +2392,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3340.
         /// </summary>
         internal static string _3540 {
             get {
@@ -3181,10 +2401,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3340.
         /// </summary>
         internal static string _3541 {
             get {
@@ -3193,10 +2410,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3340.
         /// </summary>
         internal static string _3542 {
             get {
@@ -3205,10 +2419,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3340.
         /// </summary>
         internal static string _3543 {
             get {
@@ -3217,10 +2428,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3340.
         /// </summary>
         internal static string _3544 {
             get {
@@ -3229,10 +2437,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3340.
         /// </summary>
         internal static string _3545 {
             get {
@@ -3241,10 +2446,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3340.
         /// </summary>
         internal static string _3550 {
             get {
@@ -3253,10 +2455,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3340.
         /// </summary>
         internal static string _3551 {
             get {
@@ -3265,10 +2464,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3340.
         /// </summary>
         internal static string _3552 {
             get {
@@ -3277,10 +2473,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3340.
         /// </summary>
         internal static string _3553 {
             get {
@@ -3289,10 +2482,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3340.
         /// </summary>
         internal static string _3554 {
             get {
@@ -3301,10 +2491,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3340.
         /// </summary>
         internal static string _3555 {
             get {
@@ -3313,10 +2500,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3100.
         /// </summary>
         internal static string _3560 {
             get {
@@ -3325,10 +2509,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3100.
         /// </summary>
         internal static string _3561 {
             get {
@@ -3337,10 +2518,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3100.
         /// </summary>
         internal static string _3562 {
             get {
@@ -3349,10 +2527,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3100.
         /// </summary>
         internal static string _3563 {
             get {
@@ -3361,10 +2536,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3100.
         /// </summary>
         internal static string _3564 {
             get {
@@ -3373,10 +2545,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3100.
         /// </summary>
         internal static string _3565 {
             get {
@@ -3385,10 +2554,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3100.
         /// </summary>
         internal static string _3570 {
             get {
@@ -3397,10 +2563,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3100.
         /// </summary>
         internal static string _3571 {
             get {
@@ -3409,10 +2572,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3100.
         /// </summary>
         internal static string _3572 {
             get {
@@ -3421,10 +2581,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3100.
         /// </summary>
         internal static string _3573 {
             get {
@@ -3433,10 +2590,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3100.
         /// </summary>
         internal static string _3574 {
             get {
@@ -3445,10 +2599,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3100.
         /// </summary>
         internal static string _3575 {
             get {
@@ -3457,10 +2608,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3600 {
             get {
@@ -3469,10 +2617,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3601 {
             get {
@@ -3481,10 +2626,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3602 {
             get {
@@ -3493,10 +2635,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3603 {
             get {
@@ -3505,10 +2644,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3604 {
             get {
@@ -3517,10 +2653,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3605 {
             get {
@@ -3529,10 +2662,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3610 {
             get {
@@ -3541,10 +2671,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3611 {
             get {
@@ -3553,10 +2680,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3612 {
             get {
@@ -3565,10 +2689,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3613 {
             get {
@@ -3577,10 +2698,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3614 {
             get {
@@ -3589,10 +2707,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3615 {
             get {
@@ -3601,10 +2716,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3620 {
             get {
@@ -3613,10 +2725,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3621 {
             get {
@@ -3625,10 +2734,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3622 {
             get {
@@ -3637,10 +2743,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3623 {
             get {
@@ -3649,10 +2752,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3624 {
             get {
@@ -3661,10 +2761,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3625 {
             get {
@@ -3673,10 +2770,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3630 {
             get {
@@ -3685,10 +2779,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3631 {
             get {
@@ -3697,10 +2788,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3632 {
             get {
@@ -3709,10 +2797,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3633 {
             get {
@@ -3721,10 +2806,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3634 {
             get {
@@ -3733,10 +2815,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3635 {
             get {
@@ -3745,10 +2824,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3640 {
             get {
@@ -3757,10 +2833,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3641 {
             get {
@@ -3769,10 +2842,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3642 {
             get {
@@ -3781,10 +2851,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3643 {
             get {
@@ -3793,10 +2860,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3644 {
             get {
@@ -3805,10 +2869,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3645 {
             get {
@@ -3817,10 +2878,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3650 {
             get {
@@ -3829,10 +2887,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3651 {
             get {
@@ -3841,10 +2896,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3652 {
             get {
@@ -3853,10 +2905,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3653 {
             get {
@@ -3865,10 +2914,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3654 {
             get {
@@ -3877,10 +2923,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3655 {
             get {
@@ -3889,10 +2932,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3660 {
             get {
@@ -3901,10 +2941,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3661 {
             get {
@@ -3913,10 +2950,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3662 {
             get {
@@ -3925,10 +2959,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3663 {
             get {
@@ -3937,10 +2968,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3664 {
             get {
@@ -3949,10 +2977,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3150.
         /// </summary>
         internal static string _3665 {
             get {
@@ -3961,10 +2986,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3670 {
             get {
@@ -3973,10 +2995,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3671 {
             get {
@@ -3985,10 +3004,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3672 {
             get {
@@ -3997,10 +3013,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3673 {
             get {
@@ -4009,10 +3022,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3674 {
             get {
@@ -4021,10 +3031,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3675 {
             get {
@@ -4033,10 +3040,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3680 {
             get {
@@ -4045,10 +3049,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3681 {
             get {
@@ -4057,10 +3058,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3682 {
             get {
@@ -4069,10 +3067,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3683 {
             get {
@@ -4081,10 +3076,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3684 {
             get {
@@ -4093,10 +3085,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3685 {
             get {
@@ -4105,10 +3094,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3690 {
             get {
@@ -4117,10 +3103,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3691 {
             get {
@@ -4129,10 +3112,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3692 {
             get {
@@ -4141,10 +3121,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3693 {
             get {
@@ -4153,10 +3130,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3694 {
             get {
@@ -4165,10 +3139,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3350.
         /// </summary>
         internal static string _3695 {
             get {
@@ -4177,10 +3148,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						37
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 37.
         /// </summary>
         internal static string _37 {
             get {
@@ -4189,10 +3157,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3900
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3900.
         /// </summary>
         internal static string _3900 {
             get {
@@ -4201,10 +3166,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3900
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3900.
         /// </summary>
         internal static string _3901 {
             get {
@@ -4213,10 +3175,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3900
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3900.
         /// </summary>
         internal static string _3902 {
             get {
@@ -4225,10 +3184,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3900
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3900.
         /// </summary>
         internal static string _3903 {
             get {
@@ -4237,10 +3193,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3900
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3900.
         /// </summary>
         internal static string _3904 {
             get {
@@ -4249,10 +3202,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3900
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3900.
         /// </summary>
         internal static string _3905 {
             get {
@@ -4261,10 +3211,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3900
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3900.
         /// </summary>
         internal static string _3906 {
             get {
@@ -4273,10 +3220,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3900
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3900.
         /// </summary>
         internal static string _3907 {
             get {
@@ -4285,10 +3229,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3900
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3900.
         /// </summary>
         internal static string _3908 {
             get {
@@ -4297,10 +3238,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3900
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3900.
         /// </summary>
         internal static string _3909 {
             get {
@@ -4309,10 +3247,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3910
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3910.
         /// </summary>
         internal static string _3910 {
             get {
@@ -4321,10 +3256,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3910
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3910.
         /// </summary>
         internal static string _3911 {
             get {
@@ -4333,10 +3265,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3910
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3910.
         /// </summary>
         internal static string _3912 {
             get {
@@ -4345,10 +3274,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3910
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3910.
         /// </summary>
         internal static string _3913 {
             get {
@@ -4357,10 +3283,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3910
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3910.
         /// </summary>
         internal static string _3914 {
             get {
@@ -4369,10 +3292,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3910
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3910.
         /// </summary>
         internal static string _3915 {
             get {
@@ -4381,10 +3301,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3910
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3910.
         /// </summary>
         internal static string _3916 {
             get {
@@ -4393,10 +3310,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3910
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3910.
         /// </summary>
         internal static string _3917 {
             get {
@@ -4405,10 +3319,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3910
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3910.
         /// </summary>
         internal static string _3918 {
             get {
@@ -4417,10 +3328,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3910
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3910.
         /// </summary>
         internal static string _3919 {
             get {
@@ -4429,10 +3337,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3920
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3920.
         /// </summary>
         internal static string _3920 {
             get {
@@ -4441,10 +3346,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3920
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3920.
         /// </summary>
         internal static string _3921 {
             get {
@@ -4453,10 +3355,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3920
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3920.
         /// </summary>
         internal static string _3922 {
             get {
@@ -4465,10 +3364,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3920
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3920.
         /// </summary>
         internal static string _3923 {
             get {
@@ -4477,10 +3373,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3920
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3920.
         /// </summary>
         internal static string _3924 {
             get {
@@ -4489,10 +3382,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3920
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3920.
         /// </summary>
         internal static string _3925 {
             get {
@@ -4501,10 +3391,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3920
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3920.
         /// </summary>
         internal static string _3926 {
             get {
@@ -4513,10 +3400,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3920
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3920.
         /// </summary>
         internal static string _3927 {
             get {
@@ -4525,10 +3409,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3920
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3920.
         /// </summary>
         internal static string _3928 {
             get {
@@ -4537,10 +3418,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3920
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3920.
         /// </summary>
         internal static string _3929 {
             get {
@@ -4549,10 +3427,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3930
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3930.
         /// </summary>
         internal static string _3930 {
             get {
@@ -4561,10 +3436,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3930
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3930.
         /// </summary>
         internal static string _3931 {
             get {
@@ -4573,10 +3445,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3930
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3930.
         /// </summary>
         internal static string _3932 {
             get {
@@ -4585,10 +3454,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3930
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3930.
         /// </summary>
         internal static string _3933 {
             get {
@@ -4597,10 +3463,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3930
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3930.
         /// </summary>
         internal static string _3934 {
             get {
@@ -4609,10 +3472,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3930
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3930.
         /// </summary>
         internal static string _3935 {
             get {
@@ -4621,10 +3481,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3930
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3930.
         /// </summary>
         internal static string _3936 {
             get {
@@ -4633,10 +3490,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3930
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3930.
         /// </summary>
         internal static string _3937 {
             get {
@@ -4645,10 +3499,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3930
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3930.
         /// </summary>
         internal static string _3938 {
             get {
@@ -4657,10 +3508,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3930
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3930.
         /// </summary>
         internal static string _3939 {
             get {
@@ -4669,10 +3517,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3940
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3940.
         /// </summary>
         internal static string _3940 {
             get {
@@ -4681,10 +3526,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3940
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3940.
         /// </summary>
         internal static string _3941 {
             get {
@@ -4693,10 +3535,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3940
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3940.
         /// </summary>
         internal static string _3942 {
             get {
@@ -4705,10 +3544,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3940
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3940.
         /// </summary>
         internal static string _3943 {
             get {
@@ -4717,10 +3553,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3950
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3950.
         /// </summary>
         internal static string _3950 {
             get {
@@ -4729,10 +3562,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3950
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3950.
         /// </summary>
         internal static string _3951 {
             get {
@@ -4741,10 +3571,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3950
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3950.
         /// </summary>
         internal static string _3952 {
             get {
@@ -4753,10 +3580,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3950
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3950.
         /// </summary>
         internal static string _3953 {
             get {
@@ -4765,10 +3589,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3950
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3950.
         /// </summary>
         internal static string _3954 {
             get {
@@ -4777,10 +3598,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						3950
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 3950.
         /// </summary>
         internal static string _3955 {
             get {
@@ -4789,10 +3607,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						400
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 400.
         /// </summary>
         internal static string _400 {
             get {
@@ -4801,10 +3616,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						401
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 401.
         /// </summary>
         internal static string _401 {
             get {
@@ -4813,10 +3625,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						402
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 402.
         /// </summary>
         internal static string _402 {
             get {
@@ -4825,10 +3634,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						403
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 403.
         /// </summary>
         internal static string _403 {
             get {
@@ -4837,10 +3643,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						410
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 410.
         /// </summary>
         internal static string _410 {
             get {
@@ -4849,10 +3652,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						411
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 411.
         /// </summary>
         internal static string _411 {
             get {
@@ -4861,10 +3661,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						412
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 412.
         /// </summary>
         internal static string _412 {
             get {
@@ -4873,10 +3670,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						413
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 413.
         /// </summary>
         internal static string _413 {
             get {
@@ -4885,10 +3679,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						414
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 414.
         /// </summary>
         internal static string _414 {
             get {
@@ -4897,10 +3688,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						415
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 415.
         /// </summary>
         internal static string _415 {
             get {
@@ -4909,10 +3697,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						416
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 416.
         /// </summary>
         internal static string _416 {
             get {
@@ -4921,10 +3706,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						417
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 417.
         /// </summary>
         internal static string _417 {
             get {
@@ -4933,10 +3715,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						420
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 420.
         /// </summary>
         internal static string _420 {
             get {
@@ -4945,10 +3724,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						421
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 421.
         /// </summary>
         internal static string _421 {
             get {
@@ -4957,10 +3733,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						422
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 422.
         /// </summary>
         internal static string _422 {
             get {
@@ -4969,10 +3742,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						423
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 423.
         /// </summary>
         internal static string _423 {
             get {
@@ -4981,10 +3751,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						424
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 424.
         /// </summary>
         internal static string _424 {
             get {
@@ -4993,10 +3760,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						425
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 425.
         /// </summary>
         internal static string _425 {
             get {
@@ -5005,10 +3769,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						426
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 426.
         /// </summary>
         internal static string _426 {
             get {
@@ -5017,10 +3778,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						427
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 427.
         /// </summary>
         internal static string _427 {
             get {
@@ -5029,10 +3787,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4300
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4300.
         /// </summary>
         internal static string _4300 {
             get {
@@ -5041,10 +3796,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4301
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4301.
         /// </summary>
         internal static string _4301 {
             get {
@@ -5053,10 +3805,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4302
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4302.
         /// </summary>
         internal static string _4302 {
             get {
@@ -5065,10 +3814,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4303
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4303.
         /// </summary>
         internal static string _4303 {
             get {
@@ -5077,10 +3823,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4304
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4304.
         /// </summary>
         internal static string _4304 {
             get {
@@ -5089,10 +3832,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4305
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4305.
         /// </summary>
         internal static string _4305 {
             get {
@@ -5101,10 +3841,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4306
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4306.
         /// </summary>
         internal static string _4306 {
             get {
@@ -5113,10 +3850,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4307
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4307.
         /// </summary>
         internal static string _4307 {
             get {
@@ -5125,10 +3859,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4308
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4308.
         /// </summary>
         internal static string _4308 {
             get {
@@ -5137,10 +3868,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4309
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4309.
         /// </summary>
         internal static string _4309 {
             get {
@@ -5149,10 +3877,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4310
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4310.
         /// </summary>
         internal static string _4310 {
             get {
@@ -5161,10 +3886,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4311
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4311.
         /// </summary>
         internal static string _4311 {
             get {
@@ -5173,10 +3895,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4312
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4312.
         /// </summary>
         internal static string _4312 {
             get {
@@ -5185,10 +3904,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4313
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4313.
         /// </summary>
         internal static string _4313 {
             get {
@@ -5197,10 +3913,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4314
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4314.
         /// </summary>
         internal static string _4314 {
             get {
@@ -5209,10 +3922,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4315
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4315.
         /// </summary>
         internal static string _4315 {
             get {
@@ -5221,10 +3931,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4316
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4316.
         /// </summary>
         internal static string _4316 {
             get {
@@ -5233,10 +3940,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4317
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4317.
         /// </summary>
         internal static string _4317 {
             get {
@@ -5245,10 +3949,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4318
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4318.
         /// </summary>
         internal static string _4318 {
             get {
@@ -5257,10 +3958,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4319
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4319.
         /// </summary>
         internal static string _4319 {
             get {
@@ -5269,10 +3967,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4320
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4320.
         /// </summary>
         internal static string _4320 {
             get {
@@ -5281,10 +3976,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4321
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4321.
         /// </summary>
         internal static string _4321 {
             get {
@@ -5293,10 +3985,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4322
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4322.
         /// </summary>
         internal static string _4322 {
             get {
@@ -5305,10 +3994,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4323
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4323.
         /// </summary>
         internal static string _4323 {
             get {
@@ -5317,10 +4003,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4324
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4324.
         /// </summary>
         internal static string _4324 {
             get {
@@ -5329,10 +4012,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4325
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4325.
         /// </summary>
         internal static string _4325 {
             get {
@@ -5341,10 +4021,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4326
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4326.
         /// </summary>
         internal static string _4326 {
             get {
@@ -5353,10 +4030,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4330
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4330.
         /// </summary>
         internal static string _4330 {
             get {
@@ -5365,10 +4039,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4330.
         /// </summary>
         internal static string _4331 {
             get {
@@ -5377,10 +4048,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						todo
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4332.
         /// </summary>
         internal static string _4332 {
             get {
@@ -5389,10 +4057,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						4333
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 4332.
         /// </summary>
         internal static string _4333 {
             get {
@@ -5401,10 +4066,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7001
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7001.
         /// </summary>
         internal static string _7001 {
             get {
@@ -5413,10 +4075,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7002
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7002.
         /// </summary>
         internal static string _7002 {
             get {
@@ -5425,10 +4084,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7003
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7003.
         /// </summary>
         internal static string _7003 {
             get {
@@ -5437,10 +4093,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7004
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7004.
         /// </summary>
         internal static string _7004 {
             get {
@@ -5449,10 +4102,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7005
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7005.
         /// </summary>
         internal static string _7005 {
             get {
@@ -5461,10 +4111,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7006
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7006.
         /// </summary>
         internal static string _7006 {
             get {
@@ -5473,10 +4120,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7007
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7007.
         /// </summary>
         internal static string _7007 {
             get {
@@ -5485,10 +4129,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7008
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7008.
         /// </summary>
         internal static string _7008 {
             get {
@@ -5497,10 +4138,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7009
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7009.
         /// </summary>
         internal static string _7009 {
             get {
@@ -5509,10 +4147,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7010
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7010.
         /// </summary>
         internal static string _7010 {
             get {
@@ -5521,10 +4156,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7011
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7011.
         /// </summary>
         internal static string _7011 {
             get {
@@ -5533,10 +4165,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7020
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7020.
         /// </summary>
         internal static string _7020 {
             get {
@@ -5545,10 +4174,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7021
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7021.
         /// </summary>
         internal static string _7021 {
             get {
@@ -5557,10 +4183,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7022
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7022.
         /// </summary>
         internal static string _7022 {
             get {
@@ -5569,10 +4192,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7023
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7023.
         /// </summary>
         internal static string _7023 {
             get {
@@ -5581,10 +4201,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7030
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7030.
         /// </summary>
         internal static string _7030 {
             get {
@@ -5593,10 +4210,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7030
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7030.
         /// </summary>
         internal static string _7031 {
             get {
@@ -5605,10 +4219,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7030
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7030.
         /// </summary>
         internal static string _7032 {
             get {
@@ -5617,10 +4228,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7030
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7030.
         /// </summary>
         internal static string _7033 {
             get {
@@ -5629,10 +4237,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7030
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7030.
         /// </summary>
         internal static string _7034 {
             get {
@@ -5641,10 +4246,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7030
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7030.
         /// </summary>
         internal static string _7035 {
             get {
@@ -5653,10 +4255,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7030
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7030.
         /// </summary>
         internal static string _7036 {
             get {
@@ -5665,10 +4264,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7030
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7030.
         /// </summary>
         internal static string _7037 {
             get {
@@ -5677,10 +4273,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7030
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7030.
         /// </summary>
         internal static string _7038 {
             get {
@@ -5689,10 +4282,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7030
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7030.
         /// </summary>
         internal static string _7039 {
             get {
@@ -5701,10 +4291,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7040
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7040.
         /// </summary>
         internal static string _7040 {
             get {
@@ -5713,10 +4300,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7041
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7041.
         /// </summary>
         internal static string _7041 {
             get {
@@ -5725,10 +4309,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						710
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 710.
         /// </summary>
         internal static string _710 {
             get {
@@ -5737,10 +4318,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						711
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 711.
         /// </summary>
         internal static string _711 {
             get {
@@ -5749,10 +4327,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						712
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 712.
         /// </summary>
         internal static string _712 {
             get {
@@ -5761,10 +4336,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						713
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 713.
         /// </summary>
         internal static string _713 {
             get {
@@ -5773,10 +4345,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						714
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 714.
         /// </summary>
         internal static string _714 {
             get {
@@ -5785,10 +4354,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						715
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 715.
         /// </summary>
         internal static string _715 {
             get {
@@ -5797,10 +4363,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						716
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 716.
         /// </summary>
         internal static string _716 {
             get {
@@ -5809,10 +4372,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						717
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 717.
         /// </summary>
         internal static string _717 {
             get {
@@ -5821,10 +4381,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7230
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7230.
         /// </summary>
         internal static string _7230 {
             get {
@@ -5833,10 +4390,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7230
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7230.
         /// </summary>
         internal static string _7231 {
             get {
@@ -5845,10 +4399,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7230
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7230.
         /// </summary>
         internal static string _7232 {
             get {
@@ -5857,10 +4408,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7230
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7230.
         /// </summary>
         internal static string _7233 {
             get {
@@ -5869,10 +4417,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7230
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7230.
         /// </summary>
         internal static string _7234 {
             get {
@@ -5881,10 +4426,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7230
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7230.
         /// </summary>
         internal static string _7235 {
             get {
@@ -5893,10 +4435,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7230
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7230.
         /// </summary>
         internal static string _7236 {
             get {
@@ -5905,10 +4444,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7230
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7230.
         /// </summary>
         internal static string _7237 {
             get {
@@ -5917,10 +4453,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7230
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7230.
         /// </summary>
         internal static string _7238 {
             get {
@@ -5929,10 +4462,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7230
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7230.
         /// </summary>
         internal static string _7239 {
             get {
@@ -5941,10 +4471,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7240
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7240.
         /// </summary>
         internal static string _7240 {
             get {
@@ -5953,10 +4480,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7241
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7241.
         /// </summary>
         internal static string _7241 {
             get {
@@ -5965,10 +4489,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7242
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7242.
         /// </summary>
         internal static string _7242 {
             get {
@@ -5977,10 +4498,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7250
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7250.
         /// </summary>
         internal static string _7250 {
             get {
@@ -5989,10 +4507,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7251
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7251.
         /// </summary>
         internal static string _7251 {
             get {
@@ -6001,10 +4516,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7252
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7252.
         /// </summary>
         internal static string _7252 {
             get {
@@ -6013,10 +4525,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7253
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7253.
         /// </summary>
         internal static string _7253 {
             get {
@@ -6025,10 +4534,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7254
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7254.
         /// </summary>
         internal static string _7254 {
             get {
@@ -6037,10 +4543,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7255
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7255.
         /// </summary>
         internal static string _7255 {
             get {
@@ -6049,10 +4552,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7256
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7256.
         /// </summary>
         internal static string _7256 {
             get {
@@ -6061,10 +4561,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7257
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7257.
         /// </summary>
         internal static string _7257 {
             get {
@@ -6073,10 +4570,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7258
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7258.
         /// </summary>
         internal static string _7258 {
             get {
@@ -6085,10 +4579,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						7259
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 7259.
         /// </summary>
         internal static string _7259 {
             get {
@@ -6097,10 +4588,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8001
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8001.
         /// </summary>
         internal static string _8001 {
             get {
@@ -6109,10 +4597,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8002
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8002.
         /// </summary>
         internal static string _8002 {
             get {
@@ -6121,10 +4606,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8003
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8003.
         /// </summary>
         internal static string _8003 {
             get {
@@ -6133,10 +4615,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8004
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8004.
         /// </summary>
         internal static string _8004 {
             get {
@@ -6145,10 +4624,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8005
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8005.
         /// </summary>
         internal static string _8005 {
             get {
@@ -6157,10 +4633,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8006
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8006.
         /// </summary>
         internal static string _8006 {
             get {
@@ -6169,10 +4642,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8007
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8007.
         /// </summary>
         internal static string _8007 {
             get {
@@ -6181,10 +4651,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8008
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8008.
         /// </summary>
         internal static string _8008 {
             get {
@@ -6193,10 +4660,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8009
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8009.
         /// </summary>
         internal static string _8009 {
             get {
@@ -6205,10 +4669,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8010
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8010.
         /// </summary>
         internal static string _8010 {
             get {
@@ -6217,10 +4678,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8011
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8011.
         /// </summary>
         internal static string _8011 {
             get {
@@ -6229,10 +4687,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8012
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8012.
         /// </summary>
         internal static string _8012 {
             get {
@@ -6241,10 +4696,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8013
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8013.
         /// </summary>
         internal static string _8013 {
             get {
@@ -6253,10 +4705,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8014
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8014.
         /// </summary>
         internal static string _8014 {
             get {
@@ -6265,10 +4714,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8017
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8017.
         /// </summary>
         internal static string _8017 {
             get {
@@ -6277,10 +4723,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8018
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8018.
         /// </summary>
         internal static string _8018 {
             get {
@@ -6289,10 +4732,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8019
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8019.
         /// </summary>
         internal static string _8019 {
             get {
@@ -6301,10 +4741,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8020
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8020.
         /// </summary>
         internal static string _8020 {
             get {
@@ -6313,10 +4750,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8026
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8026.
         /// </summary>
         internal static string _8026 {
             get {
@@ -6325,10 +4759,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8030
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8030.
         /// </summary>
         internal static string _8030 {
             get {
@@ -6337,10 +4768,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8040
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8040.
         /// </summary>
         internal static string _8040 {
             get {
@@ -6349,10 +4777,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8041
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8041.
         /// </summary>
         internal static string _8041 {
             get {
@@ -6361,10 +4786,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8042
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8042.
         /// </summary>
         internal static string _8042 {
             get {
@@ -6373,10 +4795,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8043
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8043.
         /// </summary>
         internal static string _8043 {
             get {
@@ -6385,10 +4804,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8110
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8110.
         /// </summary>
         internal static string _8110 {
             get {
@@ -6397,10 +4813,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8111
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8111.
         /// </summary>
         internal static string _8111 {
             get {
@@ -6409,10 +4822,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8112
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8112.
         /// </summary>
         internal static string _8112 {
             get {
@@ -6421,10 +4831,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						8200
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 8200.
         /// </summary>
         internal static string _8200 {
             get {
@@ -6433,10 +4840,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						90
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 90.
         /// </summary>
         internal static string _90 {
             get {
@@ -6445,10 +4849,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						91
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 91.
         /// </summary>
         internal static string _91 {
             get {
@@ -6457,10 +4858,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						91
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 91.
         /// </summary>
         internal static string _92 {
             get {
@@ -6469,10 +4867,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						91
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 91.
         /// </summary>
         internal static string _93 {
             get {
@@ -6481,10 +4876,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						91
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 91.
         /// </summary>
         internal static string _94 {
             get {
@@ -6493,10 +4885,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						91
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 91.
         /// </summary>
         internal static string _95 {
             get {
@@ -6505,10 +4894,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						91
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 91.
         /// </summary>
         internal static string _96 {
             get {
@@ -6517,10 +4903,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						91
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 91.
         /// </summary>
         internal static string _97 {
             get {
@@ -6529,10 +4912,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						91
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 91.
         /// </summary>
         internal static string _98 {
             get {
@@ -6541,10 +4921,7 @@ namespace Evebury.Gs1.DigitalLink.Segments.MetaData.Resource {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 
-        ///						91
-        ///					
-        ///				.
+        ///   Looks up a localized string similar to 91.
         /// </summary>
         internal static string _99 {
             get {

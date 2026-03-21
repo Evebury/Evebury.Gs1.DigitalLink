@@ -36,7 +36,7 @@ namespace Evebury.Gs1.DigitalLink.Segments
             {
                 string number = Raw[..^precision];
                 string decimals = Raw.Substring(number.Length, precision);
-                double value = double.Parse($"{number}.{decimals}");
+                double value = double.Parse($"{number}.{decimals}", CultureInfo.InvariantCulture);
                 return new SegmentValue(new Double(value, precision), SegmentValueType.Double);
             }
             else 

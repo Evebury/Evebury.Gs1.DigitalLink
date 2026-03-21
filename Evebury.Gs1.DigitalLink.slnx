@@ -1,3 +1,6 @@
 <Solution>
+  <Folder Name="/test/">
+    <Project Path="test/Evebury.Gs1.DigitalLink.Test/Evebury.Gs1.DigitalLink.Test.csproj" />
+  </Folder>
   <Project Path="Evebury.Gs1.DigitalLink/Evebury.Gs1.DigitalLink.csproj" />
 </Solution>
