@@ -103,6 +103,45 @@ Console.WriteLine(resolvedTradeItem.ToJson());
 }
 ```
 
+## 🏗️ QR Code
+- You can use any preferred QR code package you like to render the payload to a QR Code image.
+Example below uses [QRCoder](https://github.com/Shane32/QRCoder)
+```csharp
+using Evebury.Gs1.DigitalLink;
+using QRCoder;
+using System;
+
+TradeItem tradeItem = new()
+{
+    GTIN = "00074562000525",
+    ExpirationDate = DateTime.Now,
+    NetWeight = new(0.3, WeightUnit.KILOGRAM),
+    Price = new(28, 2, CurrencyCode.EUR),
+};
+
+DigitalLinkBuilder builder = new();
+builder.SetCustomDomainUri("https://www.evebury.com");
+builder.SetTradeItem(tradeItem);
+DigitalLink link = builder.Build();
+
+using (QRCodeData data = QRCodeGenerator.GenerateQrCode(link.Uri, QRCodeGenerator.ECCLevel.Q))
+{
+    using (PngByteQRCode png = new(data))
+    {
+        byte[] qrCode = png.GetGraphic(10);
+        //save your graphic
+        using (FileStream fs = File.OpenWrite(@"YOUR PATH")) 
+        {
+            fs.Write(qrCode, 0, qrCode.Length);
+        }
+    }
+}
+```
+
+<p align="center">
+  <img src="img/qrcode.png" width="400" />
+</p>
+
 ## 🔧 Collaboration
 - If you need more fields added to TradeItem or require another object. Feel free to raise an issue or fork this repository.
 
