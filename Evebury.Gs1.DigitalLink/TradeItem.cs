@@ -26,6 +26,11 @@ namespace Evebury.Gs1.DigitalLink
         public string SerialNumber { get; set; }
 
         /// <summary>
+        /// Batch or Lot Number
+        /// </summary>
+        public string BatchNumber { get; set; }
+
+        /// <summary>
         /// Price
         /// </summary>
         public Price Price { get; set; }
@@ -85,6 +90,16 @@ namespace Evebury.Gs1.DigitalLink
                 segments.Remove(segment);
             }
 
+            segment = segments.Find(e => e.Type == SegmentType.BATCH_LOT);
+            if (segment != null)
+            {
+                if (segment.Value.GetString(out string str))
+                {
+                    BatchNumber = str;
+                }
+                segments.Remove(segment);
+            }
+
             Segments = segments;
         }
 
@@ -98,6 +113,11 @@ namespace Evebury.Gs1.DigitalLink
             if (!string.IsNullOrEmpty(SerialNumber)) 
             {
                 builder.AddString(StringType.SERIAL, SerialNumber);
+            }
+
+            if (!string.IsNullOrEmpty(BatchNumber))
+            {
+                builder.AddString(StringType.BATCH_LOT, SerialNumber);
             }
 
             if (Price != null)
