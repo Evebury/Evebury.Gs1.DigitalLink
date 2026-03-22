@@ -547,7 +547,7 @@ namespace Evebury.Gs1.DigitalLink
             List<ValidationError> errors = [];
             errors.AddRange(_errors);
 
-            List<Segment> segments = [.. _segments.OrderBy(e => e.Code)]; //make canonical and mutable
+            List<Segment> segments = [.. _segments.OrderBy(e => int.Parse(e.Code))]; //make canonical and mutable
 
           
             StringBuilder sb = new();
