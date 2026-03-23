@@ -13,6 +13,9 @@ A .NET library for generating strongly typed and validated GS1 DigitalLink paylo
 - **Operational Efficiency**: Elaborate validation errors, reducing manual troubleshooting time.
 
 ## 🎯 Quick Start
+```bash
+dotnet add package Evebury.Gs1.DigitalLink
+```
 
 ```csharp
 using Evebury.Gs1.DigitalLink;
