@@ -1,5 +1,4 @@
 ﻿using Evebury.Gs1.DigitalLink.Segments;
-using Evebury.Gs1.DigitalLink.Segments.MetaData;
 using System;
 using System.Collections.Generic;
 using System.Linq;
