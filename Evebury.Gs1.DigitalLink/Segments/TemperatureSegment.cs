@@ -25,21 +25,8 @@
                 unit = TemperatureUnit.CELSIUS;
                 offset = 1;
             }
-            bool negate = false;
-            string raw = Raw;
-            if (raw.EndsWith('-')) 
-            {
-                raw = raw[..^1];
-                negate = true;
-            }
-            Double @double = GetDoubleValue(raw, offset);
-            double d = @double.Value;
-            d *= 0.01;
-            if (negate) 
-            {
-                d *= -1;
-            }
-            @double = new(d);
+            Double @double = GetDoubleValue(Raw, offset);
+            @double = new(@double.Value * 0.01d);
             return new SegmentValue(new Temperature(@double, unit), SegmentValueType.Temperature);
         }
     }

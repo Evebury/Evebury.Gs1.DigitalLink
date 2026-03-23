@@ -48,16 +48,24 @@ namespace Evebury.Gs1.DigitalLink.Segments
             int code = (int)Type;
             code += offset;
             int precision = int.Parse(Code) - code;
+            bool negate = false;
+            if (raw.EndsWith('-'))
+            {
+                raw = raw[..^1];
+                negate = true;
+            }
             if (precision > 0)
             {
                 string number = raw[..^precision];
                 string decimals = raw.Substring(number.Length, precision);
                 double value = double.Parse($"{number}.{decimals}", CultureInfo.InvariantCulture);
+                if(negate) value *= -1;
                 return new Double(value, precision);
             }
             else
             {
                 double value = double.Parse(raw);
+                if (negate) value *= -1;
                 return new Double(value);
             }
 
