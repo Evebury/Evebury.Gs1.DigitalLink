@@ -144,7 +144,7 @@ using (QRCodeData data = QRCodeGenerator.GenerateQrCode(link.Uri, QRCodeGenerato
 </p>
 
 ## 🔧 Collaboration
-- If you need more fields added to TradeItem or require another object. Feel free to raise an issue or fork this repository.
+- If you need more fields added to TradeItem or require another object. Feel free to raise an issue, make a pull request or fork this repository.
 
 
 ## 📋 Requirements & Enterprise support
