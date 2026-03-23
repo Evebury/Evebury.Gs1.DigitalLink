@@ -6,6 +6,7 @@ A .NET library for generating strongly typed and validated GS1 DigitalLink paylo
 - **Validated**: All digital links are validated. 
 - **Strongly Typed**: This library will output the raw code and values from strongly typed objects.
 - **Rectified**: Rectified GS1 segments leaving a far smaller subset of Segment types (Application Identifiers) to choose from.
+- **Resolver**: Resolve a digital link payload (uri) to strongly typed objects.
 - **Operational Efficiency**: Elaborate validation errors, reducing manual troubleshooting time.
 
 ## 🎯 Quick Start
