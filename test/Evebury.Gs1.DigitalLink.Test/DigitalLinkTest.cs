@@ -206,7 +206,6 @@ namespace Evebury.Gs1.DigitalLink.Test
         [TestMethod]
         public void AddPrice()
         {
-            //methods AddNetVolume, AddLogisticVolume all use VolumeSegment
             DigitalLinkBuilder builder = GetBuilder();
             Price source = new(3, 2, CurrencyCode.EUR);
 
@@ -231,7 +230,7 @@ namespace Evebury.Gs1.DigitalLink.Test
         [TestMethod]
         public void AddTemperature()
         {
-            //methods AddNetVolume, AddLogisticVolume all use VolumeSegment
+            //methods AddMinimumTemperature, AddMaximumTemperature all use TemperatureSegment
             DigitalLinkBuilder builder = GetBuilder();
             builder.AddKey(KeyType.SSCC, "0000" + GTIN); //requires SSCC
             Temperature source = new(-6.3d, TemperatureUnit.CELSIUS);
@@ -429,6 +428,51 @@ namespace Evebury.Gs1.DigitalLink.Test
             Assert.IsTrue(test);
         }
 
+        #region invalid link
+        [TestMethod]
+        public void InvalidGTIN()
+        {
+            DigitalLinkBuilder builder = new();
+            builder.SetPrimaryKey(PrimaryKeyType.GTIN, "00074562000526");
+            DigitalLink link = builder.Build();
+            Assert.IsFalse(link.IsValid);
+            Assert.IsNull(link.Uri);
+        }
+
+        [TestMethod]
+        public void MissingPrimaryKey()
+        {
+            DigitalLinkBuilder builder = new();
+            DigitalLink link = builder.Build();
+            Assert.IsFalse(link.IsValid);
+            Assert.IsNull(link.Uri);
+        }
+
+        [TestMethod]
+        public void MissingRequiredSegement()
+        {
+            DigitalLinkBuilder builder = GetBuilder();
+            bool source = true;
+            builder.AddBoolean(BooleanType.DANGEROUS_GOODS, source);
+            DigitalLink link = builder.Build();
+            Assert.IsFalse(link.IsValid);
+            Assert.IsNull(link.Uri);
+        }
+
+        [TestMethod]
+        public void InvalidDigitalUri()
+        {
+            DigitalLinkBuilder builder = GetBuilder();
+            builder.SetCustomDomainUri("baseUri/invalid");
+            DigitalLink link = builder.Build();
+            Assert.IsFalse(link.IsValid);
+            Assert.IsNull(link.Uri);
+            link = DigitalLinkResolver.Resolve("baseUri/invalid");
+            Assert.IsFalse(link.IsValid);
+            Assert.IsNull(link.Uri);
+        }
+
+        #endregion
 
         private static DigitalLinkBuilder GetBuilder()
         {
