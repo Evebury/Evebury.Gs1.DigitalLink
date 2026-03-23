@@ -1,5 +1,5 @@
 # Evebury.Gs1.DigitalLink.Test
 
-Test methods for Evebury.Gs1.DigitalLink
+Test methods for Evebury.Gs1.DigitalLink. Builder and Resolver tests.
 
 

@@ -12,10 +12,14 @@ A .NET library for generating strongly typed and validated GS1 DigitalLink paylo
 - **Resolver**: Resolve a digital link payload (uri) to strongly typed objects.
 - **Operational Efficiency**: Elaborate validation errors, reducing manual troubleshooting time.
 
-## 🎯 Quick Start
+## 📦 Installation
+
+Install via NuGet Package Manager:
 ```bash
 dotnet add package Evebury.Gs1.DigitalLink
 ```
+
+## 🎯 Quick Start
 
 ```csharp
 using Evebury.Gs1.DigitalLink;
