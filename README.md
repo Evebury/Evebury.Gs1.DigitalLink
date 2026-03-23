@@ -1,4 +1,7 @@
 # Evebury.Gs1.DigitalLink
+[![License](https://img.shields.io/github/license/Evebury/Evebury.Gs1.DigitalLink)](LICENSE.txt)
+[![NuGet](https://img.shields.io/nuget/v/Evebury.Gs1.DigitalLink)](https://www.nuget.org/packages/Evebury.Gs1.DigitalLink/)
+[![Nuget](https://img.shields.io/nuget/dt/Evebury.Gs1.DigitalLink)](https://www.nuget.org/packages/Evebury.Gs1.DigitalLink)
 
 A .NET library for generating strongly typed and validated GS1 DigitalLink payloads.
 
@@ -160,33 +163,5 @@ using (QRCodeData data = QRCodeGenerator.GenerateQrCode(link.Uri, QRCodeGenerato
 ## ℹ️ Help
 > Want to learn more about **GS1 DIGITAL LINK** or syndicating your data to **GS1**? Or anything else? We would love to hear from you! Reach out to us at: [Evebury](https://www.evebury.com).
 
-
-## 📄 License
-
-This project is licensed under the MIT License - see below for details:
-
-```
-MIT License
-
-Copyright (c) 2026 Evebury
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
 
 *This library implements the GS1 DigitalLink specification with focus on practical usage.*
