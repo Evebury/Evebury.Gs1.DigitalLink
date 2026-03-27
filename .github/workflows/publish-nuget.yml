@@ -1,12 +1,9 @@
 name: Publish to NuGet
 
 on:
-  workflow_dispatch:
-    inputs:
-      version:
-        description: 'Package version (leave empty to use version from .csproj)'
-        required: false
-        type: string
+  push:
+    tags:
+      - 'v*.*.*'
 
 jobs:
   test:
@@ -52,16 +49,10 @@ jobs:
     - name: Build version string
       id: version
       run: |
-        if [ -n "${{ github.event.inputs.version }}" ]; then
-          VERSION="${{ github.event.inputs.version }}"
-        else
-          # Extract version from .csproj file
-          VERSION=$(grep -oP '<Version>\K[^<]+' Evebury.Gs1.DigitalLink/Evebury.Gs1.DigitalLink.csproj)
-        fi
-        # Append build number
-        FULL_VERSION="${VERSION}.${{ github.run_number }}"
-        echo "version=${FULL_VERSION}" >> $GITHUB_OUTPUT
-        echo "Package version: ${FULL_VERSION}"
+        # Extract version from git tag (remove 'v' prefix)
+        VERSION=${GITHUB_REF#refs/tags/v}
+        echo "version=${VERSION}" >> $GITHUB_OUTPUT
+        echo "Package version: ${VERSION}"
     
     - name: Pack
       run: dotnet pack Evebury.Gs1.DigitalLink/Evebury.Gs1.DigitalLink.csproj --configuration Release --no-build -p:PackageVersion=${{ steps.version.outputs.version }}
@@ -70,10 +61,3 @@ jobs:
       run: dotnet nuget push Evebury.Gs1.DigitalLink/bin/Release/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
       env:
         NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
-    
-    - name: Create Git tag
-      run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
-        git tag -a "v${{ steps.version.outputs.version }}" -m "Release version ${{ steps.version.outputs.version }}"
-        git push origin "v${{ steps.version.outputs.version }}"
