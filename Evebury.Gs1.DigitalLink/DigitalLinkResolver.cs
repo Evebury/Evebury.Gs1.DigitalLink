@@ -1,4 +1,5 @@
 ﻿using Evebury.Gs1.DigitalLink.Segments;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -43,6 +44,41 @@ namespace Evebury.Gs1.DigitalLink
                 sb.Append(@char);
                 index++;
             }
+
+            bool digits = true;
+            int peek = index + 1;
+            int offset = 0;
+            while (peek < length)
+            {
+                char @char = chars[peek];
+                if (@char == '/')
+                {
+                    if (digits)
+                    {
+                        //first primary identifier found
+                        //this is conform GS1 documentation if all digits identifiers start is assumed
+                        break;
+                    }
+                    else
+                    {
+                        //domain folder path
+                        digits = true;
+                        offset = peek;
+                    }
+
+                }
+                else 
+                {
+                    digits = digits && char.IsDigit(@char);
+                   
+                }
+                peek++;
+            }
+            for (; index < offset; index++) 
+            {
+                sb.Append(chars[index]);
+            }
+
             string domain = sb.ToString();
 
             List<DigitalLinkSegment> segments = [];
