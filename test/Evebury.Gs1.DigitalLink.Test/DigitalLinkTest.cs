@@ -25,6 +25,17 @@ namespace Evebury.Gs1.DigitalLink.Test
         }
 
         [TestMethod]
+        public void ResolveCustomDomainUri()
+        {
+            DigitalLinkBuilder builder = GetBuilder();
+            builder.SetCustomDomainUri("https://www.evebury.com/subfolder23/");
+            DigitalLink link = builder.Build();
+            Assert.IsTrue(link.IsValid);
+            link = DigitalLinkResolver.Resolve(link.Uri);
+            Assert.StartsWith("https://www.evebury.com/subfolder23", link.Uri);
+        }
+
+        [TestMethod]
         public void SetTradeItem()
         {
             DigitalLinkBuilder builder = new();
@@ -36,6 +47,9 @@ namespace Evebury.Gs1.DigitalLink.Test
                 ExpirationDate = DateTime.Now.Date,
                 NetWeight = new(0.3, WeightUnit.KILOGRAM),
                 Price = new(28, 2, CurrencyCode.EUR),
+                BestBeforeDate = DateTime.Now.Date.AddDays(2),
+                BatchNumber = "b123",
+                ConsumerVariant = "2A",
             };
             builder.SetTradeItem(tradeItem);
             DigitalLink link = builder.Build();
@@ -50,6 +64,9 @@ namespace Evebury.Gs1.DigitalLink.Test
             Assert.AreEqual(tradeItem.NetWeight.Unit, resolvedTradeItem.NetWeight.Unit);
             Assert.AreEqual(tradeItem.Price.Value, resolvedTradeItem.Price.Value);
             Assert.AreEqual(tradeItem.Price.Unit, resolvedTradeItem.Price.Unit);
+            Assert.AreEqual(tradeItem.BestBeforeDate, resolvedTradeItem.BestBeforeDate);
+            Assert.AreEqual(tradeItem.BatchNumber, resolvedTradeItem.BatchNumber);
+            Assert.AreEqual(tradeItem.ConsumerVariant, resolvedTradeItem.ConsumerVariant);
         }
 
         [TestMethod]

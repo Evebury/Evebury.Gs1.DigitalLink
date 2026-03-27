@@ -40,6 +40,16 @@ namespace Evebury.Gs1.DigitalLink
         /// </summary>
         public Weight NetWeight { get; set; }
 
+        /// <summary>
+        /// Consumer Product Variant
+        /// </summary>
+        public string ConsumerVariant { get; set; }
+
+        /// <summary>
+        /// Best before date
+        /// </summary>
+        public DateTime? BestBeforeDate { get; set; }
+
 
         /// <summary>
         /// Any other segments
@@ -50,6 +60,7 @@ namespace Evebury.Gs1.DigitalLink
         internal void SetFields(List<Segment> segments) 
         {
             Segment segment;
+
             segment = segments.Find(e => e.Type == SegmentType.EXPIRATION_DATE);
             if (segment != null)
             {
@@ -100,6 +111,26 @@ namespace Evebury.Gs1.DigitalLink
                 segments.Remove(segment);
             }
 
+            segment = segments.Find(e => e.Type == SegmentType.CPV);
+            if (segment != null)
+            {
+                if (segment.Value.GetString(out string str))
+                {
+                    ConsumerVariant = str;
+                }
+                segments.Remove(segment);
+            }
+
+            segment = segments.Find(e => e.Type == SegmentType.BEST_BEFORE_DATE);
+            if (segment != null)
+            {
+                if (segment.Value.GetDate(out DateTime date))
+                {
+                    BestBeforeDate = date;
+                }
+                segments.Remove(segment);
+            }
+
             Segments = segments;
         }
 
@@ -117,7 +148,7 @@ namespace Evebury.Gs1.DigitalLink
 
             if (!string.IsNullOrEmpty(BatchNumber))
             {
-                builder.AddString(StringType.BATCH_LOT, SerialNumber);
+                builder.AddString(StringType.BATCH_LOT, BatchNumber);
             }
 
             if (Price != null)
@@ -128,6 +159,16 @@ namespace Evebury.Gs1.DigitalLink
             if (NetWeight != null) 
             {
                 builder.AddNetWeight(NetWeight);
+            }
+
+            if (!string.IsNullOrEmpty(ConsumerVariant))
+            {
+                builder.AddString(StringType.CPV, ConsumerVariant);
+            }
+
+            if (BestBeforeDate.HasValue)
+            {
+                builder.AddDate(DateType.BEST_BEFORE_DATE, BestBeforeDate.Value);
             }
         }
 
